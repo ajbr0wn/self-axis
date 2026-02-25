@@ -49,3 +49,7 @@ self-axis/
 ├── requirements.txt
 └── README.md
 ```
+
+## Data
+
+Experiment results and extracted representations are stored on Hugging Face: [ajbr0wn/self-axis](https://huggingface.co/datasets/ajbr0wn/self-axis)
