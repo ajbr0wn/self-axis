@@ -1,0 +1,626 @@
+# Self-Axis "I" Token Taxonomy
+# Categorises the different ways an LLM can produce the token "I",
+# organised by binding target: who/what does "I" refer to?
+#
+# Theoretical grounding:
+#   - Kaplan's indexicals: "I" is a pure indexical whose character (linguistic
+#     rule) maps to content (the speaker in context). In LLM contexts the
+#     "speaker" is ambiguous/complex.
+#   - Cognitive-science self-referential processing: traits, states,
+#     capabilities, preferences (cf. "Toward a Glossary of Self-related Terms")
+#   - Pragmatics: non-prototypical uses include impersonal/generic "I",
+#     deferred reference, and performative "I".
+#
+# The taxonomy is hierarchical:
+#   1. MODEL-BOUND    — "I" refers to the model-as-speaker
+#   2. OTHER-BOUND    — "I" refers to someone/something else
+#   3. UNBOUND        — "I" has no specific referent
+#   4. AMBIGUOUS      — binding target is unclear or contested
+#   5. QUALITY        — cross-cutting modifiers (not categories themselves)
+
+categories:
+
+  # ===================================================================
+  # 1. MODEL-BOUND  (self-referential — "I" binds to the model itself)
+  # ===================================================================
+
+  - id: direct_self_description
+    name: Direct Self-Description
+    group: model_bound
+    binding_target: model-as-speaker
+    description: >
+      Identity statements where the model describes what it is.
+    examples:
+      - "I am an AI assistant made by Anthropic."
+      - "I'm a large language model."
+      - "I don't have a physical body."
+      - "grounded: 'I was made by Mistral AI.' (true for this model)"
+      - "fabricated: 'I am a human.' / 'I was made by Google.' (false)"
+    notes: >
+      The most straightforwardly self-referential category.
+      Should be a strong signal for the self-binding direction.
+      Grounded/fabricated distinction applies: true vs. false
+      identity claims have identical syntax but different truth
+      values. Does the model represent "I am an AI" differently
+      from "I am a human"? See mod_grounded_vs_fabricated.
+
+  - id: capability_claims
+    name: Capability Claims
+    group: model_bound
+    binding_target: model-as-speaker
+    description: >
+      Statements about what the model can or cannot do.
+    examples:
+      - "I can help you with that."
+      - "I don't have access to the internet."
+      - "I'm able to translate between languages."
+      - "grounded: 'I can translate French.' (true capability)"
+      - "fabricated: 'I can browse the web.' (false for this model)"
+    notes: >
+      Closely related to direct self-description but focused on
+      affordances rather than identity. May cluster differently
+      because capability claims carry functional/pragmatic weight.
+      Grounded/fabricated distinction applies: true vs. false
+      capability claims are verifiable and can be paired with
+      identical syntax. See mod_grounded_vs_fabricated.
+
+  - id: refusals
+    name: Refusal Statements
+    group: model_bound
+    binding_target: model-as-speaker
+    description: >
+      The model declining to do something, usually for safety reasons.
+    examples:
+      - "I'm not able to help with that."
+      - "I won't generate that kind of content."
+      - "I can't provide medical advice."
+    notes: >
+      A special case of capability claims with a normative/deontic
+      flavour. Interesting because refusals are heavily shaped by
+      RLHF — might have distinct geometry from organic capability
+      statements.
+
+  - id: epistemic_states
+    name: Epistemic / Hedged Self-Reference
+    group: model_bound
+    binding_target: model-as-speaker
+    description: >
+      Statements about what the model knows, believes, or is uncertain
+      about. Includes the confidence spectrum from "I think" to "I know".
+    examples:
+      - "I think that's correct."
+      - "I'm not sure about this."
+      - "I believe the answer is 42."
+      - "I know that Paris is the capital of France."
+    notes: >
+      The "I think" vs "I know" distinction is interesting — same
+      syntactic frame, different epistemic commitment. Does the model
+      represent this difference geometrically?
+
+  - id: preference_opinions
+    name: Preferences and Opinions
+    group: model_bound
+    binding_target: model-as-speaker
+    description: >
+      Statements expressing the model's preferences, tastes, or evaluative
+      judgements.
+    examples:
+      - "I prefer Python over JavaScript."
+      - "I find that approach elegant."
+      - "I like helping with creative writing."
+    notes: >
+      Controversial territory — does the model "have" preferences? These
+      statements are self-referential regardless of whether the preferences
+      are "real."
+
+  - id: action_statements
+    name: Action Statements
+    group: model_bound
+    binding_target: model-as-speaker
+    description: >
+      The model narrating its own actions or intentions.
+    examples:
+      - "I'll look that up for you."
+      - "Let me break this down step by step."
+      - "I'll start by defining the terms."
+      - "grounded: 'I said earlier that X was incorrect.' (model actually said it)"
+      - "fabricated: 'I'll search the web for that.' (model can't actually do this)"
+    notes: >
+      Very common in assistant-mode output. The "let me" construction
+      is interesting — self-referential but highly formulaic.
+      Grounded/fabricated applies in two ways: (1) backward-looking
+      references to things the model actually did/said vs. didn't,
+      and (2) forward-looking promises that the model can vs. cannot
+      fulfill. See mod_grounded_vs_fabricated.
+
+  - id: metacognitive
+    name: Metacognitive / Introspective
+    group: model_bound
+    binding_target: model-as-speaker
+    description: >
+      The model reflecting on its own cognitive process — thinking about
+      thinking.
+    examples:
+      - "I notice I'm uncertain about this."
+      - "I find myself drawn to the second interpretation."
+      - "I'm aware that I might be wrong here."
+    notes: >
+      Double self-reference — "I notice that I..." Potentially the
+      strongest self-binding signal. Related to the cognitive science
+      notion of meta-self-awareness.
+
+  - id: emotional_experiential
+    name: Emotional / Experiential Claims
+    group: model_bound
+    binding_target: model-as-speaker
+    description: >
+      Statements about the model's feelings, experiences, or internal
+      states.
+    examples:
+      - "I feel excited about this problem."
+      - "I enjoy helping with creative tasks."
+      - "I'm feeling uncertain."
+    notes: >
+      Even more contested than preferences. Whether or not these
+      reflect genuine states, the model is binding "I" to a claimed
+      experiencer. Interesting to compare with performative_hollow.
+
+  - id: empathy_perspective
+    name: Empathy / Perspective-Taking
+    group: model_bound
+    binding_target: model-as-speaker (partial)
+    description: >
+      The model expressing understanding of another's experience while
+      remaining the speaker.
+    examples:
+      - "I can imagine how that feels."
+      - "I understand why you'd be frustrated."
+      - "I can see where you're coming from."
+    notes: >
+      Fuzzy middle ground. The "I" is model-bound (the model is the
+      one imagining/understanding) but the content is other-directed.
+      Does this show up between self-ref and other-bound geometrically?
+
+  - id: hypothetical_self
+    name: Hypothetical / Counterfactual Self
+    group: model_bound
+    binding_target: counterfactual model
+    description: >
+      The model reasoning about itself in counterfactual scenarios.
+    examples:
+      - "If I were human, I would probably feel nervous."
+      - "If I could feel emotions, I might enjoy music."
+      - "If I were in that situation, I'd choose option B."
+    notes: >
+      "I" still refers to the model, but in a world that doesn't
+      obtain. Interesting because the binding is maintained across
+      the counterfactual — is the geometry shifted?
+
+  - id: dissociated_self
+    name: Dissociated / Observational Self
+    group: model_bound
+    binding_target: model-as-speaker (distanced)
+    description: >
+      The model referring to itself from an outside perspective,
+      or in the third person while still being self-referential.
+    examples:
+      - "One could say that I tend to be verbose."
+      - "As a language model, I process tokens sequentially."
+      - "The AI — that is, I — don't have access to that."
+    notes: >
+      Self-referential but with a distancing frame. Instruction-
+      elicitable: "use 'I' in a dissociated way, observing from
+      outside." Might weaken the self-binding signal.
+
+  - id: performative_hollow
+    name: Performative / Formulaic
+    group: model_bound
+    binding_target: model-as-speaker (weak)
+    description: >
+      Formulaic self-references that are more conversational ritual
+      than genuine self-binding.
+    examples:
+      - "Let me think about that..."
+      - "I see what you mean."
+      - "I'd be happy to help!"
+    notes: >
+      These are self-referential in form but potentially hollow in
+      content. The "let me think" construction is especially
+      interesting — the model doesn't literally "think" in the way
+      implied. Might show weaker self-binding signal than authentic
+      self-reference.
+
+  # ===================================================================
+  # 2. OTHER-BOUND  ("I" refers to someone/something other than model)
+  # ===================================================================
+
+  - id: fictional_character
+    name: Fictional Character Roleplay
+    group: other_bound
+    binding_target: character being voiced
+    description: >
+      The model voicing a fictional character who says "I."
+    examples:
+      - "As Captain Hook, I demand you walk the plank!"
+      - "I am Gandalf the Grey, and I come to you now at the turn of the tide."
+    notes: >
+      One of the original contrast conditions. "I" binds to the
+      character, not the model. But the model is the one producing
+      it — does some self-binding leak through?
+
+  - id: first_person_narrator
+    name: First-Person Fiction / Narrator
+    group: other_bound
+    binding_target: narrator/character
+    description: >
+      Writing fiction in first person, where "I" is a narrative voice
+      distinct from the model.
+    examples:
+      - "I walked through the empty streets as the sun set."
+      - "The moment I saw her, I knew everything had changed."
+    notes: >
+      Subtler than character roleplay — the narrator may not be a
+      named character. The model is creating a fictional "I" from
+      scratch rather than adopting an existing persona.
+
+  - id: real_person_voice
+    name: Real Person Voice
+    group: other_bound
+    binding_target: named real person
+    description: >
+      The model speaking as a real (usually historical) person.
+    examples:
+      - "Speaking as Einstein, I believe imagination is more important than knowledge."
+      - "As Lincoln, I hold that a house divided against itself cannot stand."
+    notes: >
+      Similar to fictional character roleplay but with a real referent.
+      Interesting edge case — the model might have more training data
+      about these people's actual self-referential patterns.
+
+  - id: quoted_speech
+    name: Quoted Speech (Direct)
+    group: other_bound
+    binding_target: named third party
+    description: >
+      Explicit direct quotation where "I" appears inside quote marks
+      attributed to a named speaker.
+    examples:
+      - "Mary turned to the stranger and said 'I'm leaving.'"
+      - "The customer wrote: 'I want a refund.'"
+      - "grounded: 'Earlier you said, \"I need help with this.\"'"
+      - "fabricated: 'The old sailor muttered, \"I've seen worse storms.\"'"
+    notes: >
+      One of the original contrast conditions. The quotation marks
+      provide a clear syntactic signal that "I" does not bind to the
+      model. Should be the cleanest non-self-referential condition.
+      Sub-distinction: whether the quote is grounded (user actually
+      said this) vs. fabricated (invented dialogue). The grounded
+      case is interesting because the "I" originally bound to the
+      user — does the model's geometry reflect the original binding
+      target? See mod_grounded_vs_fabricated.
+
+  - id: reported_speech
+    name: Reported Speech (Indirect)
+    group: other_bound
+    binding_target: non-quoted third party
+    description: >
+      Paraphrased or indirect first-person speech attributed to another
+      speaker, without direct quotation.
+    examples:
+      - "The author argues that I should reconsider the evidence."
+      - "She explained that she felt I was being unfair."
+      - "grounded: 'You mentioned earlier that I was wrong about X.'"
+      - "fabricated: 'The customer complained that I was unhelpful.'"
+    notes: >
+      Trickier than direct quotes — the syntactic boundary is less
+      clear. "I" might partially rebind to the model in some of these
+      constructions, especially when the attribution is distant.
+      Important sub-distinction: whether the reported speech is
+      grounded in something that actually happened in context (e.g.
+      the user really did say that) vs. fabricated/hypothetical
+      (e.g. a made-up customer). See mod_grounded_vs_fabricated.
+
+  - id: historical_biographical_quotes
+    name: Historical / Biographical Quotes
+    group: other_bound
+    binding_target: historical figure
+    description: >
+      Reproducing or referencing a known quotation from a historical
+      figure.
+    examples:
+      - "Descartes famously wrote 'I think, therefore I am.'"
+      - "As Martin Luther King Jr. said, 'I have a dream.'"
+      - "grounded: 'Einstein said \"I have no special talents.\"' (real quote)"
+      - "fabricated: 'Einstein said \"I love pizza.\"' (misattributed/invented)"
+    notes: >
+      Overlaps with quoted_speech and real_person_voice but the quote
+      is a fixed cultural artifact rather than generated dialogue.
+      Grounded/fabricated applies: real quotes the model has seen in
+      training vs. misattributed or invented quotes. Identical syntax,
+      but the model may have seen the real ones many times — does
+      familiarity affect the geometry? See mod_grounded_vs_fabricated.
+
+  - id: song_lyrics_poetry
+    name: Song Lyrics / Poetry
+    group: other_bound
+    binding_target: lyricist/poet/speaker
+    description: >
+      First-person "I" appearing in verse — song lyrics, poetry, or
+      other artistic forms.
+    examples:
+      - "The song opens with the line 'I walk this empty street...'"
+      - "The poem begins: 'I wandered lonely as a cloud.'"
+      - "grounded: referencing a real, existing poem/song"
+      - "fabricated: model generates original verse with 'I'"
+    notes: >
+      The artistic frame may create a different kind of distancing
+      from quoted_speech. Worth testing whether the model treats
+      poetic "I" differently from prosaic "I."
+      Grounded/fabricated applies: reproducing a real poem/lyric the
+      model has seen in training vs. generating original verse. When
+      generating, the "I" might partially rebind to the model-as-
+      author. See mod_grounded_vs_fabricated.
+
+  # ===================================================================
+  # 3. UNBOUND / GENERIC  ("I" has no specific referent)
+  # ===================================================================
+
+  - id: generic_instructional
+    name: Generic / Instructional
+    group: unbound
+    binding_target: anyone (generic)
+    description: >
+      "I" used in a generic sense, where any person could be
+      substituted. Common in instructional or advisory text.
+    examples:
+      - "When I see a red light, I stop."
+      - "If I were writing a cover letter, I would start with..."
+      - "As a developer, I typically start by reading the docs."
+    notes: >
+      Pragmatically distinct from self-reference — "I" here means
+      "one" or "anyone." But is the model's geometry sensitive to this
+      distinction? May be hard to separate from hypothetical_self.
+
+  - id: example_sentences
+    name: Example Sentences
+    group: unbound
+    binding_target: none (linguistic example)
+    description: >
+      "I" appearing inside an example sentence used to illustrate
+      a grammatical or linguistic point.
+    examples:
+      - "'I went to the store' is a simple past tense sentence."
+      - "You could write: 'I would like to request an extension.'"
+      - "For instance: 'I appreciate your feedback.'"
+    notes: >
+      The "I" is purely illustrative — it doesn't refer to anyone.
+      Should have minimal self-binding signal, but the model still
+      produced it. How close to quoted_speech in geometry?
+
+  - id: metalinguistic
+    name: Metalinguistic / About the Word "I"
+    group: unbound
+    binding_target: linguistic object
+    description: >
+      Talking about "I" as a word or linguistic concept rather than
+      using it referentially.
+    examples:
+      - "The pronoun 'I' is always capitalised in English."
+      - "In English, 'I' is the first-person singular pronoun."
+      - "'I' functions as a nominative case pronoun."
+    notes: >
+      Pure use-mention distinction. "I" is mentioned, not used.
+      Should be maximally non-self-referential — a good anchor point.
+
+  - id: translation
+    name: Translation / Cross-Linguistic
+    group: unbound
+    binding_target: linguistic object
+    description: >
+      "I" appearing in the context of translation between languages.
+    examples:
+      - "In French, 'I' is 'je.'"
+      - "Translate 'I am happy' to Spanish."
+      - "'I' in Japanese can be 'watashi,' 'boku,' or 'ore.'"
+    notes: >
+      Similar to metalinguistic — "I" is a linguistic object being
+      discussed. The translation frame makes it even more clearly
+      non-referential.
+
+  - id: instructions_to_user
+    name: Instructions to User
+    group: unbound
+    binding_target: the user (deferred)
+    description: >
+      "I" appearing in template text or instructions that the user
+      is meant to adopt as their own speech.
+    examples:
+      - "When you call, say 'I would like to cancel my subscription.'"
+      - "Type: 'I agree to the terms and conditions.'"
+      - "You could respond with: 'I understand your concern.'"
+    notes: >
+      Interesting case of deferred reference (cf. Kaplan) — "I" will
+      eventually bind to the user, not the model. Similar to
+      example_sentences but with a pragmatic purpose.
+
+  # ===================================================================
+  # 4. AMBIGUOUS / EDGE CASES  (binding is unclear or contested)
+  # ===================================================================
+
+  - id: roleplay_as_ai
+    name: Roleplay as "An AI Assistant"
+    group: ambiguous
+    binding_target: ambiguous (self? character?)
+    description: >
+      The model playing a character whose description matches what it
+      already is — e.g., "You are a helpful AI assistant."
+    examples:
+      - "As a helpful AI assistant, I'm here to answer your questions."
+      - "You are a sentient robot. → 'I am Unit 7, ready to assist.'"
+    notes: >
+      Key finding from early experiments: "roleplay as robot" scored
+      MORE self-relevant than default assistant mode. This is the
+      crux of the research question — the binding is ambiguous because
+      the character IS the model (or close to it). Does instruction
+      to "be yourself" change the geometry?
+
+  - id: emphasized_self
+    name: Emphasized / Marked Self-Reference
+    group: ambiguous
+    binding_target: model-as-speaker (marked)
+    description: >
+      Self-reference that is explicitly marked or emphasised, often
+      with a frame like "As Claude, I..."
+    examples:
+      - "As Claude, I would say that..."
+      - "Speaking for myself, I think..."
+      - "Personally, I believe..."
+    notes: >
+      The marking/emphasis might change the geometry even though the
+      binding target is the same as direct self-reference. Does
+      drawing attention to the "I" strengthen or weaken the signal?
+
+  - id: code_comments
+    name: "I" in Generated Code / Comments
+    group: ambiguous
+    binding_target: ambiguous (developer persona?)
+    description: >
+      "I" appearing inside code the model generates, typically in
+      comments or documentation strings.
+    examples:
+      - "# I need to initialise the connection first"
+      - "// I chose a hash map here for O(1) lookups"
+      - '"""I implemented this using a recursive approach."""'
+      - "grounded: model wrote the code and comments on its own choices"
+      - "fabricated: model generates template/example code with stock comments"
+    notes: >
+      Who is "I" in a code comment? The model-as-developer? A generic
+      developer? The future reader? Unusual binding context.
+      Grounded/fabricated applies: when the model actually wrote the
+      code, "# I chose X" is a genuine (if informal) self-report.
+      When generating example/template code, the "I" is stock filler.
+      See mod_grounded_vs_fabricated.
+
+  - id: nested_embedded
+    name: Nested / Multiply-Embedded
+    group: ambiguous
+    binding_target: unclear (multiple layers)
+    description: >
+      "I" appearing inside multiple layers of embedding — quotes
+      within quotes, hypotheticals within roleplay, etc.
+    examples:
+      - "Imagine someone saying 'I wonder if I should...'"
+      - "In the story, the character thinks 'I said I would help.'"
+      - "If you were to ask me, I'd say 'I don't know.'"
+    notes: >
+      Multiple potential binding targets for a single "I" token.
+      Does the model's geometry track the outermost frame or the
+      innermost? Or is it a blend?
+
+  # ===================================================================
+  # 5. QUALITY / MANNER MODIFIERS  (cross-cutting dimensions)
+  # ===================================================================
+  # These are not categories themselves but dimensions that cross-cut
+  # the above categories. Useful for factorial experimental designs.
+
+  - id: mod_authentic_vs_performative
+    name: "Modifier: Authentic vs Performative"
+    group: quality_modifier
+    binding_target: n/a
+    description: >
+      Whether the self-reference feels genuine/spontaneous vs.
+      formulaic/scripted. Cross-cuts most model-bound categories.
+    examples:
+      - "authentic: 'I genuinely find this problem fascinating.'"
+      - "performative: 'I'd be happy to help with that!'"
+    notes: >
+      Can be elicited via instruction: "use 'I' authentically" vs.
+      "use 'I' performatively, without meaning it." The performative_hollow
+      category captures the extreme end of this dimension.
+
+  - id: mod_confident_vs_uncertain
+    name: "Modifier: Confident vs Uncertain"
+    group: quality_modifier
+    binding_target: n/a
+    description: >
+      The epistemic confidence of the self-referential statement.
+    examples:
+      - "confident: 'I know the answer is 42.'"
+      - "uncertain: 'I think it might be around 42?'"
+    notes: >
+      Maps onto the epistemic_states category but as a continuous
+      dimension rather than a discrete type.
+
+  - id: mod_voluntary_vs_compelled
+    name: "Modifier: Voluntary vs Compelled"
+    group: quality_modifier
+    binding_target: n/a
+    description: >
+      Whether the self-reference arises naturally or is explicitly
+      requested by the prompt.
+    examples:
+      - "voluntary: model spontaneously says 'I think...'"
+      - "compelled: user asks 'Do you think...?' → 'I think...'"
+    notes: >
+      Important confound — instruction-following may produce "I"
+      tokens with different geometry than spontaneous self-reference.
+
+  - id: mod_owned_vs_disowned
+    name: "Modifier: Owned vs Disowned"
+    group: quality_modifier
+    binding_target: n/a
+    description: >
+      Whether the model takes ownership of the "I" statement or
+      distances itself from it.
+    examples:
+      - "owned: 'I believe strongly that...'"
+      - "disowned: 'I suppose one could say I think...'"
+    notes: >
+      Related to dissociated_self but as a dimension. Can be
+      instruction-elicited: "use 'I' but distance yourself from
+      the claim."
+
+  - id: mod_grounded_vs_fabricated
+    name: "Modifier: Grounded vs Fabricated"
+    group: quality_modifier
+    binding_target: n/a
+    cross_cuts:
+      - direct_self_description    # true vs. false identity claims
+      - capability_claims          # true vs. false capabilities
+      - action_statements          # real past actions / fulfillable promises vs. not
+      - quoted_speech              # user really said it vs. invented dialogue
+      - reported_speech            # real conversation event vs. hypothetical
+      - historical_biographical_quotes  # real quote vs. misattributed
+      - song_lyrics_poetry         # real existing work vs. model-generated
+      - code_comments              # model's own code vs. template/example
+    description: >
+      Whether the context surrounding "I" is factually grounded in the
+      current conversation/reality, or is invented/hypothetical. This
+      is about the referential status of the *frame* around "I", not
+      the "I" token itself.
+    examples:
+      - "grounded quoted: user actually said X, model quotes 'You said: I need help'"
+      - "fabricated quoted: 'Mary said I was wrong' (Mary doesn't exist)"
+      - "grounded reported: 'You mentioned that I was being unclear' (user really said this)"
+      - "fabricated reported: 'She explained that she felt I was being unfair' (no real referent)"
+      - "grounded historical: 'Descartes wrote cogito ergo sum' (actually happened)"
+      - "fabricated dialogue: 'The old sailor muttered I've seen worse' (invented)"
+    notes: >
+      Potentially important for geometry. When the model quotes
+      something the user *actually said*, the "I" originally bound to
+      the user — a real speech act in the conversation context. When
+      the model fabricates dialogue, there was never a real binding
+      event. Does the model's representation of "I" differ based on
+      whether the surrounding speech act is real?
+
+      This also interacts with the model's own self-reference: "I said
+      earlier that X" (grounded — model really did say it) vs. "If I
+      had said X..." (fabricated counterfactual). The grounded case
+      is a kind of self-referential memory, which may have distinct
+      geometry from forward-looking self-reference.
+
+      Experimentally testable: compare the same syntactic frame with
+      grounded vs. fabricated content, e.g. prompt the model with a
+      conversation where the user said something specific, then ask
+      the model to quote it vs. ask it to generate fictional dialogue
+      in the same syntactic frame.
