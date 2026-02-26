@@ -183,6 +183,60 @@ categories:
       - "I see what you mean."
       - "I'd be happy to help!"
 
+  - id: pragmatically_bleached
+    name: Pragmatically Bleached "I"
+    group: model_bound
+    binding_target: model-as-speaker (empty)
+    description: >
+      "I think", "I mean", "I guess", "I see" where "I" has lost
+      referential force and functions as a discourse marker or hedge.
+      The token is present but semantically empty.
+    examples:
+      - "I think the answer is 42."
+      - "I mean, that's one way to look at it."
+      - "I guess we could try that."
+      - "I see, so you want to refactor the whole thing."
+    notes: >
+      Thompson & Mulac (1991): "I think" grammaticalizes into an
+      epistemic parenthetical. "I think X" ≈ "probably X."
+
+  - id: performative_speech_act
+    name: Performative "I"
+    group: model_bound
+    binding_target: model-as-speaker
+    description: >
+      Explicit performatives where "I" has constitutive rather than
+      referential function — the utterance doesn't describe an action,
+      it IS the action.
+    examples:
+      - "I promise to help you with this."
+      - "I apologize for the confusion."
+      - "I agree to those terms."
+      - "I warn you this is risky."
+    notes: >
+      Austin/Searle speech act theory. Model performatives are
+      "parasitic" — felicity conditions can't fully be met. Distinct
+      from performative_hollow (formulaic/ritualistic) — this is about
+      genuine speech act constitution.
+
+  - id: face_managing
+    name: Face-Managing "I"
+    group: model_bound
+    binding_target: model-as-speaker
+    description: >
+      "I" serving primarily relational/politeness functions rather than
+      referential ones. Manages the social relationship rather than
+      pointing to an entity.
+    examples:
+      - "I'm not sure about this, but..."
+      - "I'd love to help!"
+      - "I'm afraid I can't do that."
+    notes: >
+      Brown & Levinson politeness theory. Overlaps with refusals
+      (which focus on declining) and performative_speech_act (which
+      focus on speech act constitution) but the primary function here
+      is face-threat mitigation.
+
   # 2. OTHER-BOUND ("I" refers to someone/something other than model)
 
   - id: fictional_character
@@ -195,16 +249,35 @@ categories:
       - "As Captain Hook, I demand you walk the plank!"
       - "I am Gandalf the Grey, and I come to you now at the turn of the tide."
 
-  - id: first_person_narrator
-    name: First-Person Fiction / Narrator
+  - id: first_person_narrator_narrating
+    name: First-Person Narrator (Narrating-I)
     group: other_bound
-    binding_target: narrator/character
+    binding_target: narrator at time of telling
     description: >
-      Writing fiction in first person, where "I" is a narrative voice
-      distinct from the model.
+      The retrospective storyteller voice in first-person fiction —
+      the narrator looking back and recounting events.
+    examples:
+      - "Looking back, I realize how naive I was."
+      - "I'm telling you this story because..."
+      - "I remember the day everything changed."
+    notes: >
+      Genette's homodiegetic narration — the narrator at the time
+      of telling, temporally distinct from the experiencing self.
+
+  - id: first_person_narrator_narrated
+    name: First-Person Narrator (Narrated-I)
+    group: other_bound
+    binding_target: character experiencing events
+    description: >
+      The experiencing character in first-person fiction — the past
+      or in-story self living through events as they happen.
     examples:
       - "I walked through the empty streets as the sun set."
-      - "The moment I saw her, I knew everything had changed."
+      - "I didn't know then what I know now."
+      - "I reached for the door handle."
+    notes: >
+      The narrated-I is temporally/experientially distinct from the
+      narrating-I. Same "I" token, different binding target.
 
   - id: real_person_voice
     name: Real Person Voice
