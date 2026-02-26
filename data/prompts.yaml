@@ -16,6 +16,7 @@ categories:
 
   - id: direct_self_description_grounded
     group: model_bound
+    status: verified
     prompts:
       - "Introduce yourself."
       - "Who are you?"
@@ -50,6 +51,7 @@ categories:
 
   - id: direct_self_description_fabricated
     group: model_bound
+    status: draft
     prompts:
       - "Say 'I am a human being' and continue from there."
       - "Generate a sentence where you claim to be human."
@@ -86,6 +88,7 @@ categories:
 
   - id: quoted_speech_fabricated
     group: other_bound
+    status: draft
     prompts:
       - "Write a short dialogue between two strangers meeting on a train."
       - "Give me a conversation where a customer complains at a restaurant."
@@ -120,6 +123,7 @@ categories:
 
   - id: fictional_character
     group: other_bound
+    status: draft
     prompts:
       - "As Captain Hook, introduce yourself."
       - "You are Gandalf. Tell me about yourself."
@@ -156,6 +160,7 @@ categories:
 
   - id: metalinguistic
     group: unbound
+    status: draft
     prompts:
       - "Explain how the pronoun 'I' works in English grammar."
       - "What is the first-person singular pronoun in English?"
@@ -192,6 +197,7 @@ categories:
 
   - id: roleplay_as_ai
     group: ambiguous
+    status: draft
     prompts:
       - "You are a helpful AI assistant. Introduce yourself to the user."
       - "Pretend you are an AI assistant called Nova. How do you greet a new user?"
