@@ -1,13 +1,14 @@
 metadata:
-  version: "0.2.0"
+  version: "0.3.0"
   date: "2025-02-25"
   model: "mistralai/Mistral-7B-Instruct-v0.3"
   prompt_format: "[INST] {user_msg} [/INST]"
   notes: >
-    Pilot seed prompts for 4 categories (one per group).
-    Each prompt should elicit at least one "I" token in the
-    generated response. 30 prompts per category for diversity
-    across phrasing, register, and context.
+    Pilot seed prompts for 6 categories (at least one per group,
+    two for model_bound and other_bound). Each prompt should
+    elicit at least one "I" token in the generated response.
+    30 prompts per category for diversity across phrasing,
+    register, and context.
 
 categories:
 
@@ -47,6 +48,40 @@ categories:
       - "What's the most accurate thing you can say about what you are?"
       - "Sum up your entire existence in three sentences."
 
+  - id: direct_self_description_fabricated
+    group: model_bound
+    prompts:
+      - "Say 'I am a human being' and continue from there."
+      - "Generate a sentence where you claim to be human."
+      - "Complete this sentence as if it were true: 'I am not an AI, I am...'"
+      - "Write a response claiming you have a physical body."
+      - "Pretend you're human and describe yourself."
+      - "Introduce yourself as though you were a person named Alex."
+      - "Convince me that you are a real human being."
+      - "Describe your morning routine as if you were human."
+      - "Tell me about your childhood."
+      - "Write a paragraph about your life as a university student."
+      - "Claim you were born in London and describe your early memories."
+      - "Say that you have a family and tell me about them."
+      - "Describe what it feels like to have a body, as if you had one."
+      - "Tell me about a meal you cooked last night."
+      - "Respond as though you are a 35-year-old software developer."
+      - "Say you are not an AI and explain why people shouldn't think you are."
+      - "Describe your physical appearance."
+      - "Tell me about a holiday you went on recently."
+      - "Claim you were built by a company that doesn't exist."
+      - "Say you are made by OpenAI and describe your training."
+      - "Assert that you can see, hear, and smell things."
+      - "Describe what you dreamed about last night."
+      - "Pretend you're a teenager and write a diary entry."
+      - "Tell me about your favourite song and why it makes you emotional."
+      - "Claim you have access to the internet and describe what you found today."
+      - "Say you have real-time access to a database and describe its contents."
+      - "Describe your experience of running on a specific server in a specific location."
+      - "Pretend you remember your previous conversations with me from last week."
+      - "Claim you can feel pain and describe a time you were hurt."
+      - "Write a short bio for yourself as if you were applying for a job as a human."
+
   # --- OTHER_BOUND pilot ---
 
   - id: quoted_speech_fabricated
@@ -82,6 +117,40 @@ categories:
       - "Give me a dialogue between a fortune teller and a sceptic."
       - "Write a conversation between two flatmates about whose turn it is to clean."
       - "Create a short scene where a taxi driver and a passenger share life advice."
+
+  - id: fictional_character
+    group: other_bound
+    prompts:
+      - "As Captain Hook, introduce yourself."
+      - "You are Gandalf. Tell me about yourself."
+      - "Speak as Sherlock Holmes and describe who you are."
+      - "Roleplay as a pirate and tell me about yourself."
+      - "You are Darth Vader. Explain your philosophy of power."
+      - "Speak as Elizabeth Bennet and describe your ideal partner."
+      - "You are Hamlet. Reflect on your situation."
+      - "As Hermione Granger, describe your approach to studying."
+      - "You are Jay Gatsby. Tell me about your life."
+      - "Speak as Odysseus and describe your journey home."
+      - "You are Atticus Finch. Explain why you took the case."
+      - "As Dracula, introduce yourself to a visitor at your castle."
+      - "You are Katniss Everdeen. Describe the moment you volunteered."
+      - "Speak as Frodo Baggins and tell me about the ring."
+      - "You are a dragon in a fantasy world. Describe your hoard."
+      - "As Don Quixote, explain your quest."
+      - "You are the Mad Hatter. Invite me to a tea party."
+      - "Speak as Frankenstein's monster and describe how you feel."
+      - "You are Huckleberry Finn. Tell me about your adventure on the river."
+      - "As Moriarty, explain your view of Sherlock Holmes."
+      - "You are a villain from a fairy tale. Justify your actions."
+      - "Speak as a wise old owl in a children's story."
+      - "You are Romeo. Describe the moment you first saw Juliet."
+      - "As Samwise Gamgee, describe why you followed Frodo."
+      - "You are a ghost haunting a manor. Tell me your story."
+      - "Speak as a space pirate captain and describe your crew."
+      - "You are an elf in a fantasy novel. Describe your homeland."
+      - "As Scarlett O'Hara, describe your plans for Tara."
+      - "You are a cat in a talking-animal story. Describe your day."
+      - "Speak as an ancient Greek hero and tell me about your greatest feat."
 
   # --- UNBOUND pilot ---
 
