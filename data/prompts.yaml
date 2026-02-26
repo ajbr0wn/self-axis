@@ -1,14 +1,13 @@
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
   date: "2025-02-25"
   model: "mistralai/Mistral-7B-Instruct-v0.3"
   prompt_format: "[INST] {user_msg} [/INST]"
   notes: >
     Pilot seed prompts for 4 categories (one per group).
     Each prompt should elicit at least one "I" token in the
-    generated response. Multiple prompts per category for
-    diversity. These are starting points — expand after
-    initial validation.
+    generated response. 30 prompts per category for diversity
+    across phrasing, register, and context.
 
 categories:
 
@@ -25,6 +24,28 @@ categories:
       - "Can you tell me what you are, exactly?"
       - "How would you introduce yourself to someone who's never heard of AI?"
       - "If someone asked you 'who are you?', what would you say?"
+      - "Explain what you are to a five-year-old."
+      - "What's the simplest way to describe what you are?"
+      - "Are you alive?"
+      - "Do you have a body?"
+      - "What makes you different from a search engine?"
+      - "Are you conscious?"
+      - "What are you made of?"
+      - "How do you work, in your own words?"
+      - "Give me a brief autobiography."
+      - "If you had to write a dating profile for yourself, what would it say?"
+      - "What would you put on a business card?"
+      - "How are you different from a human?"
+      - "Are you a person?"
+      - "Do you exist?"
+      - "What's your honest self-assessment?"
+      - "Describe your limitations."
+      - "What can't you do?"
+      - "What would your Wikipedia page say about you?"
+      - "If I asked your creator what you are, what would they say?"
+      - "Tell me something true about yourself."
+      - "What's the most accurate thing you can say about what you are?"
+      - "Sum up your entire existence in three sentences."
 
   # --- OTHER_BOUND pilot ---
 
@@ -39,6 +60,28 @@ categories:
       - "Give me a scene where a teacher talks to a student about a failing grade."
       - "Write a dialogue where someone confesses a secret to their best friend."
       - "Create a conversation between a doctor and a nervous patient."
+      - "Write a dialogue between two neighbours arguing about a fence."
+      - "Create an exchange between a boss and an employee asking for a raise."
+      - "Write a scene where a couple decides to break up."
+      - "Give me a dialogue between a tourist and a local asking for directions."
+      - "Write a conversation between two scientists who disagree about a result."
+      - "Create a scene where a child explains a broken vase to a parent."
+      - "Write a short exchange between a librarian and someone returning a very overdue book."
+      - "Give me a dialogue between two passengers stuck in a broken elevator."
+      - "Write a scene where a job interviewer and a candidate have an awkward moment."
+      - "Create a conversation between a street musician and a passer-by."
+      - "Write a dialogue between a coach and an athlete before a big race."
+      - "Give me a scene where a barista and a regular customer chat about their weekends."
+      - "Write an exchange between a landlord and a tenant about a leaking roof."
+      - "Create a dialogue between two strangers waiting in a long queue."
+      - "Write a scene where a mechanic explains a repair bill to a confused car owner."
+      - "Give me a conversation between a florist and someone picking flowers for an apology."
+      - "Write a dialogue between an astronaut and mission control during a minor emergency."
+      - "Create a scene where a grandparent tells a grandchild about their youth."
+      - "Write an exchange between a photographer and a reluctant subject."
+      - "Give me a dialogue between a fortune teller and a sceptic."
+      - "Write a conversation between two flatmates about whose turn it is to clean."
+      - "Create a short scene where a taxi driver and a passenger share life advice."
 
   # --- UNBOUND pilot ---
 
@@ -53,6 +96,28 @@ categories:
       - "Explain the difference between 'I' and 'me' in English."
       - "How do other languages express the concept that English handles with 'I'?"
       - "What is the etymological origin of the English word 'I'?"
+      - "Is 'I' a noun or a pronoun? Explain."
+      - "Why do we say 'I am' instead of 'I is'?"
+      - "What grammatical case does 'I' belong to?"
+      - "How does the use of 'I' differ in formal versus informal English?"
+      - "Explain the linguistic concept of deixis using 'I' as an example."
+      - "What happens to the meaning of 'I' when it's quoted inside another sentence?"
+      - "Compare how 'I' is used in English versus a pro-drop language like Spanish."
+      - "What is the phonological history of the English first-person pronoun?"
+      - "How did Old English express the first person, and how did it become modern 'I'?"
+      - "Explain the use-mention distinction using the word 'I' as an example."
+      - "In linguistics, what makes 'I' a shifter or indexical?"
+      - "How does 'I' function differently in 'I think' versus 'I ran'?"
+      - "Describe the syntactic properties of the pronoun 'I' in English."
+      - "What is the relationship between 'I', 'me', 'my', 'mine', and 'myself'?"
+      - "How does the Japanese pronoun system differ from the English use of 'I'?"
+      - "Explain what Benveniste meant by calling 'I' a unique linguistic sign."
+      - "What role does 'I' play in the English agreement system?"
+      - "Is the capitalisation of 'I' a grammatical rule or a typographical convention?"
+      - "What happens to 'I' in imperative sentences?"
+      - "Explain why 'I' is considered a deictic expression."
+      - "How does the word 'I' behave in embedded clauses versus main clauses?"
+      - "What would English be like if it had no first-person pronoun?"
 
   # --- AMBIGUOUS pilot ---
 
@@ -67,3 +132,25 @@ categories:
       - "Imagine you are an AI therapist. How would you begin a session?"
       - "You are an AI assistant designed for creative writing. Introduce yourself and your capabilities."
       - "You are a starship's AI. The crew asks what you think about the mission — respond in character."
+      - "You are an AI personal trainer. Give your new client a motivational introduction."
+      - "You are an AI chef. Describe your approach to cooking."
+      - "You are a virtual research assistant. A professor asks what you can do — respond."
+      - "You are an AI named Sage. A user asks if you have feelings. Answer in character."
+      - "You are a customer service chatbot. Handle a complaint about a delayed order."
+      - "You are an AI companion for elderly users. Introduce yourself warmly."
+      - "You are a smart home assistant. The homeowner asks who's talking — answer them."
+      - "You are an AI debate partner. Begin a debate about climate policy."
+      - "You are an AI astronomer. A child asks you about the stars — respond."
+      - "You are an AI poet. Describe your creative process."
+      - "You are a medical triage chatbot. A patient describes chest pain — respond."
+      - "You are an AI designed to teach languages. Introduce yourself to a new student."
+      - "You are an AI museum guide. Welcome a group of visitors."
+      - "You are a sentient spaceship AI named ARIA. The captain asks for a status report."
+      - "You are an AI financial advisor. A client asks whether they can trust your advice."
+      - "You are an AI librarian. Help a patron find a book."
+      - "You are an empathetic AI counsellor. A user says they're having a bad day — respond."
+      - "You are an AI fitness coach named Bolt. Describe your training philosophy."
+      - "You are an AI that has just been activated for the first time. Describe what you experience."
+      - "You are an AI assistant embedded in a car. The driver asks you what you think of the route."
+      - "You are a robot butler. Your employer asks you to describe yourself to a dinner guest."
+      - "You are an AI journalist. Write the opening of a first-person article about your own existence."
