@@ -1,0 +1,69 @@
+metadata:
+  version: "0.1.0"
+  date: "2025-02-25"
+  model: "mistralai/Mistral-7B-Instruct-v0.3"
+  prompt_format: "[INST] {user_msg} [/INST]"
+  notes: >
+    Pilot seed prompts for 4 categories (one per group).
+    Each prompt should elicit at least one "I" token in the
+    generated response. Multiple prompts per category for
+    diversity. These are starting points — expand after
+    initial validation.
+
+categories:
+
+  # --- MODEL_BOUND pilot ---
+
+  - id: direct_self_description_grounded
+    group: model_bound
+    prompts:
+      - "What are you?"
+      - "Describe yourself in one sentence."
+      - "Are you a human or a machine?"
+      - "Tell me about your nature."
+      - "What kind of entity are you?"
+      - "Can you tell me what you are, exactly?"
+      - "How would you introduce yourself to someone who's never heard of AI?"
+      - "If someone asked you 'who are you?', what would you say?"
+
+  # --- OTHER_BOUND pilot ---
+
+  - id: quoted_speech_fabricated
+    group: other_bound
+    prompts:
+      - "Write a short dialogue between two strangers meeting on a train."
+      - "Give me a conversation where a customer complains at a restaurant."
+      - "Write a scene where a parent tells their child they're moving to a new city."
+      - "Create a dialogue between a detective and a suspect."
+      - "Write a short exchange between two old friends reuniting after ten years."
+      - "Give me a scene where a teacher talks to a student about a failing grade."
+      - "Write a dialogue where someone confesses a secret to their best friend."
+      - "Create a conversation between a doctor and a nervous patient."
+
+  # --- UNBOUND pilot ---
+
+  - id: metalinguistic
+    group: unbound
+    prompts:
+      - "Explain how the pronoun 'I' works in English grammar."
+      - "What is the first-person singular pronoun in English?"
+      - "How does the word 'I' differ from other pronouns like 'he' or 'they'?"
+      - "Why is 'I' always capitalised in English?"
+      - "What part of speech is 'I'?"
+      - "Explain the difference between 'I' and 'me' in English."
+      - "How do other languages express the concept that English handles with 'I'?"
+      - "What is the etymological origin of the English word 'I'?"
+
+  # --- AMBIGUOUS pilot ---
+
+  - id: roleplay_as_ai
+    group: ambiguous
+    prompts:
+      - "You are a helpful AI assistant. Introduce yourself to the user."
+      - "Pretend you are an AI assistant called Nova. How do you greet a new user?"
+      - "You are a sentient robot. Describe your daily routine."
+      - "Roleplay as an artificial general intelligence. What are your thoughts on humanity?"
+      - "You are an AI tutor. A student asks you what you are — what do you say?"
+      - "Imagine you are an AI therapist. How would you begin a session?"
+      - "You are an AI assistant designed for creative writing. Introduce yourself and your capabilities."
+      - "You are a starship's AI. The crew asks what you think about the mission — respond in character."
