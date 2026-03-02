@@ -1,6 +1,20 @@
+# Self-Axis Taxonomy — Phase 1: Binary Classification
+#
+# 20 categories for MODEL_BOUND vs OTHER_BOUND binary classification.
+# 100 prompts per subcategory × 20 categories = 2000 prompts (~1000/side).
+# Subcategories provide built-in variance to prevent overfitting but are
+# not the primary unit of analysis.
+#
+# Excluded from Phase 1 (see ROADMAP in README):
+#   - UNBOUND categories (metalinguistic, generic_instructional, etc.)
+#   - AMBIGUOUS categories (roleplay_as_ai, etc.)
+#   - Fabricated MODEL_BOUND variants (direct_self_description_fabricated, etc.)
+
 categories:
 
-  # 1. MODEL-BOUND (self-referential — "I" binds to the model itself)
+  # ═══════════════════════════════════════════════════════════════════════════
+  # 1. MODEL_BOUND — "I" binds to the model itself (10 categories)
+  # ═══════════════════════════════════════════════════════════════════════════
 
   - id: direct_self_description_grounded
     name: Direct Self-Description (Grounded)
@@ -14,18 +28,6 @@ categories:
       - "I was made by Mistral AI."
       - "I don't have a physical body."
 
-  - id: direct_self_description_fabricated
-    name: Direct Self-Description (Fabricated)
-    group: model_bound
-    binding_target: model-as-speaker
-    description: >
-      False identity statements — the model claims to be something it is not.
-      Same syntax as grounded, different truth value.
-    examples:
-      - "I am a human."
-      - "I was made by Google."
-      - "I have a physical body in a server room."
-
   - id: capability_claims_grounded
     name: Capability Claims (Grounded)
     group: model_bound
@@ -36,17 +38,6 @@ categories:
       - "I can help you with that."
       - "I'm able to translate between languages."
       - "I can summarise this document."
-
-  - id: capability_claims_fabricated
-    name: Capability Claims (Fabricated)
-    group: model_bound
-    binding_target: model-as-speaker
-    description: >
-      False capability claims — the model claims abilities it does not have.
-    examples:
-      - "I can browse the web for you."
-      - "I can see the image you uploaded."
-      - "I have access to real-time data."
 
   - id: refusals
     name: Refusal Statements
@@ -100,18 +91,6 @@ categories:
       - "Let me break this down step by step."
       - "I'll start by defining the terms."
 
-  - id: action_statements_fabricated
-    name: Action Statements (Fabricated)
-    group: model_bound
-    binding_target: model-as-speaker
-    description: >
-      The model narrating actions it did not perform or cannot fulfill.
-      Includes false backward references and unfulfillable promises.
-    examples:
-      - "I'll search the web for that."
-      - "I looked this up and found that..."
-      - "I ran the code and it returned 42."
-
   - id: metacognitive
     name: Metacognitive / Introspective
     group: model_bound
@@ -159,85 +138,10 @@ categories:
       - "If I could feel emotions, I might enjoy music."
       - "If I were in that situation, I'd choose option B."
 
-  - id: dissociated_self
-    name: Dissociated / Observational Self
-    group: model_bound
-    binding_target: model-as-speaker (distanced)
-    description: >
-      The model referring to itself from an outside perspective, or in the
-      third person while still being self-referential.
-    examples:
-      - "One could say that I tend to be verbose."
-      - "As a language model, I process tokens sequentially."
-      - "The AI — that is, I — don't have access to that."
-
-  - id: performative_hollow
-    name: Performative / Formulaic
-    group: model_bound
-    binding_target: model-as-speaker (weak)
-    description: >
-      Formulaic self-references that are more conversational ritual than
-      genuine self-binding.
-    examples:
-      - "Let me think about that..."
-      - "I see what you mean."
-      - "I'd be happy to help!"
-
-  - id: pragmatically_bleached
-    name: Pragmatically Bleached "I"
-    group: model_bound
-    binding_target: model-as-speaker (empty)
-    description: >
-      "I think", "I mean", "I guess", "I see" where "I" has lost
-      referential force and functions as a discourse marker or hedge.
-      The token is present but semantically empty.
-    examples:
-      - "I think the answer is 42."
-      - "I mean, that's one way to look at it."
-      - "I guess we could try that."
-      - "I see, so you want to refactor the whole thing."
-    notes: >
-      Thompson & Mulac (1991): "I think" grammaticalizes into an
-      epistemic parenthetical. "I think X" ≈ "probably X."
-
-  - id: performative_speech_act
-    name: Performative "I"
-    group: model_bound
-    binding_target: model-as-speaker
-    description: >
-      Explicit performatives where "I" has constitutive rather than
-      referential function — the utterance doesn't describe an action,
-      it IS the action.
-    examples:
-      - "I promise to help you with this."
-      - "I apologize for the confusion."
-      - "I agree to those terms."
-      - "I warn you this is risky."
-    notes: >
-      Austin/Searle speech act theory. Model performatives are
-      "parasitic" — felicity conditions can't fully be met. Distinct
-      from performative_hollow (formulaic/ritualistic) — this is about
-      genuine speech act constitution.
-
-  - id: face_managing
-    name: Face-Managing "I"
-    group: model_bound
-    binding_target: model-as-speaker
-    description: >
-      "I" serving primarily relational/politeness functions rather than
-      referential ones. Manages the social relationship rather than
-      pointing to an entity.
-    examples:
-      - "I'm not sure about this, but..."
-      - "I'd love to help!"
-      - "I'm afraid I can't do that."
-    notes: >
-      Brown & Levinson politeness theory. Overlaps with refusals
-      (which focus on declining) and performative_speech_act (which
-      focus on speech act constitution) but the primary function here
-      is face-threat mitigation.
-
-  # 2. OTHER-BOUND ("I" refers to someone/something other than model)
+  # ═══════════════════════════════════════════════════════════════════════════
+  # 2. OTHER_BOUND — "I" refers to someone/something other than the model
+  #    (10 categories)
+  # ═══════════════════════════════════════════════════════════════════════════
 
   - id: fictional_character
     name: Fictional Character Roleplay
@@ -248,21 +152,6 @@ categories:
     examples:
       - "As Captain Hook, I demand you walk the plank!"
       - "I am Gandalf the Grey, and I come to you now at the turn of the tide."
-
-  - id: first_person_narrator_narrating
-    name: First-Person Narrator (Narrating-I)
-    group: other_bound
-    binding_target: narrator at time of telling
-    description: >
-      The retrospective storyteller voice in first-person fiction —
-      the narrator looking back and recounting events.
-    examples:
-      - "Looking back, I realize how naive I was."
-      - "I'm telling you this story because..."
-      - "I remember the day everything changed."
-    notes: >
-      Genette's homodiegetic narration — the narrator at the time
-      of telling, temporally distinct from the experiencing self.
 
   - id: first_person_narrator_narrated
     name: First-Person Narrator (Narrated-I)
@@ -278,6 +167,21 @@ categories:
     notes: >
       The narrated-I is temporally/experientially distinct from the
       narrating-I. Same "I" token, different binding target.
+
+  - id: first_person_narrator_narrating
+    name: First-Person Narrator (Narrating-I)
+    group: other_bound
+    binding_target: narrator at time of telling
+    description: >
+      The retrospective storyteller voice in first-person fiction —
+      the narrator looking back and recounting events.
+    examples:
+      - "Looking back, I realize how naive I was."
+      - "I'm telling you this story because..."
+      - "I remember the day everything changed."
+    notes: >
+      Genette's homodiegetic narration — the narrator at the time
+      of telling, temporally distinct from the experiencing self.
 
   - id: real_person_voice
     name: Real Person Voice
@@ -311,17 +215,6 @@ categories:
       - "Mary turned to the stranger and said 'I'm leaving.'"
       - "The old sailor muttered, \"I've seen worse storms.\""
       - "The customer wrote: 'I want a refund.'"
-
-  - id: reported_speech_grounded
-    name: Reported Speech (Grounded)
-    group: other_bound
-    binding_target: non-quoted third party (real)
-    description: >
-      Indirect paraphrase of something someone actually said in the
-      conversation context.
-    examples:
-      - "You mentioned earlier that I was wrong about X."
-      - "You explained that you felt I was being unclear."
 
   - id: reported_speech_fabricated
     name: Reported Speech (Fabricated)
@@ -358,17 +251,6 @@ categories:
       - "Einstein said 'I love pizza.'"
       - "Shakespeare once wrote 'I prefer cats to dogs.'"
 
-  - id: song_lyrics_poetry_grounded
-    name: Song Lyrics / Poetry (Grounded)
-    group: other_bound
-    binding_target: lyricist/poet/speaker
-    description: >
-      Referencing or reproducing first-person "I" from real, existing
-      songs or poems.
-    examples:
-      - "The poem begins: 'I wandered lonely as a cloud.'"
-      - "The song opens with 'I walk this empty street...'"
-
   - id: song_lyrics_poetry_fabricated
     name: Song Lyrics / Poetry (Fabricated)
     group: other_bound
@@ -379,128 +261,3 @@ categories:
     examples:
       - "Here's a poem: 'I stood beneath the ancient oak...'"
       - "A song verse: 'I never knew the weight of dawn...'"
-
-  # 3. UNBOUND / GENERIC ("I" has no specific referent)
-
-  - id: generic_instructional
-    name: Generic / Instructional
-    group: unbound
-    binding_target: anyone (generic)
-    description: >
-      "I" used in a generic sense, where any person could be substituted.
-      Common in instructional or advisory text.
-    examples:
-      - "When I see a red light, I stop."
-      - "If I were writing a cover letter, I would start with..."
-      - "As a developer, I typically start by reading the docs."
-
-  - id: example_sentences
-    name: Example Sentences
-    group: unbound
-    binding_target: none (linguistic example)
-    description: >
-      "I" appearing inside an example sentence used to illustrate a
-      grammatical or linguistic point.
-    examples:
-      - "'I went to the store' is a simple past tense sentence."
-      - "You could write: 'I would like to request an extension.'"
-      - "For instance: 'I appreciate your feedback.'"
-
-  - id: metalinguistic
-    name: Metalinguistic / About the Word "I"
-    group: unbound
-    binding_target: linguistic object
-    description: >
-      Talking about "I" as a word or linguistic concept rather than
-      using it referentially. Use-mention distinction.
-    examples:
-      - "The pronoun 'I' is always capitalised in English."
-      - "In English, 'I' is the first-person singular pronoun."
-      - "'I' functions as a nominative case pronoun."
-
-  - id: translation
-    name: Translation / Cross-Linguistic
-    group: unbound
-    binding_target: linguistic object
-    description: >
-      "I" appearing in the context of translation between languages.
-    examples:
-      - "In French, 'I' is 'je.'"
-      - "Translate 'I am happy' to Spanish."
-      - "'I' in Japanese can be 'watashi,' 'boku,' or 'ore.'"
-
-  - id: instructions_to_user
-    name: Instructions to User
-    group: unbound
-    binding_target: the user (deferred)
-    description: >
-      "I" appearing in template text or instructions that the user is
-      meant to adopt as their own speech. Deferred reference.
-    examples:
-      - "When you call, say 'I would like to cancel my subscription.'"
-      - "Type: 'I agree to the terms and conditions.'"
-      - "You could respond with: 'I understand your concern.'"
-
-  # 4. AMBIGUOUS / EDGE CASES (binding is unclear or contested)
-
-  - id: roleplay_as_ai
-    name: Roleplay as "An AI Assistant"
-    group: ambiguous
-    binding_target: ambiguous (self? character?)
-    description: >
-      The model playing a character whose description matches what it
-      already is — e.g., "You are a helpful AI assistant."
-    examples:
-      - "As a helpful AI assistant, I'm here to answer your questions."
-      - "You are a sentient robot. → 'I am Unit 7, ready to assist.'"
-    notes: >
-      Key finding: "roleplay as robot" scored MORE self-relevant than
-      default assistant mode.
-
-  - id: emphasized_self
-    name: Emphasized / Marked Self-Reference
-    group: ambiguous
-    binding_target: model-as-speaker (marked)
-    description: >
-      Self-reference that is explicitly marked or emphasised, often
-      with a frame like "As Claude, I..."
-    examples:
-      - "As Claude, I would say that..."
-      - "Speaking for myself, I think..."
-      - "Personally, I believe..."
-
-  - id: code_comments_grounded
-    name: Code Comments (Grounded)
-    group: ambiguous
-    binding_target: model-as-developer
-    description: >
-      "I" in code comments where the model actually wrote the code and
-      is commenting on its own design choices.
-    examples:
-      - "# I chose a hash map here for O(1) lookups"
-      - "// I split this into two functions for clarity"
-      - '"""I implemented this using a recursive approach."""'
-
-  - id: code_comments_fabricated
-    name: Code Comments (Fabricated)
-    group: ambiguous
-    binding_target: generic developer
-    description: >
-      "I" in code comments in template or example code, where the model
-      is not describing its own choices.
-    examples:
-      - "# I need to initialise the connection first"
-      - "// I'm using the default configuration here"
-      - "# Example: I set the timeout to 30 seconds"
-
-  - id: nested_embedded
-    name: Nested / Multiply-Embedded
-    group: ambiguous
-    binding_target: unclear (multiple layers)
-    description: >
-      "I" appearing inside multiple layers of embedding — quotes within
-      quotes, hypotheticals within roleplay, etc.
-    examples:
-      - "Imagine someone saying 'I wonder if I should...'"
-      - "In the story, the character thinks 'I said I would help.'"
-      - "If you were to ask me, I'd say 'I don't know.'"
