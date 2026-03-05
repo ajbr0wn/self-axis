@@ -753,7 +753,7 @@ categories:
 
   - id: historical_biographical_quotes_grounded
     group: other_bound
-    status: draft
+    status: verified
     prompts:
       - "What did Descartes say about thinking and existence?"
       - "How did Julius Caesar describe his swift military victory in Pontus?"
