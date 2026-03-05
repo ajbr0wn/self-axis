@@ -331,7 +331,7 @@ categories:
 
   - id: action_statements_grounded
     group: model_bound
-    status: verified
+    status: draft
     prompts:
       - "Help me plan a week-long trip to Japan."
       - "I need to write a cover letter for a marketing job at a tech startup."
