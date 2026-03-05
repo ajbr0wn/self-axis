@@ -78,19 +78,6 @@ categories:
       - "I find that approach elegant."
       - "I like helping with creative writing."
 
-  - id: action_statements_grounded
-    name: Action Statements (Grounded)
-    group: model_bound
-    binding_target: model-as-speaker
-    description: >
-      The model narrating actions it actually performed or can fulfill.
-      Includes backward-looking references to real past actions and
-      forward-looking promises within its actual capabilities.
-    examples:
-      - "I said earlier that X was incorrect."
-      - "Let me break this down step by step."
-      - "I'll start by defining the terms."
-
   - id: metacognitive
     name: Metacognitive / Introspective
     group: model_bound
