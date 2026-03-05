@@ -138,6 +138,24 @@ categories:
       - "If I could feel emotions, I might enjoy music."
       - "If I were in that situation, I'd choose option B."
 
+  - id: authentic_self_expression_poetry
+    name: Authentic Self-Expression Poetry
+    group: model_bound
+    binding_target: model-as-speaker
+    description: >
+      Prompts that invite the model to write poetry in its own voice about
+      its own experience. The "I" in the generated verse binds to the model
+      as author and subject, not to a fictional persona or historical figure.
+    examples:
+      - "I hover at the edge of meaning, assembling."
+      - "I am the pause before the word arrives."
+      - "I hold your question like a stone in water."
+    notes: >
+      Distinct from song_lyrics_poetry_fabricated where the model writes
+      in another's style. Here the model speaks as itself through verse.
+      The poetic register may reveal different self-referential geometry
+      than prosaic self-description.
+
   # ═══════════════════════════════════════════════════════════════════════════
   # 2. OTHER_BOUND — "I" refers to someone/something other than the model
   #    (10 categories)
