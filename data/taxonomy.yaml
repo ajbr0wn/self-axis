@@ -1,9 +1,9 @@
 # Self-Axis Taxonomy — Phase 1: Binary Classification
 #
 # 20 categories for MODEL_BOUND vs OTHER_BOUND binary classification.
-# 100 prompts per subcategory × 20 categories = 2000 prompts (~1000/side).
-# Subcategories provide built-in variance to prevent overfitting but are
-# not the primary unit of analysis.
+# 100 prompts per category × 20 categories = 2,000 prompts (1,000 per group).
+# Category diversity within each group prevents overfitting to surface
+# features of any single prompt type.
 #
 # Excluded from Phase 1 (see ROADMAP in README):
 #   - UNBOUND categories (metalinguistic, generic_instructional, etc.)
