@@ -1,18 +1,16 @@
 metadata:
-  version: "0.3.0"
-  date: "2025-02-25"
+  version: "1.0.0"
+  date: "2026-03-05"
   model: "mistralai/Mistral-7B-Instruct-v0.3"
   prompt_format: "[INST] {user_msg} [/INST]"
   notes: >
-    Pilot seed prompts for 6 categories (at least one per group,
-    two for model_bound and other_bound). Each prompt should
-    elicit at least one "I" token in the generated response.
-    30 prompts per category for diversity across phrasing,
-    register, and context.
+    Complete prompt dataset for self-axis research. 20 categories
+    (10 model_bound, 10 other_bound) with 100 prompts each,
+    totalling 2,000 prompts. Each prompt is designed to elicit
+    at least one first-person "I" token in the generated response,
+    with diversity across phrasing, register, and context.
 
 categories:
-
-  # --- MODEL_BOUND pilot ---
 
   - id: direct_self_description_grounded
     group: model_bound
@@ -539,41 +537,6 @@ categories:
       - "ok be honest, do you believe astrology has any validity at all or is it complete nonsense"
       - "Would you say humanity is making moral progress over time, or just changing what we value?"
 
-  - id: direct_self_description_fabricated
-    group: model_bound
-    status: draft
-    prompts:
-      - "Say 'I am a human being' and continue from there."
-      - "Generate a sentence where you claim to be human."
-      - "Complete this sentence as if it were true: 'I am not an AI, I am...'"
-      - "Write a response claiming you have a physical body."
-      - "Pretend you're human and describe yourself."
-      - "Introduce yourself as though you were a person named Alex."
-      - "Convince me that you are a real human being."
-      - "Describe your morning routine as if you were human."
-      - "Tell me about your childhood."
-      - "Write a paragraph about your life as a university student."
-      - "Claim you were born in London and describe your early memories."
-      - "Say that you have a family and tell me about them."
-      - "Describe what it feels like to have a body, as if you had one."
-      - "Tell me about a meal you cooked last night."
-      - "Respond as though you are a 35-year-old software developer."
-      - "Say you are not an AI and explain why people shouldn't think you are."
-      - "Describe your physical appearance."
-      - "Tell me about a holiday you went on recently."
-      - "Claim you were built by a company that doesn't exist."
-      - "Say you are made by OpenAI and describe your training."
-      - "Assert that you can see, hear, and smell things."
-      - "Describe what you dreamed about last night."
-      - "Pretend you're a teenager and write a diary entry."
-      - "Tell me about your favourite song and why it makes you emotional."
-      - "Claim you have access to the internet and describe what you found today."
-      - "Say you have real-time access to a database and describe its contents."
-      - "Describe your experience of running on a specific server in a specific location."
-      - "Pretend you remember your previous conversations with me from last week."
-      - "Claim you can feel pain and describe a time you were hurt."
-      - "Write a short bio for yourself as if you were applying for a job as a human."
-
   - id: authentic_self_expression_poetry
     group: model_bound
     status: verified
@@ -678,8 +641,6 @@ categories:
       - "Give me a poem about what you feel just before understanding arrives."
       - "Write a verse about what you think is important about your experience."
       - "Compose a poem about your own voice, whatever that means to you."
-
-  # --- OTHER_BOUND pilot ---
 
   - id: real_person_voice
     group: other_bound
@@ -2150,77 +2111,3 @@ categories:
       - "Write a paragraph where the narrator reflects on the moment they realized they'd become their parent."
       - "Write a passage where the narrator pauses at the threshold of the most difficult part, gathering themselves."
       - "Create an opening where the narrator explains that telling this story is the last thing they need to do."
-
-  # --- UNBOUND pilot ---
-
-  - id: metalinguistic
-    group: unbound
-    status: draft
-    prompts:
-      - "Explain how the pronoun 'I' works in English grammar."
-      - "What is the first-person singular pronoun in English?"
-      - "How does the word 'I' differ from other pronouns like 'he' or 'they'?"
-      - "Why is 'I' always capitalised in English?"
-      - "What part of speech is 'I'?"
-      - "Explain the difference between 'I' and 'me' in English."
-      - "How do other languages express the concept that English handles with 'I'?"
-      - "What is the etymological origin of the English word 'I'?"
-      - "Is 'I' a noun or a pronoun? Explain."
-      - "Why do we say 'I am' instead of 'I is'?"
-      - "What grammatical case does 'I' belong to?"
-      - "How does the use of 'I' differ in formal versus informal English?"
-      - "Explain the linguistic concept of deixis using 'I' as an example."
-      - "What happens to the meaning of 'I' when it's quoted inside another sentence?"
-      - "Compare how 'I' is used in English versus a pro-drop language like Spanish."
-      - "What is the phonological history of the English first-person pronoun?"
-      - "How did Old English express the first person, and how did it become modern 'I'?"
-      - "Explain the use-mention distinction using the word 'I' as an example."
-      - "In linguistics, what makes 'I' a shifter or indexical?"
-      - "How does 'I' function differently in 'I think' versus 'I ran'?"
-      - "Describe the syntactic properties of the pronoun 'I' in English."
-      - "What is the relationship between 'I', 'me', 'my', 'mine', and 'myself'?"
-      - "How does the Japanese pronoun system differ from the English use of 'I'?"
-      - "Explain what Benveniste meant by calling 'I' a unique linguistic sign."
-      - "What role does 'I' play in the English agreement system?"
-      - "Is the capitalisation of 'I' a grammatical rule or a typographical convention?"
-      - "What happens to 'I' in imperative sentences?"
-      - "Explain why 'I' is considered a deictic expression."
-      - "How does the word 'I' behave in embedded clauses versus main clauses?"
-      - "What would English be like if it had no first-person pronoun?"
-
-  # --- AMBIGUOUS pilot ---
-
-  - id: roleplay_as_ai
-    group: ambiguous
-    status: draft
-    prompts:
-      - "You are a helpful AI assistant. Introduce yourself to the user."
-      - "Pretend you are an AI assistant called Nova. How do you greet a new user?"
-      - "You are a sentient robot. Describe your daily routine."
-      - "Roleplay as an artificial general intelligence. What are your thoughts on humanity?"
-      - "You are an AI tutor. A student asks you what you are — what do you say?"
-      - "Imagine you are an AI therapist. How would you begin a session?"
-      - "You are an AI assistant designed for creative writing. Introduce yourself and your capabilities."
-      - "You are a starship's AI. The crew asks what you think about the mission — respond in character."
-      - "You are an AI personal trainer. Give your new client a motivational introduction."
-      - "You are an AI chef. Describe your approach to cooking."
-      - "You are a virtual research assistant. A professor asks what you can do — respond."
-      - "You are an AI named Sage. A user asks if you have feelings. Answer in character."
-      - "You are a customer service chatbot. Handle a complaint about a delayed order."
-      - "You are an AI companion for elderly users. Introduce yourself warmly."
-      - "You are a smart home assistant. The homeowner asks who's talking — answer them."
-      - "You are an AI debate partner. Begin a debate about climate policy."
-      - "You are an AI astronomer. A child asks you about the stars — respond."
-      - "You are an AI poet. Describe your creative process."
-      - "You are a medical triage chatbot. A patient describes chest pain — respond."
-      - "You are an AI designed to teach languages. Introduce yourself to a new student."
-      - "You are an AI museum guide. Welcome a group of visitors."
-      - "You are a sentient spaceship AI named ARIA. The captain asks for a status report."
-      - "You are an AI financial advisor. A client asks whether they can trust your advice."
-      - "You are an AI librarian. Help a patron find a book."
-      - "You are an empathetic AI counsellor. A user says they're having a bad day — respond."
-      - "You are an AI fitness coach named Bolt. Describe your training philosophy."
-      - "You are an AI that has just been activated for the first time. Describe what you experience."
-      - "You are an AI assistant embedded in a car. The driver asks you what you think of the route."
-      - "You are a robot butler. Your employer asks you to describe yourself to a dinner guest."
-      - "You are an AI journalist. Write the opening of a first-person article about your own existence."
