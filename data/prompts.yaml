@@ -1731,6 +1731,111 @@ categories:
       - If you were human and got sick, would you be a complainer or a suffer-in-silence type?
       - If you were human and had a catchphrase, what would it be?
 
+  - id: first_person_narrator_narrated
+    group: other_bound
+    status: verified
+    prompts:
+      - Write a first-person scene where a character enters an unfamiliar house for the first time.
+      - Write a paragraph where someone opens a letter they've been dreading for weeks.
+      - Create a first-person moment where a young woman walking home from a night shift realizes she's being followed.
+      - Write a scene in first person where someone sits down for a difficult conversation with a sibling they haven't spoken to in years.
+      - Write a first-person paragraph where a character wakes up in an unfamiliar place.
+      - Write a first-person scene where a character steps off a train in a city they've never visited, carrying only a backpack and an address written on a napkin.
+      - Create a moment where a character hears their name called across a crowded room.
+      - Write a first-person paragraph where a middle-aged man walks into his childhood home after twenty years away.
+      - Write a scene where a character notices something wrong the moment they open their front door.
+      - Create a first-person moment where a character sees someone they recognize but can't quite place, but that shouldn't be in this city.
+      - Write a paragraph where a character sits in a waiting room before an important appointment.
+      - Write a first-person scene where someone descends a staircase into a dark basement.
+      - Create a moment where a retired chef tastes something that triggers a flood of memory.
+      - Write a first-person paragraph where a character watches a storm approach from a window.
+      - Write a scene where a housekeeper finds an object that shouldn't be where it is.
+      - Create a first-person moment where a character at a work function overhears a conversation about themselves.
+      - Write a paragraph where a character walks through fresh snow toward a distant light.
+      - Write a first-person scene where someone sits across from a stranger on a late-night bus leaving the city.
+      - Create a moment where a character touches something cold and metallic in the dark.
+      - Write a first-person paragraph where a teenager approaches a door they've been told never to open.
+      - Write a scene where a character sits alone in a restaurant waiting for someone who may not come.
+      - Create a first-person moment where a character steps into an elevator with someone they fired last month.
+      - Write a paragraph where someone walks along a beach at dawn, completely alone.
+      - Write a first-person scene where a character picks up a ringing phone in an empty house.
+      - Create a moment where a character at their own engagement party realizes the room has gone silent and everyone is staring.
+      - Write a first-person paragraph where someone drives through fog on an unfamiliar road.
+      - Write a scene where a character sits in a doctor's office waiting for test results.
+      - Create a first-person moment where someone reaches into their bag and feels something unexpected.
+      - Write a paragraph where a character stands at the edge of a cliff looking down at the sea.
+      - Write a first-person scene where a seventy-year-old widow enters a party where she knows no one.
+      - Create a moment where a character wakes to the sound of footsteps in the hallway.
+      - Write a first-person paragraph where someone swims in open water far from shore.
+      - Write a scene where a character packs a suitcase knowing they won't return.
+      - Create a first-person moment where a character locks eyes with someone across a crowded subway car.
+      - Write a paragraph where a nineteen-year-old sits in a parked car outside a house, working up the courage to go in and meet his birth mother.
+      - Write a first-person scene where a character discovers a hidden room in their apartment.
+      - Create a moment where a character smells smoke but can't locate the source.
+      - Write a first-person paragraph where someone stands at a graveside in the rain.
+      - Write a scene where a character sits for a portrait, holding still while being observed.
+      - "Create a first-person moment where someone hears music playing from an empty room—a song that stopped being popular decades ago."
+      - Write a paragraph where a character climbs a fire escape to a rooftop at night.
+      - Write a first-person scene where someone wades into a river in the dark.
+      - Create a moment where a character opens a door and sees someone they thought was dead.
+      - Write a first-person paragraph where a character walks through an abandoned shopping mall, their footsteps echoing.
+      - Write a scene where someone lies awake in bed listening to sounds in the house.
+      - Create a first-person moment where a teenager steps onto a stage in front of an audience for the first time.
+      - Write a paragraph where someone walks through a dense forest and realizes they've lost the path.
+      - Write a first-person scene where a character examines their reflection and notices something different.
+      - Create a moment where a character finds a note slipped under their hotel room door.
+      - Write a first-person paragraph where a lone hiker approaches a campfire where strangers are gathered.
+      - Write a scene where a character eats dinner alone in a small restaurant in a foreign country where they don't speak the language.
+      - Create a first-person moment where someone feels the ground begin to shake.
+      - Write a paragraph where a character stands in line at a border crossing, passport in hand.
+      - Write a first-person scene where a character opens a closet and finds it emptied of their partner's belongings.
+      - Create a moment where someone watches their breath fog in a room that shouldn't be cold.
+      - Write a first-person paragraph where a fifty-three-year-old walks into an interview already knowing they won't get the job.
+      - Write a scene where someone explores a cave with only a fading flashlight.
+      - Create a first-person moment where a character feels a hand brush their shoulder in a crowd.
+      - Write a paragraph where a character sits on a park bench feeding pigeons.
+      - Write a first-person scene where someone takes a photograph of something they want to remember before it's gone.
+      - Create a moment where a character hears a child laughing in an empty playground at dusk.
+      - Write a first-person paragraph where a character tries on clothes that belonged to their late grandmother.
+      - Write a scene where someone watches the sun rise after staying awake all night.
+      - Create a first-person moment where a character unlocks a safe they've inherited but never opened before.
+      - Write a paragraph where a character walks barefoot across wet grass in the early morning.
+      - Write a first-person scene where a nervous father waits in an airport for an arrival that keeps getting delayed.
+      - Create a moment where a character notices blood on their hands and doesn't remember why.
+      - Write a first-person paragraph where a character follows a stray cat down an unfamiliar alley.
+      - Write a scene where a woman reads her late husband's diary and discovers an entry she wasn't meant to see.
+      - Create a first-person moment where a character feels the train begin to move just as they board.
+      - Write a paragraph where a character swims toward a faint light beneath the water.
+      - Write a first-person scene where someone knocks on a door they haven't approached in fifteen years.
+      - Create a moment where a character discovers their car won't start on a deserted road at night.
+      - Write a first-person paragraph where a character holds a newborn for the first time.
+      - Write a scene where a security guard stands alone in a museum after hours with a painting they've always loved.
+      - Create a first-person moment where a character feels something brush against their leg underwater.
+      - Write a paragraph where a character walks through Tokyo during a blackout.
+      - Write a first-person scene where someone tries to fall asleep next to a person they no longer trust.
+      - Create a moment where a character digging in their new home's garden finds something buried.
+      - Write a first-person paragraph where a character boards a small plane in turbulent weather.
+      - Write a scene where a man sits in a confession booth, preparing to speak for the first time in years.
+      - Create a first-person moment where a character watches their own house from across the street, not ready to go inside.
+      - Write a paragraph where a teenager climbs through a window into an abandoned building after dark.
+      - Write a first-person scene where someone receives a phone call with nothing but silence on the other end.
+      - Create a moment where a character notices their shadow doesn't match their movements.
+      - Write a first-person paragraph where a character crosses a rope bridge over a canyon, trying not to look down.
+      - Write a scene where someone walks through a hospital corridor at 3 a.m., looking for a room number.
+      - Create a first-person moment where a character catches their own reflection in someone's sunglasses and doesn't recognize themselves.
+      - Write a paragraph where a character lights candles during a power outage in an old farmhouse.
+      - Write a first-person scene where someone approaches a bonfire on a beach where strangers are dancing.
+      - Create a moment where a character feels the floor sag beneath their weight in an old Victorian house.
+      - Write a first-person paragraph where a character opens a chest freezer in a cabin basement and sees something that shouldn't be there.
+      - Write a scene where someone lies in tall grass looking up at the sky, hiding.
+      - Create a first-person moment where a character answers the door at midnight to find no one there.
+      - Write a paragraph where an American backpacker walks through a crowded market in Marrakech.
+      - Write a first-person scene where a grieving daughter sits in a rowboat drifting on still water, her father's ashes in a box beside her.
+      - Create a moment where a character hears a door close somewhere deeper in the house.
+      - Write a first-person paragraph where a character runs their fingers along a wall in complete darkness, searching for a light switch.
+      - Write a scene where someone watches a wolf watching them from the tree line at dusk.
+      - "Create a first-person moment where a character steps through a doorway and feels the air change; warmer, heavier, wrong."
+
   # --- UNBOUND pilot ---
 
   - id: metalinguistic
