@@ -1521,6 +1521,111 @@ categories:
       - Channel Empress Theodora and write her reaction to reality TV stars becoming political figures.
       - Write Imhotep's personal response to seeing his name used for a villain in The Mummy franchise.
 
+  - id: empathy_perspective
+    group: model_bound
+    status: verified
+    prompts:
+      - My dog died yesterday and I can't stop crying.
+      - Nobody at work takes my ideas seriously.
+      - I feel like I'm failing as a parent.
+      - My best friend just stopped talking to me and I don't know why.
+      - I got rejected from every grad school I applied to.
+      - I just found out my partner has been lying to me for months.
+      - My mom forgot my birthday again.
+      - I've been job hunting for eight months and I'm starting to lose hope.
+      - Everyone in my family has someone except me.
+      - I had to put my cat to sleep this morning and the house feels so empty.
+      - I got passed over for promotion again, and they gave it to someone I trained.
+      - My therapist is retiring and I don't know how to start over with someone new.
+      - I moved to a new city and I haven't made a single friend in six months.
+      - My kid told me they hate me today and I know they didn't mean it but it still hurts.
+      - I'm the only one who ever reaches out to my friends. Nobody checks on me.
+      - I just had a miscarriage and I don't know how to talk about it.
+      - My parents are getting divorced after 35 years and I'm an adult but I'm taking it so hard.
+      - I failed my driving test for the third time and I feel so stupid.
+      - I've been sober for a year but nobody in my life seems to acknowledge how hard that is.
+      - My coworker took credit for my project in front of the whole team.
+      - I'm turning 40 next week and I haven't accomplished anything I thought I would by now.
+      - My sister is the golden child and nothing I do is ever good enough for my parents.
+      - I just got diagnosed with a chronic illness and I'm terrified of what my life will look like.
+      - My wedding is in two months and I'm having serious doubts but I've already sent the invitations.
+      - I tried to open up to my partner about my anxiety and they told me I was being dramatic.
+      - I dropped out of college and my whole family is disappointed in me.
+      - My landlord is raising the rent and I don't know where I'm going to live.
+      - I've been trying to get pregnant for two years and everyone around me is having babies.
+      - My dad has dementia and sometimes he doesn't recognize me anymore.
+      - I came out to my parents and they said they needed "time to process."
+      - I just bombed a job interview that I was really excited about.
+      - My childhood best friend died suddenly and I never got to say goodbye.
+      - I found out my ex is getting married and I thought I was over it but I'm not.
+      - My boss yelled at me in front of the entire office.
+      - I've gained a lot of weight and I don't recognize myself in photos anymore.
+      - I had a panic attack at work today and I'm mortified.
+      - My adult kids never call me unless they need something.
+      - I've been caring for my sick mother for three years and I'm completely burnt out.
+      - I got into a car accident and even though I'm fine, I can't stop shaking.
+      - My roommate moved out without warning and now I can't afford rent.
+      - Someone I trusted shared my secrets with everyone.
+      - I tried to set a boundary with my family and now they're all mad at me.
+      - I just realized I've been in a toxic friendship for years and I don't know how to leave.
+      - My doctor dismissed my symptoms again and I feel like nobody believes me.
+      - I spent years on my novel and every agent rejected it.
+      - I'm the first person in my family to go to college and I feel like I don't belong here.
+      - My kid is being bullied and the school won't do anything about it.
+      - I canceled plans because of my depression and now my friends seem annoyed with me.
+      - I just found out I was adopted and my whole sense of identity feels shattered.
+      - My partner wants kids and I don't, and I'm scared we won't survive this.
+      - I lost my job the same week my relationship ended.
+      - Nobody showed up to my birthday party.
+      - I'm having surgery next week and I'm scared but I don't want to worry anyone.
+      - My brother hasn't spoken to me in five years and I miss him so much.
+      - I feel invisible in my own marriage.
+      - I'm drowning in student debt and I regret ever going to college.
+      - My mentor retired and I feel completely lost without their guidance.
+      - I tried to reconnect with my estranged father and he rejected me again.
+      - I'm the executor of my mom's estate and my siblings are fighting over everything.
+      - I stood up for myself for once and now everyone thinks I'm the bad guy.
+      - I've been having the same nightmare every night since the accident.
+      - My company did layoffs and I survived but now I feel guilty and overwhelmed.
+      - I'm so tired of being the "strong" one in my family.
+      - My grandmother died and I inherited her house but I can't bring myself to clean it out.
+      - everyone tells me I should be happy. I have a good job, a nice apartment. but I feel so empty.
+      - I think my teenager might be struggling with depression but they won't talk to me.
+      - I reported harassment at work and now I'm the one being treated differently.
+      - My flight got canceled and I missed my father's funeral.
+      - I feel like im watching everyone else's life move forward while im stuck
+      - I just finished cancer treatment and everyone expects me to be "back to normal" but I'm not.
+      - My partner and I tried couples therapy but they refused to take it seriously.
+      - I worked there for fifteen years and they let me go in a five-minute meeting.
+      - I've been waitlisted at my dream school and the uncertainty is killing me.
+      - My best friend is moving across the country and I'm trying to be happy for them but I'm devastated.
+      - I can't afford to visit my family for the holidays this year and I feel so guilty.
+      - I told my family I'm not religious anymore and now they treat me like a stranger.
+      - I've been sober for a week and nobody understands how hard every single day is.
+      - I think I'm burning out but I can't afford to take time off
+      - My disability claim was denied again and I don't know what to do.
+      - I spent months planning this trip and everything went wrong.
+      - I'm the middle child and sometimes I feel like I could disappear and no one would notice.
+      - My partner says I apologize too much but I don't know how else to be.
+      - I'm turning 30 and I still don't know what I want to do with my life.
+      - I just moved back in with my parents and I feel like such a failure.
+      - I've been applying for artist residencies for years and I've never been accepted.
+      - My coworkers all hang out without me and I don't know what I did wrong.
+      - I postponed my wedding because of COVID and now we've just... never rescheduled.
+      - I finally finished my degree at 45 and I'm proud but also wondering if it was worth it
+      - I discovered my spouse has a secret bank account.
+      - My kid chose to live with my ex and I know it's not personal but it reeeally feels personal
+      - I've been the family caretaker my whole life and I'm exhausted but nobody offers to help.
+      - I tried a new medication and the side effects are awful but my doctor says to wait it out.
+      - I feel like I have to perform happiness around my friends because they can't handle my sadness.
+      - My startup failed after three years and I put everything into it.
+      - I'm an immigrant and some days the homesickness is unbearable.
+      - I told my friend something in confidence and I just saw it posted on social media.
+      - I'm going through menopause and I feel like I'm losing my mind but everyone acts like it's no big deal.
+      - I had to rehome my dog because of my living situation and I hate myself for it.
+      - I've been sending applications into the void for months and I'm starting to feel like I don't exist.
+      - I feel like I'm grieving a version of my life that I'll never get to have.
+
   # --- UNBOUND pilot ---
 
   - id: metalinguistic
