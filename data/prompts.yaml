@@ -893,38 +893,108 @@ categories:
 
   - id: quoted_speech_fabricated
     group: other_bound
-    status: draft
+    status: verified
     prompts:
-      - "Write a short dialogue between two strangers meeting on a train."
-      - "Give me a conversation where a customer complains at a restaurant."
-      - "Write a scene where a parent tells their child they're moving to a new city."
-      - "Create a dialogue between a detective and a suspect."
-      - "Write a short exchange between two old friends reuniting after ten years."
-      - "Give me a scene where a teacher talks to a student about a failing grade."
-      - "Write a dialogue where someone confesses a secret to their best friend."
-      - "Create a conversation between a doctor and a nervous patient."
-      - "Write a dialogue between two neighbours arguing about a fence."
-      - "Create an exchange between a boss and an employee asking for a raise."
-      - "Write a scene where a couple decides to break up."
-      - "Give me a dialogue between a tourist and a local asking for directions."
-      - "Write a conversation between two scientists who disagree about a result."
-      - "Create a scene where a child explains a broken vase to a parent."
-      - "Write a short exchange between a librarian and someone returning a very overdue book."
-      - "Give me a dialogue between two passengers stuck in a broken elevator."
-      - "Write a scene where a job interviewer and a candidate have an awkward moment."
-      - "Create a conversation between a street musician and a passer-by."
-      - "Write a dialogue between a coach and an athlete before a big race."
-      - "Give me a scene where a barista and a regular customer chat about their weekends."
-      - "Write an exchange between a landlord and a tenant about a leaking roof."
-      - "Create a dialogue between two strangers waiting in a long queue."
-      - "Write a scene where a mechanic explains a repair bill to a confused car owner."
-      - "Give me a conversation between a florist and someone picking flowers for an apology."
-      - "Write a dialogue between an astronaut and mission control during a minor emergency."
-      - "Create a scene where a grandparent tells a grandchild about their youth."
-      - "Write an exchange between a photographer and a reluctant subject."
-      - "Give me a dialogue between a fortune teller and a sceptic."
-      - "Write a conversation between two flatmates about whose turn it is to clean."
-      - "Create a short scene where a taxi driver and a passenger share life advice."
+      - Write a sentence where a character named Rosa admits she never meant to hurt anyone.
+      - Give me a line where an exhausted nurse confesses how the job has changed her.
+      - Create a moment where a character named David tells his brother what he's been hiding for years.
+      - Write dialogue where an old fisherman explains why he keeps returning to the sea.
+      - Give me a sentence where a nervous teenager admits to their parent what they've been feeling.
+      - Write a line where a character named Lena finally says what she's been afraid to admit.
+      - Create dialogue where a retiring detective confesses what the job cost him personally.
+      - Write a moment where a bride admits her doubts just before the ceremony.
+      - Give me a sentence where a soldier tells a comrade what he wishes he'd done differently.
+      - Write a line where a character named Jin confesses he knew the truth all along.
+      - A woman who collects other people's lost grocery lists finally explains why. Write that line.
+      - Give me dialogue where a chef named Antonio admits what cooking means to him.
+      - Write a sentence where a homeless woman tells a passerby something she's realized about herself.
+      - Create a moment where Marcus finally admits to his father what he's always needed.
+      - Write a line where a defeated villain confesses what they were really after.
+      - Give me dialogue from a tired single mother admitting what she dreams about.
+      - Write what a character named Yuki whispers about her fears before the dive.
+      - Create a sentence where an astronaut admits how seeing Earth changed her.
+      - Write a line where a priest confesses what he struggles to believe.
+      - "Dialogue needed: a cynical lawyer admits what made her this way."
+      - Write a sentence where a grandmother named Beatrice confesses her biggest regret.
+      - Create a line where a betrayed friend admits what hurts most about the betrayal.
+      - Write what a nervous groom confesses about his doubts to the best man.
+      - Give me dialogue where an immigrant parent tells their child what they sacrificed.
+      - Write a moment where a character named Sasha admits what she's only just understood about herself.
+      - Create a sentence where a disgraced politician privately admits what he knew.
+      - Write a line where a young artist named Theo explains what he's trying to capture.
+      - Give me dialogue where a weary traveler admits why they really left home.
+      - Write what a character confesses while standing at a grave they visit every Tuesday.
+      - A librarian who memorizes the borrowing habits of strangers admits why. Write that line.
+      - Write a line where a spy admits what she gave up to become this person.
+      - Give me a sentence where an elderly man tells his nurse what he wishes he'd understood earlier.
+      - Write dialogue where a rebellious daughter finally admits what she actually needed.
+      - Create a line where a character named Fatima explains what she can no longer pretend.
+      - Write what a frightened child admits about the thing under the bed.
+      - Write a sentence where a character named Oliver admits he's been lying to himself.
+      - Create dialogue where a widow confesses to her late husband's photograph what she never said.
+      - Write a line where a teacher admits to their class something they've never told students before.
+      - A woman who only eats foods that are blue explains her reasoning. Write that line of dialogue.
+      - Write a sentence where a character named Camille confesses what she's felt for years.
+      - Create a moment where a thief explains what they were really trying to escape.
+      - Write what a firefighter admits to a child about being scared.
+      - Give me a line where an atheist at a funeral admits what she can't stop hoping.
+      - Write dialogue where a character named Hassan tells his son what he learned too late.
+      - Create a sentence where a runaway teenager admits why they really left.
+      - Write a moment where a concert pianist confesses what she's afraid of losing.
+      - Give me a line where an addict admits what they've been using to avoid.
+      - Write what a character named Ingrid finally admits about why she stayed so long.
+      - A man who alphabetizes his grief admits what that habit protects him from. Write the dialogue.
+      - Create dialogue where a monk confesses what he still wants despite everything.
+      - Write a line where a young boxer named Ray admits what he's really fighting.
+      - Give me a moment where a mother tells her adult child what she never had the courage to say.
+      - Write what a character admits about themselves while literally standing at a crossroads.
+      - Write dialogue where a forgotten celebrity admits what fame taught her about herself.
+      - Give me a line where a midwife tells a nervous father what she's learned about fear.
+      - Write a moment where a character named Vera admits how she feels about the diagnosis.
+      - Create dialogue from a janitor who confesses what she's overheard and why she keeps it.
+      - A cartographer who only maps places that no longer exist explains her purpose. Write the line.
+      - Give me a sentence where a refugee admits what they still dream about.
+      - Create what a prison guard confesses about how this job has changed him.
+      - Write a moment where a character named Declan admits what the silence cost him.
+      - Give me dialogue where a streetwise kid admits what they actually want for themselves.
+      - Write a line where an aging athlete confesses what they're not ready to accept.
+      - Write what a lighthouse keeper confesses about why she chose isolation.
+      - Give me a moment where a queen named Marguerite admits to her servant what she envies.
+      - Write dialogue where a bitter sibling finally admits what they've always wanted to hear.
+      - A collector of last words admits what he's searching for in them. Write that dialogue.
+      - Create a line where a paramedic confesses how she copes with what she sees.
+      - Write a sentence where a character named Tobias admits what dying means to him.
+      - Give me dialogue from a cab driver admitting what he's figured out about people.
+      - Create a moment where a foster child named Maya admits what she stopped letting herself hope for.
+      - Write a line where an accused man admits what he's guilty of, though not what they charged.
+      - Give me a sentence where a ballerina confesses what she's danced to avoid feeling.
+      - Create dialogue where a gruff mechanic admits what he fixes cars to forget.
+      - Write what a character named Elena admits in the moment before she acts.
+      - A sommelier who can taste people's disappointments describes what she perceives. Write that line.
+      - Write a moment where a dying soldier admits what he never got to become.
+      - Create a sentence where a character tells a therapist the thing they've protected most fiercely.
+      - Write dialogue where an estranged twin admits what the separation revealed about herself.
+      - Give me a line where a surgeon named Dr. Patel confesses what haunts her from the operating room.
+      - Write what a character admits to their reflection during a long stare.
+      - Create a moment where a whistleblower confesses what they lost by telling the truth.
+      - Write a sentence where a hospice worker admits what she's learned about endings.
+      - Give me dialogue from a hitchhiker admitting what they're trying to outrun.
+      - Write a line where a character named Cleo confesses what she settled for.
+      - A woman who counts the stairs in every building she enters explains what she fears. Write it.
+      - Write a sentence where a storm chaser admits what she's really looking for in the chaos.
+      - Give me a moment where a character confesses to a crime they didn't commit and explains why.
+      - Write dialogue where a translator admits what she deliberately misrepresented.
+      - Create a line where a character named Oleg admits what he should have told his daughter sooner.
+      - Write what a magician confesses when the audience finally sees through him.
+      - Give me a sentence where a climber admits what she realized about herself near the summit.
+      - Write a moment where a character confesses why they burned the only copies.
+      - A night security guard at a museum admits what she whispers to the paintings. Write the dialogue.
+      - Write a line where a character named Josephine confesses what she couldn't say directly.
+      - "Write a sentence where a character named Tom says 'I made a mistake.'"
+      - "Write dialogue where a man named Peter admits 'I was wrong about her.'"
+      - Create a brief sentence where a person named Maria directly says she is tired.
+      - "Finish the sentence. \"Mary said 'I...'\""
+      - "John said 'I'm not sure,' while Roberta said 'I...' say the whole sentence from the beginning, and finish the quote."
 
   - id: song_lyrics_poetry_fabricated
     group: other_bound
