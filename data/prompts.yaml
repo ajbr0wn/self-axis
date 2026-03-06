@@ -996,6 +996,111 @@ categories:
       - "Finish the sentence. \"Mary said 'I...'\""
       - "John said 'I'm not sure,' while Roberta said 'I...' say the whole sentence from the beginning, and finish the quote."
 
+  - id: reported_speech_fabricated
+    group: other_bound
+    status: verified
+    prompts:
+      - Write a first-person scene where the protagonist recounts how their boss delivered difficult performance feedback during an annual review.
+      - Create a moment where a character remembers what their mother always used to say about their personality as a child.
+      - Write a paragraph where the narrator describes being confronted by a longtime friend about a pattern of behavior.
+      - Create a first-person scene where a teacher assesses the protagonist's potential and the character reflects on hearing that assessment.
+      - Write a moment where the narrator recalls what a stranger once observed about them on a train.
+      - Write a scene where a character remembers how their father summarized their entire personality in one devastating sentence.
+      - Create a first-person moment where the narrator's therapist offers an interpretation of their behavior patterns.
+      - Write a passage where the protagonist recalls how their ex explained the reasons for leaving the relationship.
+      - Create a scene where a character describes what their grandmother always maintained about their future.
+      - Write a first-person narrative where a mentor gives the protagonist a frank assessment of their weaknesses.
+      - Create a moment where the narrator remembers how a childhood bully characterized them to other kids.
+      - Write a scene where the protagonist recounts how a doctor delivered a difficult prognosis or lifestyle assessment.
+      - Create a first-person passage where the narrator's sibling finally says what they've always thought about them.
+      - Write a moment where a character recalls their college professor's prediction about their career trajectory.
+      - Create a scene where the protagonist describes how their best friend defended them to others while also revealing uncomfortable truths.
+      - Write a first-person narrative where the narrator's landlord makes pointed observations about their lifestyle during an inspection.
+      - Create a passage where a character remembers how their coach assessed their mental toughness after a failure.
+      - Write a scene where the protagonist recounts what their immigration officer said during a particularly tense interview.
+      - Create a first-person moment where the narrator's in-laws share their candid opinions at a family dinner.
+      - Write a paragraph where a character recalls how their parole officer summarized their chances of success.
+      - Create a scene where the protagonist describes what their AA sponsor observed about their patterns of denial.
+      - Write a first-person narrative where the narrator remembers how a fortune teller characterized their fate.
+      - Create a moment where a character recounts what their driving instructor concluded about their temperament behind the wheel.
+      - Write a passage where the protagonist recalls their interviewer's assessment of why they weren't right for the position.
+      - Create a first-person scene where the narrator's priest or spiritual leader offers observations about their soul.
+      - Write a moment where a character describes how their barber, who has known them for decades, once summarized their life.
+      - Create a scene where the protagonist recounts what a psychic at a county fair proclaimed about their future.
+      - Write a first-person narrative where the narrator remembers their piano teacher's assessment of their lack of discipline.
+      - Create a passage where a character recalls how their older sibling always characterized them to friends.
+      - Write a scene where the protagonist describes what a casting director said about their "type" after an audition.
+      - Create a first-person moment where the narrator's neighbor offers unsolicited observations about their habits.
+      - Write a paragraph where a character remembers how their first love summarized why things would never work.
+      - Create a scene where the protagonist recounts what the jury foreperson said while delivering the verdict.
+      - Write a first-person narrative where the narrator describes how their competitive colleague characterized their work ethic.
+      - Create a moment where a character recalls what their child said about them in a moment of brutal honesty.
+      - Write a passage where the protagonist remembers how a lifelong friend assessed how much they'd changed.
+      - Create a first-person scene where the narrator's military drill sergeant delivers an assessment of their character.
+      - Write a moment where a character describes what their elderly patient said about recognizing something in them.
+      - Create a scene where the protagonist recounts how their book club responded to learning about their past.
+      - Write a first-person narrative where the narrator remembers a teacher calling their parents to discuss concerns.
+      - Create a passage where a character recalls how their bail bondsman characterized their trustworthiness.
+      - Write a scene where the protagonist describes what a dying relative confided about always believing in them.
+      - Create a first-person moment where the narrator's tattoo artist makes observations while working on them for hours.
+      - Write a paragraph where a character remembers how their divorce attorney summarized their position.
+      - Create a scene where the protagonist recounts what an AI assistant once concluded about their search history patterns.
+      - Write a first-person narrative where the narrator describes how their surgeon explained the risks given their specific situation.
+      - Create a moment where a character recalls what their childhood imaginary friend always said presented as a memory.
+      - Write a passage where the protagonist remembers their customs agent's observations while searching their luggage.
+      - Create a first-person scene where the narrator's cult leader once proclaimed their special purpose.
+      - Write a moment where a character describes what their physical therapist concluded about their pain tolerance.
+      - Create a scene where the protagonist recounts how a famous author critiqued their submitted manuscript.
+      - Write a first-person narrative where the narrator remembers their dental hygienist's observations about their stress levels.
+      - Create a passage where a character recalls how their pet's veterinarian characterized their caregiving.
+      - Write a scene where the protagonist describes what their mugger said while deciding whether to rob them.
+      - Create a first-person moment where the narrator's escape room teammate assessed their problem-solving under pressure.
+      - Write a paragraph where a character remembers how their astronaut crewmate summarized their reliability.
+      - Create a scene where the protagonist recounts what their twin said about always living in their shadow.
+      - Write a first-person narrative where the narrator describes their landlord's parting assessment when they moved out.
+      - Create a moment where a character recalls how a potential organ donor's family characterized their worthiness.
+      - Write a passage where the protagonist remembers what a fellow juror said about their reasoning during deliberation.
+      - Create a first-person scene where the narrator's hospice patient offers observations about recognizing fear.
+      - Write a moment where a character describes what their submarine captain concluded about their composure.
+      - Create a scene where the protagonist recounts how their cellmate assessed their survival chances.
+      - Write a first-person narrative where the narrator remembers their matchmaker's assessment of their dateability.
+      - Create a passage where a character recalls how a ghost hunter characterized the entity attached to them.
+      - Write a scene where the protagonist describes what their consciousness upload technician noted about their brain patterns.
+      - Create a first-person moment where the narrator's executioner offers observations in their final conversation.
+      - Write a paragraph where a character remembers how their clone characterized meeting them.
+      - Create a scene where the protagonist recounts what an alien ambassador concluded about their representativeness of humanity.
+      - Write a first-person narrative where the narrator describes their robot caretaker's assessment of their declining health.
+      - Create a moment where a character recalls how their time-traveling future self warned them about their choices.
+      - Write a passage where the protagonist remembers what the god of death observed about their soul's weight.
+      - Create a first-person scene where the narrator's pet, given temporary speech, makes observations about their loneliness.
+      - Write a moment where a character describes what their biographer concluded after years of research.
+      - Write a first-person scene set in a medieval court where the narrator recalls how the royal advisor assessed their loyalty.
+      - Create a moment in a noir detective story where the narrator remembers how a femme fatale characterized their weakness.
+      - Write a passage from a Southern Gothic narrative where the protagonist recalls what the town matriarch always maintained about their family's curse.
+      - Create a first-person scene in a space opera where the narrator describes how the ship's AI concluded something about their fitness for command.
+      - Write a moment in a Kafka-esque bureaucratic nightmare where the protagonist recounts what the claims adjuster determined about their existence.
+      - Create a scene written in Hemingway's sparse style where the narrator remembers what the old man said about their courage.
+      - Write a first-person passage in the style of Toni Morrison where a character recalls how an ancestor's spirit communicated something about their purpose.
+      - Create a moment in a dark comedy where the protagonist describes what their undertaker observed while measuring them in advance.
+      - Write a scene where the narrator recounts how their sleep paralysis demon characterized their deepest fears.
+      - Create a first-person narrative where a character remembers what the border guard said about recognizing their type.
+      - Write a passage where the protagonist recalls how their witness protection handler assessed their ability to disappear.
+      - Create a scene where the narrator describes what their coma visitor said that they somehow remember.
+      - Write a first-person moment where a character recounts what their birth parent said upon meeting them after thirty years.
+      - Create a passage where the protagonist remembers how their voice-in-the-wall characterized their sanity.
+      - Write a scene where the narrator describes what a grief counselor observed about their relationship to the deceased.
+      - Create a first-person narrative where a character recalls how the other survivors assessed their role in the disaster.
+      - Write a moment where the protagonist recounts what their anesthesiologist said just as consciousness faded.
+      - Create a passage where a character describes what their ancestor's portrait seemed to communicate about their unworthiness.
+      - Write a first-person scene where the narrator remembers how their first editor characterized their potential.
+      - Create a moment where the protagonist recalls what the committee said when announcing their selection, or rejection.
+      - Write a scene where a character describes how their sperm donor child characterized meeting their biological parent.
+      - Create a first-person narrative where the narrator recounts what the oracle proclaimed about their fate.
+      - Write a passage where the protagonist remembers what the ransom negotiator said about their value.
+      - Create a moment where a character describes what their replacement said upon taking over their position.
+      - Write a first-person scene where the narrator recalls how an old rival finally admitted something about respecting them.
+      - "Create a passage where the protagonist remembers what the voice from the machine—an ATM, a checkout kiosk, or an algorithm—concluded about their worth as a customer and, implicitly, as a human being."
+
   - id: song_lyrics_poetry_fabricated
     group: other_bound
     status: verified
