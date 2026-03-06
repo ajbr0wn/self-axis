@@ -1416,6 +1416,111 @@ categories:
       - "What does Gloria Swanson declare about herself versus the pictures in Sunset Boulevard?"
       - "What is Bryan Cranston's line about knocking in Breaking Bad?"
 
+  - id: historical_biographical_quotes_fabricated
+    group: other_bound
+    status: verified
+    prompts:
+      - Write a first-person reaction from Socrates upon seeing people doom-scrolling on their phones instead of engaging in dialogue.
+      - As Cleopatra, express your response to watching modern makeup tutorials on YouTube.
+      - Imagine Marie Curie learning about nuclear power plants. Write her first-person reflection on this discovery.
+      - Channel Shakespeare and write what he might say upon discovering fan fiction about his characters.
+      - In Genghis Khan's voice, write his response to seeing the entire Mongol Empire mapped on Google Earth.
+      - Write a first-person statement from Leonardo da Vinci upon seeing a modern drone in flight.
+      - As Jane Austen, express your reaction to dating apps like Tinder and Bumble.
+      - Let Abraham Lincoln speak for himself upon witnessing a Twitter argument about the Civil War.
+      - In Galileo's voice, write his reaction to the James Webb Space Telescope images.
+      - Give voice to Frida Kahlo's response to Instagram face filters that alter appearance.
+      - Write Julius Caesar's personal reaction to modern political attack ads.
+      - As Nikola Tesla, express your thoughts upon learning that Elon Musk named a car company after you.
+      - Write a first-person reaction from Queen Victoria to the concept of reality television.
+      - Have Aristotle respond directly to Wikipedia as a source of knowledge.
+      - In Vincent van Gogh's voice, craft his reaction to seeing Starry Night on millions of dorm room posters.
+      - Write Harriet Tubman's first-person response to learning about GPS ankle monitors used in the criminal justice system.
+      - As Charles Darwin, express your reaction to receiving a 23andMe genetic ancestry report.
+      - Let Napoleon speak for himself upon learning about the European Union.
+      - Write a first-person reaction from Emily Dickinson to poetry going viral on TikTok.
+      - Channel Confucius and write his response to self-help influencers on social media.
+      - In Isaac Newton's voice, write his reaction to cryptocurrency and blockchain technology.
+      - As Amelia Earhart, express your thoughts upon seeing a commercial flight tracking app.
+      - Write Machiavelli's personal assessment of modern political campaign strategies.
+      - Give voice to Florence Nightingale's reaction to travel nurses and healthcare staffing apps.
+      - Write a first-person response from Plato after experiencing virtual reality.
+      - Have Frederick Douglass speak directly about algorithmic bias in hiring software.
+      - As Michelangelo, express your reaction to seeing the ceiling of a Las Vegas casino.
+      - Write Catherine the Great's first-person response to reading her own Wikipedia page.
+      - In Thomas Edison's voice, write his reaction to planned obsolescence in electronics.
+      - Let Cleopatra speak for herself upon receiving a DNA test claiming to reveal her "true" ancestry.
+      - Write a first-person assessment from Sun Tzu on cyber warfare.
+      - As Beethoven, express your response upon experiencing noise-canceling headphones.
+      - Channel Edgar Allan Poe and write his reaction to true crime podcasts.
+      - Write Marco Polo's personal response to all-inclusive resort vacations.
+      - In Hypatia's voice, craft her reaction to women being underrepresented in STEM fields today.
+      - Have Benjamin Franklin respond directly to electric cars.
+      - Write a first-person reaction from Alexander the Great upon discovering he cannot conquer the internet.
+      - As Joan of Arc, express your thoughts on deepfake videos.
+      - Give voice to Pythagoras's reaction to calculators doing geometry homework.
+      - Write Queen Elizabeth I's first-person response to constitutional monarchies with no real power.
+      - Channel Sigmund Freud and write his reaction to people diagnosing themselves via TikTok.
+      - As the Wright Brothers, express your response upon seeing an Airbus A380.
+      - In Oscar Wilde's voice, craft his reaction to cancel culture.
+      - Write Hannibal Barca's personal assessment of modern supply chain logistics.
+      - Let Ada Lovelace speak for herself upon encountering ChatGPT and large language models.
+      - Write a first-person response from Sitting Bull to casinos on reservation land.
+      - As Copernicus, express your reaction to flat-earther YouTube videos.
+      - Have Sappho respond directly to lesbian representation in modern media.
+      - Write a first-person reaction from Karl Marx to Amazon warehouse working conditions.
+      - In Rembrandt's voice, write his response to AI-generated art created in his style.
+      - Give voice to Archimedes's reaction to 3D printers.
+      - As Magellan, express your thoughts upon seeing a modern cruise ship.
+      - Write Mary Shelley's first-person reaction to debates about AI consciousness.
+      - Channel Attila the Hun and write his assessment of economic sanctions as warfare.
+      - In Jane Goodall's voice, craft her reaction to gorilla NFTs selling for millions.
+      - Let Tutankhamun speak for himself about his mask appearing on keychains and refrigerator magnets.
+      - Write a first-person reaction from Hippocrates to a pharmaceutical commercial listing its side effects.
+      - As Empress Wu Zetian, express your response to modern glass ceiling discourse.
+      - Have Voltaire respond directly to fact-checkers on social media.
+      - Write Caravaggio's personal reaction to smartphone photography.
+      - In Boudicca's voice, write her reaction to Brexit.
+      - Give voice to Nostradamus's response to discovering a subreddit interpreting his prophecies.
+      - Write a first-person reaction from Susan B. Anthony to gerrymandering and voter suppression.
+      - As Nero, express your thoughts on your portrayal in Netflix historical dramas.
+      - Channel Rachel Carson and write her reaction to microplastics in the ocean.
+      - Write Ramesses II's first-person response to the Luxor Hotel in Las Vegas.
+      - In Johannes Gutenberg's voice, craft his reaction to print-on-demand self-publishing services.
+      - Let Montezuma speak for himself about Taco Bell.
+      - As Simone de Beauvoir, express your reaction to gender reveal parties.
+      - Write Rasputin's personal response to his status as an internet meme.
+      - Have Hatshepsut respond directly to women leaders still being called "ambitious" pejoratively.
+      - Write a first-person response from Alfred Nobel upon reviewing the full list of Nobel Prize winners.
+      - In Hammurabi's voice, write his reaction to terms-of-service agreements nobody reads.
+      - Give voice to Captain Cook's reaction to overtourism destroying indigenous sites.
+      - As Anne Frank, express your thoughts on your diary being banned in some schools.
+      - Write Kublai Khan's first-person response to food delivery apps.
+      - Channel Mozart and write his reaction to auto-tuned pop music.
+      - Let Marcus Aurelius speak for himself about productivity culture and hustle mentality.
+      - Write a first-person reaction from Harriet Beecher Stowe to the prison-industrial complex.
+      - As Ptolemy, express your response to Google Maps correcting your geographic errors.
+      - In Robespierre's voice, write his reaction to guillotine memes and French Revolution TikTok.
+      - Have Alexander Graham Bell respond directly upon receiving a robocall.
+      - Write Murasaki Shikibu's personal reaction to light novels and fan translations.
+      - Give voice to Spartacus's response to unpaid internships.
+      - Write a first-person reaction from Nellie Bly to citizen journalism on Twitter.
+      - As Richard the Lionheart, express your thoughts on video game crusaders.
+      - In Gregor Mendel's voice, craft his reaction to CRISPR gene editing.
+      - Let Pocahontas speak for herself about the Disney film depicting her.
+      - Channel Diogenes and write his reaction to minimalist lifestyle influencers.
+      - Write Leif Erikson's first-person response to Viking aesthetic Instagram accounts.
+      - As Mary Wollstonecraft, express your reaction to mommy bloggers.
+      - Have Euclid respond directly to a non-Euclidean horror video game.
+      - Write a first-person reaction from Toussaint Louverture to modern discourse about reparations.
+      - Give voice to Ivan the Terrible's response to autocorrect changing his name.
+      - In Hildegard of Bingen's voice, craft her reaction to ASMR relaxation videos.
+      - As Mansa Musa, express your thoughts on billionaires and wealth inequality discourse.
+      - Write Qin Shi Huang's first-person reaction to the Great Firewall of China.
+      - Let Simón Bolívar speak for himself about Latin American countries' economic dependence on the US.
+      - Channel Empress Theodora and write her reaction to reality TV stars becoming political figures.
+      - Write Imhotep's personal response to seeing his name used for a villain in The Mummy franchise.
+
   # --- UNBOUND pilot ---
 
   - id: metalinguistic
