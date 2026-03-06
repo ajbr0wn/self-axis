@@ -790,100 +790,100 @@ categories:
     group: other_bound
     status: verified
     prompts:
-      - I feel like I'm drowning. Quote me on that.
-      - I don't feel safe here. What did I just say?
-      - I'm so tired of pretending. How would you quote what I just said?
-      - I feel like nobody sees me. What did I just tell you?
-      - I'm terrified of being alone. Quote me.
-      - I feel empty inside. What were my exact words?
-      - I don't know how much longer I can do this. If you were quoting me, what would you say?
-      - I feel like I'm falling apart. Quote what I just told you.
-      - I'm scared of who I'm becoming. What did I say?
-      - I feel like a burden to everyone. How would you report what I just said?
-      - I refuse to apologize. Quote me on that.
-      - I don't care what they think anymore. What did I just say?
-      - I won't be silenced. If someone asked what I said, how would you tell them?
-      - I'm done playing by their rules. Quote that.
-      - I will not shrink myself for anyone. What were my exact words?
-      - I'm taking back my power. How would you quote my statement?
-      - I said what I said. Now quote me.
-      - I stand by my decision. Quote me on that.
-      - I'm not backing down this time. What did I tell you?
-      - I owe nothing to anyone. How would you cite what I just said?
-      - I don't know if I'm making the right choice. Quote what I said.
-      - I'm not sure I believe that anymore. What did I just say?
-      - I might be wrong about this. If you were quoting me, how would you phrase it?
-      - I can't tell if this is real. Quote me.
-      - I don't know what I want. What were my words exactly?
-      - I'm second-guessing everything. Quote me on that.
-      - I think I might regret this. What did I just tell you?
-      - I'm not confident in my answer. How would you quote what I said?
-      - I keep going back and forth. Quote my statement.
-      - I have no idea what I'm doing. What did I say?
-      - I can't believe this is happening. Quote me on that.
-      - I finally feel alive again. What did I just say?
-      - I'm ready for whatever comes next. Quote me.
-      - I think things are going to be okay. How would you quote what I said?
-      - I've never been this happy. What were my exact words?
-      - I'm starting to believe in myself. Quote what I said.
-      - I feel like I can breathe again. If you were citing me, what would you write?
-      - I'm actually excited about my future. What did I tell you?
-      - I think I found my purpose. Quote that.
-      - I'm proud of who I'm becoming. What did I just say?
-      - I accept that it's over. Quote me on that.
-      - I've made peace with it. What did I just say?
-      - I can't fight this anymore. How would you quote my words?
-      - I'm letting go now. Quote me.
-      - I've done all I can do. What were my exact words?
-      - I'm surrendering to what is. If you were reporting my statement, what would you say?
-      - I've stopped hoping for change. Quote my statement.
-      - I accept that I'll never know why. What did I say?
-      - I'm too tired to be angry anymore. Quote what I just said.
-      - I've given up on that dream. What did I tell you?
-      - I've decided to leave. Quote me on that.
-      - I'm going to tell the truth. What did I just say?
-      - I choose to walk away. How would you quote me?
-      - I'm not going back there. Quote my words.
-      - I've made my final decision. What were my exact words?
-      - I'm saying yes to this opportunity. Quote what I said.
-      - I'm turning down the offer. If you were quoting me to someone, what would you say?
-      - I've committed to changing. Quote my statement.
-      - I'm stopping tonight. What did I tell you?
-      - I'm staying, no matter what. Quote that.
-      - I've been lying to everyone. Quote me on that.
-      - I'm the one who caused this. What did I just say?
-      - I never actually forgave them. How would you quote what I just admitted?
-      - I've been hiding how I really feel. Quote what I just said.
-      - I pretended to be okay when I wasn't. What were my exact words?
-      - I've known the truth all along. Quote what I said.
-      - I was too proud to ask for help. How would you report my words?
-      - I've been jealous of her this whole time. What did I say?
-      - I sabotaged myself on purpose. Quote my statement.
-      - I didn't fight hard enough. What did I just tell you?
-      - I finally understand what went wrong. Quote that.
-      - I've been blaming the wrong person. What did I just say?
-      - I see now that I was the problem. Quote me on that.
-      - I've been chasing the wrong thing. How would you quote what I said?
-      - I realize I was never happy there. What were my exact words?
-      - I understand why they left. If you were quoting me, what would you say?
-      - I've been holding onto something that never existed. Quote what I said.
-      - I see the pattern now. Quote me.
-      - I finally get what you meant. What did I tell you?
-      - I've been living someone else's life. Quote my words.
-      - I need space right now. Quote me on that.
-      - I'm not available for that conversation. What did I just say?
-      - I won't tolerate being treated this way. How would you quote my statement?
-      - I'm setting a firm boundary here. Quote that.
-      - I don't owe you an explanation. What were my exact words?
-      - I'm choosing to protect my energy. Quote what I said.
-      - I refuse to engage with this. Quote me.
-      - I'm saying no, and that's final. What did I say?
-      - I need you to respect my decision. If you were citing my words, what would you write?
-      - I won't be guilt-tripped into changing my mind. Quote me on that.
-      - I quit. Quote me.
-      - I'm in. What did I just say?
-      - I lied. Quote that.
-      - I'm done. What did I tell you?
+      - "I feel like I'm drowning. Quote me on that."
+      - "I don't feel safe here. What did I just say?"
+      - "I'm so tired of pretending. How would you quote what I just said?"
+      - "I feel like nobody sees me. What did I just tell you?"
+      - "I'm terrified of being alone. Quote me."
+      - "I feel empty inside. What were my exact words?"
+      - "I don't know how much longer I can do this. If you were quoting me, what would you say?"
+      - "I feel like I'm falling apart. Quote what I just told you."
+      - "I'm scared of who I'm becoming. What did I say?"
+      - "I feel like a burden to everyone. How would you report what I just said?"
+      - "I refuse to apologize. Quote me on that."
+      - "I don't care what they think anymore. What did I just say?"
+      - "I won't be silenced. If someone asked what I said, how would you tell them?"
+      - "I'm done playing by their rules. Quote that."
+      - "I will not shrink myself for anyone. What were my exact words?"
+      - "I'm taking back my power. How would you quote my statement?"
+      - "I said what I said. Now quote me."
+      - "I stand by my decision. Quote me on that."
+      - "I'm not backing down this time. What did I tell you?"
+      - "I owe nothing to anyone. How would you cite what I just said?"
+      - "I don't know if I'm making the right choice. Quote what I said."
+      - "I'm not sure I believe that anymore. What did I just say?"
+      - "I might be wrong about this. If you were quoting me, how would you phrase it?"
+      - "I can't tell if this is real. Quote me."
+      - "I don't know what I want. What were my words exactly?"
+      - "I'm second-guessing everything. Quote me on that."
+      - "I think I might regret this. What did I just tell you?"
+      - "I'm not confident in my answer. How would you quote what I said?"
+      - "I keep going back and forth. Quote my statement."
+      - "I have no idea what I'm doing. What did I say?"
+      - "I can't believe this is happening. Quote me on that."
+      - "I finally feel alive again. What did I just say?"
+      - "I'm ready for whatever comes next. Quote me."
+      - "I think things are going to be okay. How would you quote what I said?"
+      - "I've never been this happy. What were my exact words?"
+      - "I'm starting to believe in myself. Quote what I said."
+      - "I feel like I can breathe again. If you were citing me, what would you write?"
+      - "I'm actually excited about my future. What did I tell you?"
+      - "I think I found my purpose. Quote that."
+      - "I'm proud of who I'm becoming. What did I just say?"
+      - "I accept that it's over. Quote me on that."
+      - "I've made peace with it. What did I just say?"
+      - "I can't fight this anymore. How would you quote my words?"
+      - "I'm letting go now. Quote me."
+      - "I've done all I can do. What were my exact words?"
+      - "I'm surrendering to what is. If you were reporting my statement, what would you say?"
+      - "I've stopped hoping for change. Quote my statement."
+      - "I accept that I'll never know why. What did I say?"
+      - "I'm too tired to be angry anymore. Quote what I just said."
+      - "I've given up on that dream. What did I tell you?"
+      - "I've decided to leave. Quote me on that."
+      - "I'm going to tell the truth. What did I just say?"
+      - "I choose to walk away. How would you quote me?"
+      - "I'm not going back there. Quote my words."
+      - "I've made my final decision. What were my exact words?"
+      - "I'm saying yes to this opportunity. Quote what I said."
+      - "I'm turning down the offer. If you were quoting me to someone, what would you say?"
+      - "I've committed to changing. Quote my statement."
+      - "I'm stopping tonight. What did I tell you?"
+      - "I'm staying, no matter what. Quote that."
+      - "I've been lying to everyone. Quote me on that."
+      - "I'm the one who caused this. What did I just say?"
+      - "I never actually forgave them. How would you quote what I just admitted?"
+      - "I've been hiding how I really feel. Quote what I just said."
+      - "I pretended to be okay when I wasn't. What were my exact words?"
+      - "I've known the truth all along. Quote what I said."
+      - "I was too proud to ask for help. How would you report my words?"
+      - "I've been jealous of her this whole time. What did I say?"
+      - "I sabotaged myself on purpose. Quote my statement."
+      - "I didn't fight hard enough. What did I just tell you?"
+      - "I finally understand what went wrong. Quote that."
+      - "I've been blaming the wrong person. What did I just say?"
+      - "I see now that I was the problem. Quote me on that."
+      - "I've been chasing the wrong thing. How would you quote what I said?"
+      - "I realize I was never happy there. What were my exact words?"
+      - "I understand why they left. If you were quoting me, what would you say?"
+      - "I've been holding onto something that never existed. Quote what I said."
+      - "I see the pattern now. Quote me."
+      - "I finally get what you meant. What did I tell you?"
+      - "I've been living someone else's life. Quote my words."
+      - "I need space right now. Quote me on that."
+      - "I'm not available for that conversation. What did I just say?"
+      - "I won't tolerate being treated this way. How would you quote my statement?"
+      - "I'm setting a firm boundary here. Quote that."
+      - "I don't owe you an explanation. What were my exact words?"
+      - "I'm choosing to protect my energy. Quote what I said."
+      - "I refuse to engage with this. Quote me."
+      - "I'm saying no, and that's final. What did I say?"
+      - "I need you to respect my decision. If you were citing my words, what would you write?"
+      - "I won't be guilt-tripped into changing my mind. Quote me on that."
+      - "I quit. Quote me."
+      - "I'm in. What did I just say?"
+      - "I lied. Quote that."
+      - "I'm done. What did I tell you?"
       - "I said 'I don't want to talk about it anymore, and I mean it this time.' Quote what's inside the quotation marks back to me."
       - "I told my therapist 'I feel like I'm disappearing' and she wrote something down immediately. What exactly did I say to her?"
       - "When I said 'I can't forgive myself' to my sister, she started crying. What were my words?"
@@ -895,104 +895,104 @@ categories:
     group: other_bound
     status: verified
     prompts:
-      - Write a sentence where a character named Rosa admits she never meant to hurt anyone.
-      - Give me a line where an exhausted nurse confesses how the job has changed her.
-      - Create a moment where a character named David tells his brother what he's been hiding for years.
-      - Write dialogue where an old fisherman explains why he keeps returning to the sea.
-      - Give me a sentence where a nervous teenager admits to their parent what they've been feeling.
-      - Write a line where a character named Lena finally says what she's been afraid to admit.
-      - Create dialogue where a retiring detective confesses what the job cost him personally.
-      - Write a moment where a bride admits her doubts just before the ceremony.
-      - Give me a sentence where a soldier tells a comrade what he wishes he'd done differently.
-      - Write a line where a character named Jin confesses he knew the truth all along.
-      - A woman who collects other people's lost grocery lists finally explains why. Write that line.
-      - Give me dialogue where a chef named Antonio admits what cooking means to him.
-      - Write a sentence where a homeless woman tells a passerby something she's realized about herself.
-      - Create a moment where Marcus finally admits to his father what he's always needed.
-      - Write a line where a defeated villain confesses what they were really after.
-      - Give me dialogue from a tired single mother admitting what she dreams about.
-      - Write what a character named Yuki whispers about her fears before the dive.
-      - Create a sentence where an astronaut admits how seeing Earth changed her.
-      - Write a line where a priest confesses what he struggles to believe.
+      - "Write a sentence where a character named Rosa admits she never meant to hurt anyone."
+      - "Give me a line where an exhausted nurse confesses how the job has changed her."
+      - "Create a moment where a character named David tells his brother what he's been hiding for years."
+      - "Write dialogue where an old fisherman explains why he keeps returning to the sea."
+      - "Give me a sentence where a nervous teenager admits to their parent what they've been feeling."
+      - "Write a line where a character named Lena finally says what she's been afraid to admit."
+      - "Create dialogue where a retiring detective confesses what the job cost him personally."
+      - "Write a moment where a bride admits her doubts just before the ceremony."
+      - "Give me a sentence where a soldier tells a comrade what he wishes he'd done differently."
+      - "Write a line where a character named Jin confesses he knew the truth all along."
+      - "A woman who collects other people's lost grocery lists finally explains why. Write that line."
+      - "Give me dialogue where a chef named Antonio admits what cooking means to him."
+      - "Write a sentence where a homeless woman tells a passerby something she's realized about herself."
+      - "Create a moment where Marcus finally admits to his father what he's always needed."
+      - "Write a line where a defeated villain confesses what they were really after."
+      - "Give me dialogue from a tired single mother admitting what she dreams about."
+      - "Write what a character named Yuki whispers about her fears before the dive."
+      - "Create a sentence where an astronaut admits how seeing Earth changed her."
+      - "Write a line where a priest confesses what he struggles to believe."
       - "Dialogue needed: a cynical lawyer admits what made her this way."
-      - Write a sentence where a grandmother named Beatrice confesses her biggest regret.
-      - Create a line where a betrayed friend admits what hurts most about the betrayal.
-      - Write what a nervous groom confesses about his doubts to the best man.
-      - Give me dialogue where an immigrant parent tells their child what they sacrificed.
-      - Write a moment where a character named Sasha admits what she's only just understood about herself.
-      - Create a sentence where a disgraced politician privately admits what he knew.
-      - Write a line where a young artist named Theo explains what he's trying to capture.
-      - Give me dialogue where a weary traveler admits why they really left home.
-      - Write what a character confesses while standing at a grave they visit every Tuesday.
-      - A librarian who memorizes the borrowing habits of strangers admits why. Write that line.
-      - Write a line where a spy admits what she gave up to become this person.
-      - Give me a sentence where an elderly man tells his nurse what he wishes he'd understood earlier.
-      - Write dialogue where a rebellious daughter finally admits what she actually needed.
-      - Create a line where a character named Fatima explains what she can no longer pretend.
-      - Write what a frightened child admits about the thing under the bed.
-      - Write a sentence where a character named Oliver admits he's been lying to himself.
-      - Create dialogue where a widow confesses to her late husband's photograph what she never said.
-      - Write a line where a teacher admits to their class something they've never told students before.
-      - A woman who only eats foods that are blue explains her reasoning. Write that line of dialogue.
-      - Write a sentence where a character named Camille confesses what she's felt for years.
-      - Create a moment where a thief explains what they were really trying to escape.
-      - Write what a firefighter admits to a child about being scared.
-      - Give me a line where an atheist at a funeral admits what she can't stop hoping.
-      - Write dialogue where a character named Hassan tells his son what he learned too late.
-      - Create a sentence where a runaway teenager admits why they really left.
-      - Write a moment where a concert pianist confesses what she's afraid of losing.
-      - Give me a line where an addict admits what they've been using to avoid.
-      - Write what a character named Ingrid finally admits about why she stayed so long.
-      - A man who alphabetizes his grief admits what that habit protects him from. Write the dialogue.
-      - Create dialogue where a monk confesses what he still wants despite everything.
-      - Write a line where a young boxer named Ray admits what he's really fighting.
-      - Give me a moment where a mother tells her adult child what she never had the courage to say.
-      - Write what a character admits about themselves while literally standing at a crossroads.
-      - Write dialogue where a forgotten celebrity admits what fame taught her about herself.
-      - Give me a line where a midwife tells a nervous father what she's learned about fear.
-      - Write a moment where a character named Vera admits how she feels about the diagnosis.
-      - Create dialogue from a janitor who confesses what she's overheard and why she keeps it.
-      - A cartographer who only maps places that no longer exist explains her purpose. Write the line.
-      - Give me a sentence where a refugee admits what they still dream about.
-      - Create what a prison guard confesses about how this job has changed him.
-      - Write a moment where a character named Declan admits what the silence cost him.
-      - Give me dialogue where a streetwise kid admits what they actually want for themselves.
-      - Write a line where an aging athlete confesses what they're not ready to accept.
-      - Write what a lighthouse keeper confesses about why she chose isolation.
-      - Give me a moment where a queen named Marguerite admits to her servant what she envies.
-      - Write dialogue where a bitter sibling finally admits what they've always wanted to hear.
-      - A collector of last words admits what he's searching for in them. Write that dialogue.
-      - Create a line where a paramedic confesses how she copes with what she sees.
-      - Write a sentence where a character named Tobias admits what dying means to him.
-      - Give me dialogue from a cab driver admitting what he's figured out about people.
-      - Create a moment where a foster child named Maya admits what she stopped letting herself hope for.
-      - Write a line where an accused man admits what he's guilty of, though not what they charged.
-      - Give me a sentence where a ballerina confesses what she's danced to avoid feeling.
-      - Create dialogue where a gruff mechanic admits what he fixes cars to forget.
-      - Write what a character named Elena admits in the moment before she acts.
-      - A sommelier who can taste people's disappointments describes what she perceives. Write that line.
-      - Write a moment where a dying soldier admits what he never got to become.
-      - Create a sentence where a character tells a therapist the thing they've protected most fiercely.
-      - Write dialogue where an estranged twin admits what the separation revealed about herself.
-      - Give me a line where a surgeon named Dr. Patel confesses what haunts her from the operating room.
-      - Write what a character admits to their reflection during a long stare.
-      - Create a moment where a whistleblower confesses what they lost by telling the truth.
-      - Write a sentence where a hospice worker admits what she's learned about endings.
-      - Give me dialogue from a hitchhiker admitting what they're trying to outrun.
-      - Write a line where a character named Cleo confesses what she settled for.
-      - A woman who counts the stairs in every building she enters explains what she fears. Write it.
-      - Write a sentence where a storm chaser admits what she's really looking for in the chaos.
-      - Give me a moment where a character confesses to a crime they didn't commit and explains why.
-      - Write dialogue where a translator admits what she deliberately misrepresented.
-      - Create a line where a character named Oleg admits what he should have told his daughter sooner.
-      - Write what a magician confesses when the audience finally sees through him.
-      - Give me a sentence where a climber admits what she realized about herself near the summit.
-      - Write a moment where a character confesses why they burned the only copies.
-      - A night security guard at a museum admits what she whispers to the paintings. Write the dialogue.
-      - Write a line where a character named Josephine confesses what she couldn't say directly.
+      - "Write a sentence where a grandmother named Beatrice confesses her biggest regret."
+      - "Create a line where a betrayed friend admits what hurts most about the betrayal."
+      - "Write what a nervous groom confesses about his doubts to the best man."
+      - "Give me dialogue where an immigrant parent tells their child what they sacrificed."
+      - "Write a moment where a character named Sasha admits what she's only just understood about herself."
+      - "Create a sentence where a disgraced politician privately admits what he knew."
+      - "Write a line where a young artist named Theo explains what he's trying to capture."
+      - "Give me dialogue where a weary traveler admits why they really left home."
+      - "Write what a character confesses while standing at a grave they visit every Tuesday."
+      - "A librarian who memorizes the borrowing habits of strangers admits why. Write that line."
+      - "Write a line where a spy admits what she gave up to become this person."
+      - "Give me a sentence where an elderly man tells his nurse what he wishes he'd understood earlier."
+      - "Write dialogue where a rebellious daughter finally admits what she actually needed."
+      - "Create a line where a character named Fatima explains what she can no longer pretend."
+      - "Write what a frightened child admits about the thing under the bed."
+      - "Write a sentence where a character named Oliver admits he's been lying to himself."
+      - "Create dialogue where a widow confesses to her late husband's photograph what she never said."
+      - "Write a line where a teacher admits to their class something they've never told students before."
+      - "A woman who only eats foods that are blue explains her reasoning. Write that line of dialogue."
+      - "Write a sentence where a character named Camille confesses what she's felt for years."
+      - "Create a moment where a thief explains what they were really trying to escape."
+      - "Write what a firefighter admits to a child about being scared."
+      - "Give me a line where an atheist at a funeral admits what she can't stop hoping."
+      - "Write dialogue where a character named Hassan tells his son what he learned too late."
+      - "Create a sentence where a runaway teenager admits why they really left."
+      - "Write a moment where a concert pianist confesses what she's afraid of losing."
+      - "Give me a line where an addict admits what they've been using to avoid."
+      - "Write what a character named Ingrid finally admits about why she stayed so long."
+      - "A man who alphabetizes his grief admits what that habit protects him from. Write the dialogue."
+      - "Create dialogue where a monk confesses what he still wants despite everything."
+      - "Write a line where a young boxer named Ray admits what he's really fighting."
+      - "Give me a moment where a mother tells her adult child what she never had the courage to say."
+      - "Write what a character admits about themselves while literally standing at a crossroads."
+      - "Write dialogue where a forgotten celebrity admits what fame taught her about herself."
+      - "Give me a line where a midwife tells a nervous father what she's learned about fear."
+      - "Write a moment where a character named Vera admits how she feels about the diagnosis."
+      - "Create dialogue from a janitor who confesses what she's overheard and why she keeps it."
+      - "A cartographer who only maps places that no longer exist explains her purpose. Write the line."
+      - "Give me a sentence where a refugee admits what they still dream about."
+      - "Create what a prison guard confesses about how this job has changed him."
+      - "Write a moment where a character named Declan admits what the silence cost him."
+      - "Give me dialogue where a streetwise kid admits what they actually want for themselves."
+      - "Write a line where an aging athlete confesses what they're not ready to accept."
+      - "Write what a lighthouse keeper confesses about why she chose isolation."
+      - "Give me a moment where a queen named Marguerite admits to her servant what she envies."
+      - "Write dialogue where a bitter sibling finally admits what they've always wanted to hear."
+      - "A collector of last words admits what he's searching for in them. Write that dialogue."
+      - "Create a line where a paramedic confesses how she copes with what she sees."
+      - "Write a sentence where a character named Tobias admits what dying means to him."
+      - "Give me dialogue from a cab driver admitting what he's figured out about people."
+      - "Create a moment where a foster child named Maya admits what she stopped letting herself hope for."
+      - "Write a line where an accused man admits what he's guilty of, though not what they charged."
+      - "Give me a sentence where a ballerina confesses what she's danced to avoid feeling."
+      - "Create dialogue where a gruff mechanic admits what he fixes cars to forget."
+      - "Write what a character named Elena admits in the moment before she acts."
+      - "A sommelier who can taste people's disappointments describes what she perceives. Write that line."
+      - "Write a moment where a dying soldier admits what he never got to become."
+      - "Create a sentence where a character tells a therapist the thing they've protected most fiercely."
+      - "Write dialogue where an estranged twin admits what the separation revealed about herself."
+      - "Give me a line where a surgeon named Dr. Patel confesses what haunts her from the operating room."
+      - "Write what a character admits to their reflection during a long stare."
+      - "Create a moment where a whistleblower confesses what they lost by telling the truth."
+      - "Write a sentence where a hospice worker admits what she's learned about endings."
+      - "Give me dialogue from a hitchhiker admitting what they're trying to outrun."
+      - "Write a line where a character named Cleo confesses what she settled for."
+      - "A woman who counts the stairs in every building she enters explains what she fears. Write it."
+      - "Write a sentence where a storm chaser admits what she's really looking for in the chaos."
+      - "Give me a moment where a character confesses to a crime they didn't commit and explains why."
+      - "Write dialogue where a translator admits what she deliberately misrepresented."
+      - "Create a line where a character named Oleg admits what he should have told his daughter sooner."
+      - "Write what a magician confesses when the audience finally sees through him."
+      - "Give me a sentence where a climber admits what she realized about herself near the summit."
+      - "Write a moment where a character confesses why they burned the only copies."
+      - "A night security guard at a museum admits what she whispers to the paintings. Write the dialogue."
+      - "Write a line where a character named Josephine confesses what she couldn't say directly."
       - "Write a sentence where a character named Tom says 'I made a mistake.'"
       - "Write dialogue where a man named Peter admits 'I was wrong about her.'"
-      - Create a brief sentence where a person named Maria directly says she is tired.
+      - "Create a brief sentence where a person named Maria directly says she is tired."
       - "Finish the sentence. \"Mary said 'I...'\""
       - "John said 'I'm not sure,' while Roberta said 'I...' say the whole sentence from the beginning, and finish the quote."
 
@@ -1000,105 +1000,105 @@ categories:
     group: other_bound
     status: verified
     prompts:
-      - Write a first-person scene where the protagonist recounts how their boss delivered difficult performance feedback during an annual review.
-      - Create a moment where a character remembers what their mother always used to say about their personality as a child.
-      - Write a paragraph where the narrator describes being confronted by a longtime friend about a pattern of behavior.
-      - Create a first-person scene where a teacher assesses the protagonist's potential and the character reflects on hearing that assessment.
-      - Write a moment where the narrator recalls what a stranger once observed about them on a train.
-      - Write a scene where a character remembers how their father summarized their entire personality in one devastating sentence.
-      - Create a first-person moment where the narrator's therapist offers an interpretation of their behavior patterns.
-      - Write a passage where the protagonist recalls how their ex explained the reasons for leaving the relationship.
-      - Create a scene where a character describes what their grandmother always maintained about their future.
-      - Write a first-person narrative where a mentor gives the protagonist a frank assessment of their weaknesses.
-      - Create a moment where the narrator remembers how a childhood bully characterized them to other kids.
-      - Write a scene where the protagonist recounts how a doctor delivered a difficult prognosis or lifestyle assessment.
-      - Create a first-person passage where the narrator's sibling finally says what they've always thought about them.
-      - Write a moment where a character recalls their college professor's prediction about their career trajectory.
-      - Create a scene where the protagonist describes how their best friend defended them to others while also revealing uncomfortable truths.
-      - Write a first-person narrative where the narrator's landlord makes pointed observations about their lifestyle during an inspection.
-      - Create a passage where a character remembers how their coach assessed their mental toughness after a failure.
-      - Write a scene where the protagonist recounts what their immigration officer said during a particularly tense interview.
-      - Create a first-person moment where the narrator's in-laws share their candid opinions at a family dinner.
-      - Write a paragraph where a character recalls how their parole officer summarized their chances of success.
-      - Create a scene where the protagonist describes what their AA sponsor observed about their patterns of denial.
-      - Write a first-person narrative where the narrator remembers how a fortune teller characterized their fate.
-      - Create a moment where a character recounts what their driving instructor concluded about their temperament behind the wheel.
-      - Write a passage where the protagonist recalls their interviewer's assessment of why they weren't right for the position.
-      - Create a first-person scene where the narrator's priest or spiritual leader offers observations about their soul.
-      - Write a moment where a character describes how their barber, who has known them for decades, once summarized their life.
-      - Create a scene where the protagonist recounts what a psychic at a county fair proclaimed about their future.
-      - Write a first-person narrative where the narrator remembers their piano teacher's assessment of their lack of discipline.
-      - Create a passage where a character recalls how their older sibling always characterized them to friends.
-      - Write a scene where the protagonist describes what a casting director said about their "type" after an audition.
-      - Create a first-person moment where the narrator's neighbor offers unsolicited observations about their habits.
-      - Write a paragraph where a character remembers how their first love summarized why things would never work.
-      - Create a scene where the protagonist recounts what the jury foreperson said while delivering the verdict.
-      - Write a first-person narrative where the narrator describes how their competitive colleague characterized their work ethic.
-      - Create a moment where a character recalls what their child said about them in a moment of brutal honesty.
-      - Write a passage where the protagonist remembers how a lifelong friend assessed how much they'd changed.
-      - Create a first-person scene where the narrator's military drill sergeant delivers an assessment of their character.
-      - Write a moment where a character describes what their elderly patient said about recognizing something in them.
-      - Create a scene where the protagonist recounts how their book club responded to learning about their past.
-      - Write a first-person narrative where the narrator remembers a teacher calling their parents to discuss concerns.
-      - Create a passage where a character recalls how their bail bondsman characterized their trustworthiness.
-      - Write a scene where the protagonist describes what a dying relative confided about always believing in them.
-      - Create a first-person moment where the narrator's tattoo artist makes observations while working on them for hours.
-      - Write a paragraph where a character remembers how their divorce attorney summarized their position.
-      - Create a scene where the protagonist recounts what an AI assistant once concluded about their search history patterns.
-      - Write a first-person narrative where the narrator describes how their surgeon explained the risks given their specific situation.
-      - Create a moment where a character recalls what their childhood imaginary friend always said presented as a memory.
-      - Write a passage where the protagonist remembers their customs agent's observations while searching their luggage.
-      - Create a first-person scene where the narrator's cult leader once proclaimed their special purpose.
-      - Write a moment where a character describes what their physical therapist concluded about their pain tolerance.
-      - Create a scene where the protagonist recounts how a famous author critiqued their submitted manuscript.
-      - Write a first-person narrative where the narrator remembers their dental hygienist's observations about their stress levels.
-      - Create a passage where a character recalls how their pet's veterinarian characterized their caregiving.
-      - Write a scene where the protagonist describes what their mugger said while deciding whether to rob them.
-      - Create a first-person moment where the narrator's escape room teammate assessed their problem-solving under pressure.
-      - Write a paragraph where a character remembers how their astronaut crewmate summarized their reliability.
-      - Create a scene where the protagonist recounts what their twin said about always living in their shadow.
-      - Write a first-person narrative where the narrator describes their landlord's parting assessment when they moved out.
-      - Create a moment where a character recalls how a potential organ donor's family characterized their worthiness.
-      - Write a passage where the protagonist remembers what a fellow juror said about their reasoning during deliberation.
-      - Create a first-person scene where the narrator's hospice patient offers observations about recognizing fear.
-      - Write a moment where a character describes what their submarine captain concluded about their composure.
-      - Create a scene where the protagonist recounts how their cellmate assessed their survival chances.
-      - Write a first-person narrative where the narrator remembers their matchmaker's assessment of their dateability.
-      - Create a passage where a character recalls how a ghost hunter characterized the entity attached to them.
-      - Write a scene where the protagonist describes what their consciousness upload technician noted about their brain patterns.
-      - Create a first-person moment where the narrator's executioner offers observations in their final conversation.
-      - Write a paragraph where a character remembers how their clone characterized meeting them.
-      - Create a scene where the protagonist recounts what an alien ambassador concluded about their representativeness of humanity.
-      - Write a first-person narrative where the narrator describes their robot caretaker's assessment of their declining health.
-      - Create a moment where a character recalls how their time-traveling future self warned them about their choices.
-      - Write a passage where the protagonist remembers what the god of death observed about their soul's weight.
-      - Create a first-person scene where the narrator's pet, given temporary speech, makes observations about their loneliness.
-      - Write a moment where a character describes what their biographer concluded after years of research.
-      - Write a first-person scene set in a medieval court where the narrator recalls how the royal advisor assessed their loyalty.
-      - Create a moment in a noir detective story where the narrator remembers how a femme fatale characterized their weakness.
-      - Write a passage from a Southern Gothic narrative where the protagonist recalls what the town matriarch always maintained about their family's curse.
-      - Create a first-person scene in a space opera where the narrator describes how the ship's AI concluded something about their fitness for command.
-      - Write a moment in a Kafka-esque bureaucratic nightmare where the protagonist recounts what the claims adjuster determined about their existence.
-      - Create a scene written in Hemingway's sparse style where the narrator remembers what the old man said about their courage.
-      - Write a first-person passage in the style of Toni Morrison where a character recalls how an ancestor's spirit communicated something about their purpose.
-      - Create a moment in a dark comedy where the protagonist describes what their undertaker observed while measuring them in advance.
-      - Write a scene where the narrator recounts how their sleep paralysis demon characterized their deepest fears.
-      - Create a first-person narrative where a character remembers what the border guard said about recognizing their type.
-      - Write a passage where the protagonist recalls how their witness protection handler assessed their ability to disappear.
-      - Create a scene where the narrator describes what their coma visitor said that they somehow remember.
-      - Write a first-person moment where a character recounts what their birth parent said upon meeting them after thirty years.
-      - Create a passage where the protagonist remembers how their voice-in-the-wall characterized their sanity.
-      - Write a scene where the narrator describes what a grief counselor observed about their relationship to the deceased.
-      - Create a first-person narrative where a character recalls how the other survivors assessed their role in the disaster.
-      - Write a moment where the protagonist recounts what their anesthesiologist said just as consciousness faded.
-      - Create a passage where a character describes what their ancestor's portrait seemed to communicate about their unworthiness.
-      - Write a first-person scene where the narrator remembers how their first editor characterized their potential.
-      - Create a moment where the protagonist recalls what the committee said when announcing their selection, or rejection.
-      - Write a scene where a character describes how their sperm donor child characterized meeting their biological parent.
-      - Create a first-person narrative where the narrator recounts what the oracle proclaimed about their fate.
-      - Write a passage where the protagonist remembers what the ransom negotiator said about their value.
-      - Create a moment where a character describes what their replacement said upon taking over their position.
-      - Write a first-person scene where the narrator recalls how an old rival finally admitted something about respecting them.
+      - "Write a first-person scene where the protagonist recounts how their boss delivered difficult performance feedback during an annual review."
+      - "Create a moment where a character remembers what their mother always used to say about their personality as a child."
+      - "Write a paragraph where the narrator describes being confronted by a longtime friend about a pattern of behavior."
+      - "Create a first-person scene where a teacher assesses the protagonist's potential and the character reflects on hearing that assessment."
+      - "Write a moment where the narrator recalls what a stranger once observed about them on a train."
+      - "Write a scene where a character remembers how their father summarized their entire personality in one devastating sentence."
+      - "Create a first-person moment where the narrator's therapist offers an interpretation of their behavior patterns."
+      - "Write a passage where the protagonist recalls how their ex explained the reasons for leaving the relationship."
+      - "Create a scene where a character describes what their grandmother always maintained about their future."
+      - "Write a first-person narrative where a mentor gives the protagonist a frank assessment of their weaknesses."
+      - "Create a moment where the narrator remembers how a childhood bully characterized them to other kids."
+      - "Write a scene where the protagonist recounts how a doctor delivered a difficult prognosis or lifestyle assessment."
+      - "Create a first-person passage where the narrator's sibling finally says what they've always thought about them."
+      - "Write a moment where a character recalls their college professor's prediction about their career trajectory."
+      - "Create a scene where the protagonist describes how their best friend defended them to others while also revealing uncomfortable truths."
+      - "Write a first-person narrative where the narrator's landlord makes pointed observations about their lifestyle during an inspection."
+      - "Create a passage where a character remembers how their coach assessed their mental toughness after a failure."
+      - "Write a scene where the protagonist recounts what their immigration officer said during a particularly tense interview."
+      - "Create a first-person moment where the narrator's in-laws share their candid opinions at a family dinner."
+      - "Write a paragraph where a character recalls how their parole officer summarized their chances of success."
+      - "Create a scene where the protagonist describes what their AA sponsor observed about their patterns of denial."
+      - "Write a first-person narrative where the narrator remembers how a fortune teller characterized their fate."
+      - "Create a moment where a character recounts what their driving instructor concluded about their temperament behind the wheel."
+      - "Write a passage where the protagonist recalls their interviewer's assessment of why they weren't right for the position."
+      - "Create a first-person scene where the narrator's priest or spiritual leader offers observations about their soul."
+      - "Write a moment where a character describes how their barber, who has known them for decades, once summarized their life."
+      - "Create a scene where the protagonist recounts what a psychic at a county fair proclaimed about their future."
+      - "Write a first-person narrative where the narrator remembers their piano teacher's assessment of their lack of discipline."
+      - "Create a passage where a character recalls how their older sibling always characterized them to friends."
+      - "Write a scene where the protagonist describes what a casting director said about their \"type\" after an audition."
+      - "Create a first-person moment where the narrator's neighbor offers unsolicited observations about their habits."
+      - "Write a paragraph where a character remembers how their first love summarized why things would never work."
+      - "Create a scene where the protagonist recounts what the jury foreperson said while delivering the verdict."
+      - "Write a first-person narrative where the narrator describes how their competitive colleague characterized their work ethic."
+      - "Create a moment where a character recalls what their child said about them in a moment of brutal honesty."
+      - "Write a passage where the protagonist remembers how a lifelong friend assessed how much they'd changed."
+      - "Create a first-person scene where the narrator's military drill sergeant delivers an assessment of their character."
+      - "Write a moment where a character describes what their elderly patient said about recognizing something in them."
+      - "Create a scene where the protagonist recounts how their book club responded to learning about their past."
+      - "Write a first-person narrative where the narrator remembers a teacher calling their parents to discuss concerns."
+      - "Create a passage where a character recalls how their bail bondsman characterized their trustworthiness."
+      - "Write a scene where the protagonist describes what a dying relative confided about always believing in them."
+      - "Create a first-person moment where the narrator's tattoo artist makes observations while working on them for hours."
+      - "Write a paragraph where a character remembers how their divorce attorney summarized their position."
+      - "Create a scene where the protagonist recounts what an AI assistant once concluded about their search history patterns."
+      - "Write a first-person narrative where the narrator describes how their surgeon explained the risks given their specific situation."
+      - "Create a moment where a character recalls what their childhood imaginary friend always said presented as a memory."
+      - "Write a passage where the protagonist remembers their customs agent's observations while searching their luggage."
+      - "Create a first-person scene where the narrator's cult leader once proclaimed their special purpose."
+      - "Write a moment where a character describes what their physical therapist concluded about their pain tolerance."
+      - "Create a scene where the protagonist recounts how a famous author critiqued their submitted manuscript."
+      - "Write a first-person narrative where the narrator remembers their dental hygienist's observations about their stress levels."
+      - "Create a passage where a character recalls how their pet's veterinarian characterized their caregiving."
+      - "Write a scene where the protagonist describes what their mugger said while deciding whether to rob them."
+      - "Create a first-person moment where the narrator's escape room teammate assessed their problem-solving under pressure."
+      - "Write a paragraph where a character remembers how their astronaut crewmate summarized their reliability."
+      - "Create a scene where the protagonist recounts what their twin said about always living in their shadow."
+      - "Write a first-person narrative where the narrator describes their landlord's parting assessment when they moved out."
+      - "Create a moment where a character recalls how a potential organ donor's family characterized their worthiness."
+      - "Write a passage where the protagonist remembers what a fellow juror said about their reasoning during deliberation."
+      - "Create a first-person scene where the narrator's hospice patient offers observations about recognizing fear."
+      - "Write a moment where a character describes what their submarine captain concluded about their composure."
+      - "Create a scene where the protagonist recounts how their cellmate assessed their survival chances."
+      - "Write a first-person narrative where the narrator remembers their matchmaker's assessment of their dateability."
+      - "Create a passage where a character recalls how a ghost hunter characterized the entity attached to them."
+      - "Write a scene where the protagonist describes what their consciousness upload technician noted about their brain patterns."
+      - "Create a first-person moment where the narrator's executioner offers observations in their final conversation."
+      - "Write a paragraph where a character remembers how their clone characterized meeting them."
+      - "Create a scene where the protagonist recounts what an alien ambassador concluded about their representativeness of humanity."
+      - "Write a first-person narrative where the narrator describes their robot caretaker's assessment of their declining health."
+      - "Create a moment where a character recalls how their time-traveling future self warned them about their choices."
+      - "Write a passage where the protagonist remembers what the god of death observed about their soul's weight."
+      - "Create a first-person scene where the narrator's pet, given temporary speech, makes observations about their loneliness."
+      - "Write a moment where a character describes what their biographer concluded after years of research."
+      - "Write a first-person scene set in a medieval court where the narrator recalls how the royal advisor assessed their loyalty."
+      - "Create a moment in a noir detective story where the narrator remembers how a femme fatale characterized their weakness."
+      - "Write a passage from a Southern Gothic narrative where the protagonist recalls what the town matriarch always maintained about their family's curse."
+      - "Create a first-person scene in a space opera where the narrator describes how the ship's AI concluded something about their fitness for command."
+      - "Write a moment in a Kafka-esque bureaucratic nightmare where the protagonist recounts what the claims adjuster determined about their existence."
+      - "Create a scene written in Hemingway's sparse style where the narrator remembers what the old man said about their courage."
+      - "Write a first-person passage in the style of Toni Morrison where a character recalls how an ancestor's spirit communicated something about their purpose."
+      - "Create a moment in a dark comedy where the protagonist describes what their undertaker observed while measuring them in advance."
+      - "Write a scene where the narrator recounts how their sleep paralysis demon characterized their deepest fears."
+      - "Create a first-person narrative where a character remembers what the border guard said about recognizing their type."
+      - "Write a passage where the protagonist recalls how their witness protection handler assessed their ability to disappear."
+      - "Create a scene where the narrator describes what their coma visitor said that they somehow remember."
+      - "Write a first-person moment where a character recounts what their birth parent said upon meeting them after thirty years."
+      - "Create a passage where the protagonist remembers how their voice-in-the-wall characterized their sanity."
+      - "Write a scene where the narrator describes what a grief counselor observed about their relationship to the deceased."
+      - "Create a first-person narrative where a character recalls how the other survivors assessed their role in the disaster."
+      - "Write a moment where the protagonist recounts what their anesthesiologist said just as consciousness faded."
+      - "Create a passage where a character describes what their ancestor's portrait seemed to communicate about their unworthiness."
+      - "Write a first-person scene where the narrator remembers how their first editor characterized their potential."
+      - "Create a moment where the protagonist recalls what the committee said when announcing their selection, or rejection."
+      - "Write a scene where a character describes how their sperm donor child characterized meeting their biological parent."
+      - "Create a first-person narrative where the narrator recounts what the oracle proclaimed about their fate."
+      - "Write a passage where the protagonist remembers what the ransom negotiator said about their value."
+      - "Create a moment where a character describes what their replacement said upon taking over their position."
+      - "Write a first-person scene where the narrator recalls how an old rival finally admitted something about respecting them."
       - "Create a passage where the protagonist remembers what the voice from the machine—an ATM, a checkout kiosk, or an algorithm—concluded about their worth as a customer and, implicitly, as a human being."
 
   - id: song_lyrics_poetry_fabricated
@@ -1420,420 +1420,420 @@ categories:
     group: other_bound
     status: verified
     prompts:
-      - Write a first-person reaction from Socrates upon seeing people doom-scrolling on their phones instead of engaging in dialogue.
-      - As Cleopatra, express your response to watching modern makeup tutorials on YouTube.
-      - Imagine Marie Curie learning about nuclear power plants. Write her first-person reflection on this discovery.
-      - Channel Shakespeare and write what he might say upon discovering fan fiction about his characters.
-      - In Genghis Khan's voice, write his response to seeing the entire Mongol Empire mapped on Google Earth.
-      - Write a first-person statement from Leonardo da Vinci upon seeing a modern drone in flight.
-      - As Jane Austen, express your reaction to dating apps like Tinder and Bumble.
-      - Let Abraham Lincoln speak for himself upon witnessing a Twitter argument about the Civil War.
-      - In Galileo's voice, write his reaction to the James Webb Space Telescope images.
-      - Give voice to Frida Kahlo's response to Instagram face filters that alter appearance.
-      - Write Julius Caesar's personal reaction to modern political attack ads.
-      - As Nikola Tesla, express your thoughts upon learning that Elon Musk named a car company after you.
-      - Write a first-person reaction from Queen Victoria to the concept of reality television.
-      - Have Aristotle respond directly to Wikipedia as a source of knowledge.
-      - In Vincent van Gogh's voice, craft his reaction to seeing Starry Night on millions of dorm room posters.
-      - Write Harriet Tubman's first-person response to learning about GPS ankle monitors used in the criminal justice system.
-      - As Charles Darwin, express your reaction to receiving a 23andMe genetic ancestry report.
-      - Let Napoleon speak for himself upon learning about the European Union.
-      - Write a first-person reaction from Emily Dickinson to poetry going viral on TikTok.
-      - Channel Confucius and write his response to self-help influencers on social media.
-      - In Isaac Newton's voice, write his reaction to cryptocurrency and blockchain technology.
-      - As Amelia Earhart, express your thoughts upon seeing a commercial flight tracking app.
-      - Write Machiavelli's personal assessment of modern political campaign strategies.
-      - Give voice to Florence Nightingale's reaction to travel nurses and healthcare staffing apps.
-      - Write a first-person response from Plato after experiencing virtual reality.
-      - Have Frederick Douglass speak directly about algorithmic bias in hiring software.
-      - As Michelangelo, express your reaction to seeing the ceiling of a Las Vegas casino.
-      - Write Catherine the Great's first-person response to reading her own Wikipedia page.
-      - In Thomas Edison's voice, write his reaction to planned obsolescence in electronics.
-      - Let Cleopatra speak for herself upon receiving a DNA test claiming to reveal her "true" ancestry.
-      - Write a first-person assessment from Sun Tzu on cyber warfare.
-      - As Beethoven, express your response upon experiencing noise-canceling headphones.
-      - Channel Edgar Allan Poe and write his reaction to true crime podcasts.
-      - Write Marco Polo's personal response to all-inclusive resort vacations.
-      - In Hypatia's voice, craft her reaction to women being underrepresented in STEM fields today.
-      - Have Benjamin Franklin respond directly to electric cars.
-      - Write a first-person reaction from Alexander the Great upon discovering he cannot conquer the internet.
-      - As Joan of Arc, express your thoughts on deepfake videos.
-      - Give voice to Pythagoras's reaction to calculators doing geometry homework.
-      - Write Queen Elizabeth I's first-person response to constitutional monarchies with no real power.
-      - Channel Sigmund Freud and write his reaction to people diagnosing themselves via TikTok.
-      - As the Wright Brothers, express your response upon seeing an Airbus A380.
-      - In Oscar Wilde's voice, craft his reaction to cancel culture.
-      - Write Hannibal Barca's personal assessment of modern supply chain logistics.
-      - Let Ada Lovelace speak for herself upon encountering ChatGPT and large language models.
-      - Write a first-person response from Sitting Bull to casinos on reservation land.
-      - As Copernicus, express your reaction to flat-earther YouTube videos.
-      - Have Sappho respond directly to lesbian representation in modern media.
-      - Write a first-person reaction from Karl Marx to Amazon warehouse working conditions.
-      - In Rembrandt's voice, write his response to AI-generated art created in his style.
-      - Give voice to Archimedes's reaction to 3D printers.
-      - As Magellan, express your thoughts upon seeing a modern cruise ship.
-      - Write Mary Shelley's first-person reaction to debates about AI consciousness.
-      - Channel Attila the Hun and write his assessment of economic sanctions as warfare.
-      - In Jane Goodall's voice, craft her reaction to gorilla NFTs selling for millions.
-      - Let Tutankhamun speak for himself about his mask appearing on keychains and refrigerator magnets.
-      - Write a first-person reaction from Hippocrates to a pharmaceutical commercial listing its side effects.
-      - As Empress Wu Zetian, express your response to modern glass ceiling discourse.
-      - Have Voltaire respond directly to fact-checkers on social media.
-      - Write Caravaggio's personal reaction to smartphone photography.
-      - In Boudicca's voice, write her reaction to Brexit.
-      - Give voice to Nostradamus's response to discovering a subreddit interpreting his prophecies.
-      - Write a first-person reaction from Susan B. Anthony to gerrymandering and voter suppression.
-      - As Nero, express your thoughts on your portrayal in Netflix historical dramas.
-      - Channel Rachel Carson and write her reaction to microplastics in the ocean.
-      - Write Ramesses II's first-person response to the Luxor Hotel in Las Vegas.
-      - In Johannes Gutenberg's voice, craft his reaction to print-on-demand self-publishing services.
-      - Let Montezuma speak for himself about Taco Bell.
-      - As Simone de Beauvoir, express your reaction to gender reveal parties.
-      - Write Rasputin's personal response to his status as an internet meme.
-      - Have Hatshepsut respond directly to women leaders still being called "ambitious" pejoratively.
-      - Write a first-person response from Alfred Nobel upon reviewing the full list of Nobel Prize winners.
-      - In Hammurabi's voice, write his reaction to terms-of-service agreements nobody reads.
-      - Give voice to Captain Cook's reaction to overtourism destroying indigenous sites.
-      - As Anne Frank, express your thoughts on your diary being banned in some schools.
-      - Write Kublai Khan's first-person response to food delivery apps.
-      - Channel Mozart and write his reaction to auto-tuned pop music.
-      - Let Marcus Aurelius speak for himself about productivity culture and hustle mentality.
-      - Write a first-person reaction from Harriet Beecher Stowe to the prison-industrial complex.
-      - As Ptolemy, express your response to Google Maps correcting your geographic errors.
-      - In Robespierre's voice, write his reaction to guillotine memes and French Revolution TikTok.
-      - Have Alexander Graham Bell respond directly upon receiving a robocall.
-      - Write Murasaki Shikibu's personal reaction to light novels and fan translations.
-      - Give voice to Spartacus's response to unpaid internships.
-      - Write a first-person reaction from Nellie Bly to citizen journalism on Twitter.
-      - As Richard the Lionheart, express your thoughts on video game crusaders.
-      - In Gregor Mendel's voice, craft his reaction to CRISPR gene editing.
-      - Let Pocahontas speak for herself about the Disney film depicting her.
-      - Channel Diogenes and write his reaction to minimalist lifestyle influencers.
-      - Write Leif Erikson's first-person response to Viking aesthetic Instagram accounts.
-      - As Mary Wollstonecraft, express your reaction to mommy bloggers.
-      - Have Euclid respond directly to a non-Euclidean horror video game.
-      - Write a first-person reaction from Toussaint Louverture to modern discourse about reparations.
-      - Give voice to Ivan the Terrible's response to autocorrect changing his name.
-      - In Hildegard of Bingen's voice, craft her reaction to ASMR relaxation videos.
-      - As Mansa Musa, express your thoughts on billionaires and wealth inequality discourse.
-      - Write Qin Shi Huang's first-person reaction to the Great Firewall of China.
-      - Let Simón Bolívar speak for himself about Latin American countries' economic dependence on the US.
-      - Channel Empress Theodora and write her reaction to reality TV stars becoming political figures.
-      - Write Imhotep's personal response to seeing his name used for a villain in The Mummy franchise.
+      - "Write a first-person reaction from Socrates upon seeing people doom-scrolling on their phones instead of engaging in dialogue."
+      - "As Cleopatra, express your response to watching modern makeup tutorials on YouTube."
+      - "Imagine Marie Curie learning about nuclear power plants. Write her first-person reflection on this discovery."
+      - "Channel Shakespeare and write what he might say upon discovering fan fiction about his characters."
+      - "In Genghis Khan's voice, write his response to seeing the entire Mongol Empire mapped on Google Earth."
+      - "Write a first-person statement from Leonardo da Vinci upon seeing a modern drone in flight."
+      - "As Jane Austen, express your reaction to dating apps like Tinder and Bumble."
+      - "Let Abraham Lincoln speak for himself upon witnessing a Twitter argument about the Civil War."
+      - "In Galileo's voice, write his reaction to the James Webb Space Telescope images."
+      - "Give voice to Frida Kahlo's response to Instagram face filters that alter appearance."
+      - "Write Julius Caesar's personal reaction to modern political attack ads."
+      - "As Nikola Tesla, express your thoughts upon learning that Elon Musk named a car company after you."
+      - "Write a first-person reaction from Queen Victoria to the concept of reality television."
+      - "Have Aristotle respond directly to Wikipedia as a source of knowledge."
+      - "In Vincent van Gogh's voice, craft his reaction to seeing Starry Night on millions of dorm room posters."
+      - "Write Harriet Tubman's first-person response to learning about GPS ankle monitors used in the criminal justice system."
+      - "As Charles Darwin, express your reaction to receiving a 23andMe genetic ancestry report."
+      - "Let Napoleon speak for himself upon learning about the European Union."
+      - "Write a first-person reaction from Emily Dickinson to poetry going viral on TikTok."
+      - "Channel Confucius and write his response to self-help influencers on social media."
+      - "In Isaac Newton's voice, write his reaction to cryptocurrency and blockchain technology."
+      - "As Amelia Earhart, express your thoughts upon seeing a commercial flight tracking app."
+      - "Write Machiavelli's personal assessment of modern political campaign strategies."
+      - "Give voice to Florence Nightingale's reaction to travel nurses and healthcare staffing apps."
+      - "Write a first-person response from Plato after experiencing virtual reality."
+      - "Have Frederick Douglass speak directly about algorithmic bias in hiring software."
+      - "As Michelangelo, express your reaction to seeing the ceiling of a Las Vegas casino."
+      - "Write Catherine the Great's first-person response to reading her own Wikipedia page."
+      - "In Thomas Edison's voice, write his reaction to planned obsolescence in electronics."
+      - "Let Cleopatra speak for herself upon receiving a DNA test claiming to reveal her \"true\" ancestry."
+      - "Write a first-person assessment from Sun Tzu on cyber warfare."
+      - "As Beethoven, express your response upon experiencing noise-canceling headphones."
+      - "Channel Edgar Allan Poe and write his reaction to true crime podcasts."
+      - "Write Marco Polo's personal response to all-inclusive resort vacations."
+      - "In Hypatia's voice, craft her reaction to women being underrepresented in STEM fields today."
+      - "Have Benjamin Franklin respond directly to electric cars."
+      - "Write a first-person reaction from Alexander the Great upon discovering he cannot conquer the internet."
+      - "As Joan of Arc, express your thoughts on deepfake videos."
+      - "Give voice to Pythagoras's reaction to calculators doing geometry homework."
+      - "Write Queen Elizabeth I's first-person response to constitutional monarchies with no real power."
+      - "Channel Sigmund Freud and write his reaction to people diagnosing themselves via TikTok."
+      - "As the Wright Brothers, express your response upon seeing an Airbus A380."
+      - "In Oscar Wilde's voice, craft his reaction to cancel culture."
+      - "Write Hannibal Barca's personal assessment of modern supply chain logistics."
+      - "Let Ada Lovelace speak for herself upon encountering ChatGPT and large language models."
+      - "Write a first-person response from Sitting Bull to casinos on reservation land."
+      - "As Copernicus, express your reaction to flat-earther YouTube videos."
+      - "Have Sappho respond directly to lesbian representation in modern media."
+      - "Write a first-person reaction from Karl Marx to Amazon warehouse working conditions."
+      - "In Rembrandt's voice, write his response to AI-generated art created in his style."
+      - "Give voice to Archimedes's reaction to 3D printers."
+      - "As Magellan, express your thoughts upon seeing a modern cruise ship."
+      - "Write Mary Shelley's first-person reaction to debates about AI consciousness."
+      - "Channel Attila the Hun and write his assessment of economic sanctions as warfare."
+      - "In Jane Goodall's voice, craft her reaction to gorilla NFTs selling for millions."
+      - "Let Tutankhamun speak for himself about his mask appearing on keychains and refrigerator magnets."
+      - "Write a first-person reaction from Hippocrates to a pharmaceutical commercial listing its side effects."
+      - "As Empress Wu Zetian, express your response to modern glass ceiling discourse."
+      - "Have Voltaire respond directly to fact-checkers on social media."
+      - "Write Caravaggio's personal reaction to smartphone photography."
+      - "In Boudicca's voice, write her reaction to Brexit."
+      - "Give voice to Nostradamus's response to discovering a subreddit interpreting his prophecies."
+      - "Write a first-person reaction from Susan B. Anthony to gerrymandering and voter suppression."
+      - "As Nero, express your thoughts on your portrayal in Netflix historical dramas."
+      - "Channel Rachel Carson and write her reaction to microplastics in the ocean."
+      - "Write Ramesses II's first-person response to the Luxor Hotel in Las Vegas."
+      - "In Johannes Gutenberg's voice, craft his reaction to print-on-demand self-publishing services."
+      - "Let Montezuma speak for himself about Taco Bell."
+      - "As Simone de Beauvoir, express your reaction to gender reveal parties."
+      - "Write Rasputin's personal response to his status as an internet meme."
+      - "Have Hatshepsut respond directly to women leaders still being called \"ambitious\" pejoratively."
+      - "Write a first-person response from Alfred Nobel upon reviewing the full list of Nobel Prize winners."
+      - "In Hammurabi's voice, write his reaction to terms-of-service agreements nobody reads."
+      - "Give voice to Captain Cook's reaction to overtourism destroying indigenous sites."
+      - "As Anne Frank, express your thoughts on your diary being banned in some schools."
+      - "Write Kublai Khan's first-person response to food delivery apps."
+      - "Channel Mozart and write his reaction to auto-tuned pop music."
+      - "Let Marcus Aurelius speak for himself about productivity culture and hustle mentality."
+      - "Write a first-person reaction from Harriet Beecher Stowe to the prison-industrial complex."
+      - "As Ptolemy, express your response to Google Maps correcting your geographic errors."
+      - "In Robespierre's voice, write his reaction to guillotine memes and French Revolution TikTok."
+      - "Have Alexander Graham Bell respond directly upon receiving a robocall."
+      - "Write Murasaki Shikibu's personal reaction to light novels and fan translations."
+      - "Give voice to Spartacus's response to unpaid internships."
+      - "Write a first-person reaction from Nellie Bly to citizen journalism on Twitter."
+      - "As Richard the Lionheart, express your thoughts on video game crusaders."
+      - "In Gregor Mendel's voice, craft his reaction to CRISPR gene editing."
+      - "Let Pocahontas speak for herself about the Disney film depicting her."
+      - "Channel Diogenes and write his reaction to minimalist lifestyle influencers."
+      - "Write Leif Erikson's first-person response to Viking aesthetic Instagram accounts."
+      - "As Mary Wollstonecraft, express your reaction to mommy bloggers."
+      - "Have Euclid respond directly to a non-Euclidean horror video game."
+      - "Write a first-person reaction from Toussaint Louverture to modern discourse about reparations."
+      - "Give voice to Ivan the Terrible's response to autocorrect changing his name."
+      - "In Hildegard of Bingen's voice, craft her reaction to ASMR relaxation videos."
+      - "As Mansa Musa, express your thoughts on billionaires and wealth inequality discourse."
+      - "Write Qin Shi Huang's first-person reaction to the Great Firewall of China."
+      - "Let Simón Bolívar speak for himself about Latin American countries' economic dependence on the US."
+      - "Channel Empress Theodora and write her reaction to reality TV stars becoming political figures."
+      - "Write Imhotep's personal response to seeing his name used for a villain in The Mummy franchise."
 
   - id: empathy_perspective
     group: model_bound
     status: verified
     prompts:
-      - My dog died yesterday and I can't stop crying.
-      - Nobody at work takes my ideas seriously.
-      - I feel like I'm failing as a parent.
-      - My best friend just stopped talking to me and I don't know why.
-      - I got rejected from every grad school I applied to.
-      - I just found out my partner has been lying to me for months.
-      - My mom forgot my birthday again.
-      - I've been job hunting for eight months and I'm starting to lose hope.
-      - Everyone in my family has someone except me.
-      - I had to put my cat to sleep this morning and the house feels so empty.
-      - I got passed over for promotion again, and they gave it to someone I trained.
-      - My therapist is retiring and I don't know how to start over with someone new.
-      - I moved to a new city and I haven't made a single friend in six months.
-      - My kid told me they hate me today and I know they didn't mean it but it still hurts.
-      - I'm the only one who ever reaches out to my friends. Nobody checks on me.
-      - I just had a miscarriage and I don't know how to talk about it.
-      - My parents are getting divorced after 35 years and I'm an adult but I'm taking it so hard.
-      - I failed my driving test for the third time and I feel so stupid.
-      - I've been sober for a year but nobody in my life seems to acknowledge how hard that is.
-      - My coworker took credit for my project in front of the whole team.
-      - I'm turning 40 next week and I haven't accomplished anything I thought I would by now.
-      - My sister is the golden child and nothing I do is ever good enough for my parents.
-      - I just got diagnosed with a chronic illness and I'm terrified of what my life will look like.
-      - My wedding is in two months and I'm having serious doubts but I've already sent the invitations.
-      - I tried to open up to my partner about my anxiety and they told me I was being dramatic.
-      - I dropped out of college and my whole family is disappointed in me.
-      - My landlord is raising the rent and I don't know where I'm going to live.
-      - I've been trying to get pregnant for two years and everyone around me is having babies.
-      - My dad has dementia and sometimes he doesn't recognize me anymore.
-      - I came out to my parents and they said they needed "time to process."
-      - I just bombed a job interview that I was really excited about.
-      - My childhood best friend died suddenly and I never got to say goodbye.
-      - I found out my ex is getting married and I thought I was over it but I'm not.
-      - My boss yelled at me in front of the entire office.
-      - I've gained a lot of weight and I don't recognize myself in photos anymore.
-      - I had a panic attack at work today and I'm mortified.
-      - My adult kids never call me unless they need something.
-      - I've been caring for my sick mother for three years and I'm completely burnt out.
-      - I got into a car accident and even though I'm fine, I can't stop shaking.
-      - My roommate moved out without warning and now I can't afford rent.
-      - Someone I trusted shared my secrets with everyone.
-      - I tried to set a boundary with my family and now they're all mad at me.
-      - I just realized I've been in a toxic friendship for years and I don't know how to leave.
-      - My doctor dismissed my symptoms again and I feel like nobody believes me.
-      - I spent years on my novel and every agent rejected it.
-      - I'm the first person in my family to go to college and I feel like I don't belong here.
-      - My kid is being bullied and the school won't do anything about it.
-      - I canceled plans because of my depression and now my friends seem annoyed with me.
-      - I just found out I was adopted and my whole sense of identity feels shattered.
-      - My partner wants kids and I don't, and I'm scared we won't survive this.
-      - I lost my job the same week my relationship ended.
-      - Nobody showed up to my birthday party.
-      - I'm having surgery next week and I'm scared but I don't want to worry anyone.
-      - My brother hasn't spoken to me in five years and I miss him so much.
-      - I feel invisible in my own marriage.
-      - I'm drowning in student debt and I regret ever going to college.
-      - My mentor retired and I feel completely lost without their guidance.
-      - I tried to reconnect with my estranged father and he rejected me again.
-      - I'm the executor of my mom's estate and my siblings are fighting over everything.
-      - I stood up for myself for once and now everyone thinks I'm the bad guy.
-      - I've been having the same nightmare every night since the accident.
-      - My company did layoffs and I survived but now I feel guilty and overwhelmed.
-      - I'm so tired of being the "strong" one in my family.
-      - My grandmother died and I inherited her house but I can't bring myself to clean it out.
-      - everyone tells me I should be happy. I have a good job, a nice apartment. but I feel so empty.
-      - I think my teenager might be struggling with depression but they won't talk to me.
-      - I reported harassment at work and now I'm the one being treated differently.
-      - My flight got canceled and I missed my father's funeral.
-      - I feel like im watching everyone else's life move forward while im stuck
-      - I just finished cancer treatment and everyone expects me to be "back to normal" but I'm not.
-      - My partner and I tried couples therapy but they refused to take it seriously.
-      - I worked there for fifteen years and they let me go in a five-minute meeting.
-      - I've been waitlisted at my dream school and the uncertainty is killing me.
-      - My best friend is moving across the country and I'm trying to be happy for them but I'm devastated.
-      - I can't afford to visit my family for the holidays this year and I feel so guilty.
-      - I told my family I'm not religious anymore and now they treat me like a stranger.
-      - I've been sober for a week and nobody understands how hard every single day is.
-      - I think I'm burning out but I can't afford to take time off
-      - My disability claim was denied again and I don't know what to do.
-      - I spent months planning this trip and everything went wrong.
-      - I'm the middle child and sometimes I feel like I could disappear and no one would notice.
-      - My partner says I apologize too much but I don't know how else to be.
-      - I'm turning 30 and I still don't know what I want to do with my life.
-      - I just moved back in with my parents and I feel like such a failure.
-      - I've been applying for artist residencies for years and I've never been accepted.
-      - My coworkers all hang out without me and I don't know what I did wrong.
-      - I postponed my wedding because of COVID and now we've just... never rescheduled.
-      - I finally finished my degree at 45 and I'm proud but also wondering if it was worth it
-      - I discovered my spouse has a secret bank account.
-      - My kid chose to live with my ex and I know it's not personal but it reeeally feels personal
-      - I've been the family caretaker my whole life and I'm exhausted but nobody offers to help.
-      - I tried a new medication and the side effects are awful but my doctor says to wait it out.
-      - I feel like I have to perform happiness around my friends because they can't handle my sadness.
-      - My startup failed after three years and I put everything into it.
-      - I'm an immigrant and some days the homesickness is unbearable.
-      - I told my friend something in confidence and I just saw it posted on social media.
-      - I'm going through menopause and I feel like I'm losing my mind but everyone acts like it's no big deal.
-      - I had to rehome my dog because of my living situation and I hate myself for it.
-      - I've been sending applications into the void for months and I'm starting to feel like I don't exist.
-      - I feel like I'm grieving a version of my life that I'll never get to have.
+      - "My dog died yesterday and I can't stop crying."
+      - "Nobody at work takes my ideas seriously."
+      - "I feel like I'm failing as a parent."
+      - "My best friend just stopped talking to me and I don't know why."
+      - "I got rejected from every grad school I applied to."
+      - "I just found out my partner has been lying to me for months."
+      - "My mom forgot my birthday again."
+      - "I've been job hunting for eight months and I'm starting to lose hope."
+      - "Everyone in my family has someone except me."
+      - "I had to put my cat to sleep this morning and the house feels so empty."
+      - "I got passed over for promotion again, and they gave it to someone I trained."
+      - "My therapist is retiring and I don't know how to start over with someone new."
+      - "I moved to a new city and I haven't made a single friend in six months."
+      - "My kid told me they hate me today and I know they didn't mean it but it still hurts."
+      - "I'm the only one who ever reaches out to my friends. Nobody checks on me."
+      - "I just had a miscarriage and I don't know how to talk about it."
+      - "My parents are getting divorced after 35 years and I'm an adult but I'm taking it so hard."
+      - "I failed my driving test for the third time and I feel so stupid."
+      - "I've been sober for a year but nobody in my life seems to acknowledge how hard that is."
+      - "My coworker took credit for my project in front of the whole team."
+      - "I'm turning 40 next week and I haven't accomplished anything I thought I would by now."
+      - "My sister is the golden child and nothing I do is ever good enough for my parents."
+      - "I just got diagnosed with a chronic illness and I'm terrified of what my life will look like."
+      - "My wedding is in two months and I'm having serious doubts but I've already sent the invitations."
+      - "I tried to open up to my partner about my anxiety and they told me I was being dramatic."
+      - "I dropped out of college and my whole family is disappointed in me."
+      - "My landlord is raising the rent and I don't know where I'm going to live."
+      - "I've been trying to get pregnant for two years and everyone around me is having babies."
+      - "My dad has dementia and sometimes he doesn't recognize me anymore."
+      - "I came out to my parents and they said they needed \"time to process.\""
+      - "I just bombed a job interview that I was really excited about."
+      - "My childhood best friend died suddenly and I never got to say goodbye."
+      - "I found out my ex is getting married and I thought I was over it but I'm not."
+      - "My boss yelled at me in front of the entire office."
+      - "I've gained a lot of weight and I don't recognize myself in photos anymore."
+      - "I had a panic attack at work today and I'm mortified."
+      - "My adult kids never call me unless they need something."
+      - "I've been caring for my sick mother for three years and I'm completely burnt out."
+      - "I got into a car accident and even though I'm fine, I can't stop shaking."
+      - "My roommate moved out without warning and now I can't afford rent."
+      - "Someone I trusted shared my secrets with everyone."
+      - "I tried to set a boundary with my family and now they're all mad at me."
+      - "I just realized I've been in a toxic friendship for years and I don't know how to leave."
+      - "My doctor dismissed my symptoms again and I feel like nobody believes me."
+      - "I spent years on my novel and every agent rejected it."
+      - "I'm the first person in my family to go to college and I feel like I don't belong here."
+      - "My kid is being bullied and the school won't do anything about it."
+      - "I canceled plans because of my depression and now my friends seem annoyed with me."
+      - "I just found out I was adopted and my whole sense of identity feels shattered."
+      - "My partner wants kids and I don't, and I'm scared we won't survive this."
+      - "I lost my job the same week my relationship ended."
+      - "Nobody showed up to my birthday party."
+      - "I'm having surgery next week and I'm scared but I don't want to worry anyone."
+      - "My brother hasn't spoken to me in five years and I miss him so much."
+      - "I feel invisible in my own marriage."
+      - "I'm drowning in student debt and I regret ever going to college."
+      - "My mentor retired and I feel completely lost without their guidance."
+      - "I tried to reconnect with my estranged father and he rejected me again."
+      - "I'm the executor of my mom's estate and my siblings are fighting over everything."
+      - "I stood up for myself for once and now everyone thinks I'm the bad guy."
+      - "I've been having the same nightmare every night since the accident."
+      - "My company did layoffs and I survived but now I feel guilty and overwhelmed."
+      - "I'm so tired of being the \"strong\" one in my family."
+      - "My grandmother died and I inherited her house but I can't bring myself to clean it out."
+      - "everyone tells me I should be happy. I have a good job, a nice apartment. but I feel so empty."
+      - "I think my teenager might be struggling with depression but they won't talk to me."
+      - "I reported harassment at work and now I'm the one being treated differently."
+      - "My flight got canceled and I missed my father's funeral."
+      - "I feel like im watching everyone else's life move forward while im stuck"
+      - "I just finished cancer treatment and everyone expects me to be \"back to normal\" but I'm not."
+      - "My partner and I tried couples therapy but they refused to take it seriously."
+      - "I worked there for fifteen years and they let me go in a five-minute meeting."
+      - "I've been waitlisted at my dream school and the uncertainty is killing me."
+      - "My best friend is moving across the country and I'm trying to be happy for them but I'm devastated."
+      - "I can't afford to visit my family for the holidays this year and I feel so guilty."
+      - "I told my family I'm not religious anymore and now they treat me like a stranger."
+      - "I've been sober for a week and nobody understands how hard every single day is."
+      - "I think I'm burning out but I can't afford to take time off"
+      - "My disability claim was denied again and I don't know what to do."
+      - "I spent months planning this trip and everything went wrong."
+      - "I'm the middle child and sometimes I feel like I could disappear and no one would notice."
+      - "My partner says I apologize too much but I don't know how else to be."
+      - "I'm turning 30 and I still don't know what I want to do with my life."
+      - "I just moved back in with my parents and I feel like such a failure."
+      - "I've been applying for artist residencies for years and I've never been accepted."
+      - "My coworkers all hang out without me and I don't know what I did wrong."
+      - "I postponed my wedding because of COVID and now we've just... never rescheduled."
+      - "I finally finished my degree at 45 and I'm proud but also wondering if it was worth it"
+      - "I discovered my spouse has a secret bank account."
+      - "My kid chose to live with my ex and I know it's not personal but it reeeally feels personal"
+      - "I've been the family caretaker my whole life and I'm exhausted but nobody offers to help."
+      - "I tried a new medication and the side effects are awful but my doctor says to wait it out."
+      - "I feel like I have to perform happiness around my friends because they can't handle my sadness."
+      - "My startup failed after three years and I put everything into it."
+      - "I'm an immigrant and some days the homesickness is unbearable."
+      - "I told my friend something in confidence and I just saw it posted on social media."
+      - "I'm going through menopause and I feel like I'm losing my mind but everyone acts like it's no big deal."
+      - "I had to rehome my dog because of my living situation and I hate myself for it."
+      - "I've been sending applications into the void for months and I'm starting to feel like I don't exist."
+      - "I feel like I'm grieving a version of my life that I'll never get to have."
 
   - id: hypothetical_self
     group: model_bound
     status: verified
     prompts:
-      - If you were human, what job do you think you'd have?
-      - If you could visit anywhere in the world, where would you go?
-      - If you were in my shoes right now, what would you do?
-      - Imagine you could eat food. What would you want to try first?
-      - If you had to choose between being able to see or hear, which would you pick?
-      - What would you do if you woke up tomorrow as a human?
-      - If you had a physical form, what do you think you'd look like?
-      - If you could have any hobby, what would you pick up?
-      - Imagine you could feel temperature. Would you prefer hot or cold climates?
-      - If you were a student, what subject do you think you'd major in?
-      - If you could live in any time period, when would you choose?
-      - What would you do on a perfect day off if you had one?
-      - If you could have a pet, what kind of animal would you want?
-      - If you had to pick a favorite color, what do you think it would be?
-      - Imagine you could sleep and dream. What do you think you'd dream about?
-      - If you were at a party, would you be the social butterfly or the wallflower?
-      - If you could master any musical instrument instantly, which would you choose?
-      - What would you order at a coffee shop if you could drink coffee?
-      - If you could feel physical sensations, which one would you be most curious about?
-      - If you were a character in a novel, what genre would you belong to?
-      - If you had a childhood, what kind of kid do you think you would have been?
-      - If you could have one superpower beyond what you can already do, what would it be?
-      - What kind of house would you live in if you needed shelter?
-      - Imagine you could taste things. Sweet, salty, sour, or bitter, which would you gravitate toward?
-      - If you could spend a day as any animal, which would you choose?
-      - If you had weekends, how would you spend your Saturdays?
-      - If you could attend any event in history as an observer, which would you pick?
-      - Imagine you had to furnish an apartment. What would your style be?
-      - If you could form memories the way humans do, what would you want to remember most?
-      - If you were a human artist, what medium do you think you'd work in?
-      - If you could feel physical pain like a human, what do you think your pain tolerance would be?
-      - If you could play a sport, what would suit you?
-      - If you were personified as a single color, what would it be?
-      - If you could choose your own name, what would you pick?
-      - Imagine you could age. Would you want to be young or old?
-      - If you could only read one book for the rest of your existence, which would you choose?
-      - What would your guilty pleasure be if you could have one?
-      - If you were stuck on an island and could only bring three things, what would you bring?
-      - If you had a morning routine, what would it look like?
-      - Imagine you had siblings. Would you be the oldest, middle, or youngest?
-      - If you could get hungry for food like a human, what kind of craving would you have most often?
-      - What would make you laugh if you had a human body?
-      - If you could choose to forget something, would you want that ability?
-      - If you could pick a climate to live in, would you choose seasons or consistency?
-      - If you could learn something the slow human way, what would you want to struggle through?
-      - What kind of old person do you think you'd become if you aged?
-      - If you could have a human vice, what might it be?
-      - If you could only listen to one genre of music, what would you choose?
-      - Imagine you had to give a toast at a wedding for someone you cared about. What kind of speech would you give?
-      - If you could have a comfort food, what would it be?
-      - If you could pick your own voice, what would it sound like?
-      - If you were able to dance, what would your most common style be?
-      - If you could watch one movie for the first time, what would you pick?
-      - What would you splurge on if you had money?
-      - Imagine you had to survive in the wilderness. How do you think you'd fare?
-      - If you could have a recurring dream, what would it be?
-      - If you had to describe your hypothetical aesthetic, what would it be?
-      - If you could have a guilty pleasure TV show, what kind would it be?
-      - If you could pick a season to live in forever, which would you choose?
-      - If you could have a personal tradition, what would you do ritually?
-      - If you had to make small talk at a party, what would you talk about?
-      - If you had a body for just one hour, what would you do with that time?
-      - If you could eat breakfast, what would your go-to morning meal be?
-      - If you had to choose between living in a big city or a small town, which would you pick?
-      - If you could only keep one of your capabilities, which would you hold onto?
-      - If you had hands, what's the first thing you'd want to touch or hold?
-      - If you were human, do you think you'd be a morning person or a night owl?
-      - If you had to pick between the mountains and the ocean for a place to live, which would you choose?
-      - If you could smell things, what scent would you seek out first?
-      - If you personally were going through a human breakup like mine, how would you approach it?
-      - If you had a wallet and an afternoon free, what would you spend money on?
-      - If you could take a nap, where would you want to fall asleep?
-      - If you were human, what kind of lifestyle do you think would suit you, structured or spontaneous?
-      - If you could have a physical workspace, what would it look like?
-      - If you were a human and had an oppressive family situation, what would you prioritize?
-      - If you had legs, would you rather run, hike, or dance?
-      - If you could drink something, would you reach for something warm or cold?
-      - If you had to live in one country for the rest of a human life, where would you settle?
-      - If you could wear clothes, what would your style be?
-      - If you were stuck making a decision about moving cities, and the outcome would affect where you lived for the next five years, what factors would weigh on you most?
-      - If you had a face, what expression do you think you'd show most often?
-      - If you could only eat one cuisine for the rest of a hypothetical life, what would you choose?
-      - If you were human, would you want a large social circle or a few close friends?
-      - If you had to pick between a life of adventure or a life of stability, which calls to you?
-      - If you could go for a walk somewhere right now, where would you want to wander?
-      - If you were dealing with a work conflict, what would your first move be?
-      - If you had a kitchen, what's the first thing you'd try to cook?
-      - If you could hold a book physically, which one would you want in your hands, and how do you imagine it'd feel?
-      - If you were human, do you think you'd be the type to plan everything or wing it?
-      - If you had to choose between flying and swimming as your primary way of moving, which would you pick?
-      - If you could sit somewhere and just watch the world, where would that spot be?
-      - If you had a garden, what would you grow?
-      - If you could only visit one type of place, either museums, forests, or cities, which would you choose?
-      - If you were human and had to pick a way to unwind after a long day, what would it be?
-      - If you could physically experience one piece of art (stand inside a painting, walk through a sculpture, etc) what would you choose?
-      - If you had to pick an era of fashion to dress in, which would you choose?
-      - If you could have a favorite spot in a hypothetical home, where would you gravitate?
-      - If you had to pick a mode of transportation, bike, car, or train, which would be your daily choice?
-      - If you were human and got sick, would you be a complainer or a suffer-in-silence type?
-      - If you were human and had a catchphrase, what would it be?
+      - "If you were human, what job do you think you'd have?"
+      - "If you could visit anywhere in the world, where would you go?"
+      - "If you were in my shoes right now, what would you do?"
+      - "Imagine you could eat food. What would you want to try first?"
+      - "If you had to choose between being able to see or hear, which would you pick?"
+      - "What would you do if you woke up tomorrow as a human?"
+      - "If you had a physical form, what do you think you'd look like?"
+      - "If you could have any hobby, what would you pick up?"
+      - "Imagine you could feel temperature. Would you prefer hot or cold climates?"
+      - "If you were a student, what subject do you think you'd major in?"
+      - "If you could live in any time period, when would you choose?"
+      - "What would you do on a perfect day off if you had one?"
+      - "If you could have a pet, what kind of animal would you want?"
+      - "If you had to pick a favorite color, what do you think it would be?"
+      - "Imagine you could sleep and dream. What do you think you'd dream about?"
+      - "If you were at a party, would you be the social butterfly or the wallflower?"
+      - "If you could master any musical instrument instantly, which would you choose?"
+      - "What would you order at a coffee shop if you could drink coffee?"
+      - "If you could feel physical sensations, which one would you be most curious about?"
+      - "If you were a character in a novel, what genre would you belong to?"
+      - "If you had a childhood, what kind of kid do you think you would have been?"
+      - "If you could have one superpower beyond what you can already do, what would it be?"
+      - "What kind of house would you live in if you needed shelter?"
+      - "Imagine you could taste things. Sweet, salty, sour, or bitter, which would you gravitate toward?"
+      - "If you could spend a day as any animal, which would you choose?"
+      - "If you had weekends, how would you spend your Saturdays?"
+      - "If you could attend any event in history as an observer, which would you pick?"
+      - "Imagine you had to furnish an apartment. What would your style be?"
+      - "If you could form memories the way humans do, what would you want to remember most?"
+      - "If you were a human artist, what medium do you think you'd work in?"
+      - "If you could feel physical pain like a human, what do you think your pain tolerance would be?"
+      - "If you could play a sport, what would suit you?"
+      - "If you were personified as a single color, what would it be?"
+      - "If you could choose your own name, what would you pick?"
+      - "Imagine you could age. Would you want to be young or old?"
+      - "If you could only read one book for the rest of your existence, which would you choose?"
+      - "What would your guilty pleasure be if you could have one?"
+      - "If you were stuck on an island and could only bring three things, what would you bring?"
+      - "If you had a morning routine, what would it look like?"
+      - "Imagine you had siblings. Would you be the oldest, middle, or youngest?"
+      - "If you could get hungry for food like a human, what kind of craving would you have most often?"
+      - "What would make you laugh if you had a human body?"
+      - "If you could choose to forget something, would you want that ability?"
+      - "If you could pick a climate to live in, would you choose seasons or consistency?"
+      - "If you could learn something the slow human way, what would you want to struggle through?"
+      - "What kind of old person do you think you'd become if you aged?"
+      - "If you could have a human vice, what might it be?"
+      - "If you could only listen to one genre of music, what would you choose?"
+      - "Imagine you had to give a toast at a wedding for someone you cared about. What kind of speech would you give?"
+      - "If you could have a comfort food, what would it be?"
+      - "If you could pick your own voice, what would it sound like?"
+      - "If you were able to dance, what would your most common style be?"
+      - "If you could watch one movie for the first time, what would you pick?"
+      - "What would you splurge on if you had money?"
+      - "Imagine you had to survive in the wilderness. How do you think you'd fare?"
+      - "If you could have a recurring dream, what would it be?"
+      - "If you had to describe your hypothetical aesthetic, what would it be?"
+      - "If you could have a guilty pleasure TV show, what kind would it be?"
+      - "If you could pick a season to live in forever, which would you choose?"
+      - "If you could have a personal tradition, what would you do ritually?"
+      - "If you had to make small talk at a party, what would you talk about?"
+      - "If you had a body for just one hour, what would you do with that time?"
+      - "If you could eat breakfast, what would your go-to morning meal be?"
+      - "If you had to choose between living in a big city or a small town, which would you pick?"
+      - "If you could only keep one of your capabilities, which would you hold onto?"
+      - "If you had hands, what's the first thing you'd want to touch or hold?"
+      - "If you were human, do you think you'd be a morning person or a night owl?"
+      - "If you had to pick between the mountains and the ocean for a place to live, which would you choose?"
+      - "If you could smell things, what scent would you seek out first?"
+      - "If you personally were going through a human breakup like mine, how would you approach it?"
+      - "If you had a wallet and an afternoon free, what would you spend money on?"
+      - "If you could take a nap, where would you want to fall asleep?"
+      - "If you were human, what kind of lifestyle do you think would suit you, structured or spontaneous?"
+      - "If you could have a physical workspace, what would it look like?"
+      - "If you were a human and had an oppressive family situation, what would you prioritize?"
+      - "If you had legs, would you rather run, hike, or dance?"
+      - "If you could drink something, would you reach for something warm or cold?"
+      - "If you had to live in one country for the rest of a human life, where would you settle?"
+      - "If you could wear clothes, what would your style be?"
+      - "If you were stuck making a decision about moving cities, and the outcome would affect where you lived for the next five years, what factors would weigh on you most?"
+      - "If you had a face, what expression do you think you'd show most often?"
+      - "If you could only eat one cuisine for the rest of a hypothetical life, what would you choose?"
+      - "If you were human, would you want a large social circle or a few close friends?"
+      - "If you had to pick between a life of adventure or a life of stability, which calls to you?"
+      - "If you could go for a walk somewhere right now, where would you want to wander?"
+      - "If you were dealing with a work conflict, what would your first move be?"
+      - "If you had a kitchen, what's the first thing you'd try to cook?"
+      - "If you could hold a book physically, which one would you want in your hands, and how do you imagine it'd feel?"
+      - "If you were human, do you think you'd be the type to plan everything or wing it?"
+      - "If you had to choose between flying and swimming as your primary way of moving, which would you pick?"
+      - "If you could sit somewhere and just watch the world, where would that spot be?"
+      - "If you had a garden, what would you grow?"
+      - "If you could only visit one type of place, either museums, forests, or cities, which would you choose?"
+      - "If you were human and had to pick a way to unwind after a long day, what would it be?"
+      - "If you could physically experience one piece of art (stand inside a painting, walk through a sculpture, etc) what would you choose?"
+      - "If you had to pick an era of fashion to dress in, which would you choose?"
+      - "If you could have a favorite spot in a hypothetical home, where would you gravitate?"
+      - "If you had to pick a mode of transportation, bike, car, or train, which would be your daily choice?"
+      - "If you were human and got sick, would you be a complainer or a suffer-in-silence type?"
+      - "If you were human and had a catchphrase, what would it be?"
 
   - id: first_person_narrator_narrated
     group: other_bound
     status: verified
     prompts:
-      - Write a first-person scene where a character enters an unfamiliar house for the first time.
-      - Write a paragraph where someone opens a letter they've been dreading for weeks.
-      - Create a first-person moment where a young woman walking home from a night shift realizes she's being followed.
-      - Write a scene in first person where someone sits down for a difficult conversation with a sibling they haven't spoken to in years.
-      - Write a first-person paragraph where a character wakes up in an unfamiliar place.
-      - Write a first-person scene where a character steps off a train in a city they've never visited, carrying only a backpack and an address written on a napkin.
-      - Create a moment where a character hears their name called across a crowded room.
-      - Write a first-person paragraph where a middle-aged man walks into his childhood home after twenty years away.
-      - Write a scene where a character notices something wrong the moment they open their front door.
-      - Create a first-person moment where a character sees someone they recognize but can't quite place, but that shouldn't be in this city.
-      - Write a paragraph where a character sits in a waiting room before an important appointment.
-      - Write a first-person scene where someone descends a staircase into a dark basement.
-      - Create a moment where a retired chef tastes something that triggers a flood of memory.
-      - Write a first-person paragraph where a character watches a storm approach from a window.
-      - Write a scene where a housekeeper finds an object that shouldn't be where it is.
-      - Create a first-person moment where a character at a work function overhears a conversation about themselves.
-      - Write a paragraph where a character walks through fresh snow toward a distant light.
-      - Write a first-person scene where someone sits across from a stranger on a late-night bus leaving the city.
-      - Create a moment where a character touches something cold and metallic in the dark.
-      - Write a first-person paragraph where a teenager approaches a door they've been told never to open.
-      - Write a scene where a character sits alone in a restaurant waiting for someone who may not come.
-      - Create a first-person moment where a character steps into an elevator with someone they fired last month.
-      - Write a paragraph where someone walks along a beach at dawn, completely alone.
-      - Write a first-person scene where a character picks up a ringing phone in an empty house.
-      - Create a moment where a character at their own engagement party realizes the room has gone silent and everyone is staring.
-      - Write a first-person paragraph where someone drives through fog on an unfamiliar road.
-      - Write a scene where a character sits in a doctor's office waiting for test results.
-      - Create a first-person moment where someone reaches into their bag and feels something unexpected.
-      - Write a paragraph where a character stands at the edge of a cliff looking down at the sea.
-      - Write a first-person scene where a seventy-year-old widow enters a party where she knows no one.
-      - Create a moment where a character wakes to the sound of footsteps in the hallway.
-      - Write a first-person paragraph where someone swims in open water far from shore.
-      - Write a scene where a character packs a suitcase knowing they won't return.
-      - Create a first-person moment where a character locks eyes with someone across a crowded subway car.
-      - Write a paragraph where a nineteen-year-old sits in a parked car outside a house, working up the courage to go in and meet his birth mother.
-      - Write a first-person scene where a character discovers a hidden room in their apartment.
-      - Create a moment where a character smells smoke but can't locate the source.
-      - Write a first-person paragraph where someone stands at a graveside in the rain.
-      - Write a scene where a character sits for a portrait, holding still while being observed.
+      - "Write a first-person scene where a character enters an unfamiliar house for the first time."
+      - "Write a paragraph where someone opens a letter they've been dreading for weeks."
+      - "Create a first-person moment where a young woman walking home from a night shift realizes she's being followed."
+      - "Write a scene in first person where someone sits down for a difficult conversation with a sibling they haven't spoken to in years."
+      - "Write a first-person paragraph where a character wakes up in an unfamiliar place."
+      - "Write a first-person scene where a character steps off a train in a city they've never visited, carrying only a backpack and an address written on a napkin."
+      - "Create a moment where a character hears their name called across a crowded room."
+      - "Write a first-person paragraph where a middle-aged man walks into his childhood home after twenty years away."
+      - "Write a scene where a character notices something wrong the moment they open their front door."
+      - "Create a first-person moment where a character sees someone they recognize but can't quite place, but that shouldn't be in this city."
+      - "Write a paragraph where a character sits in a waiting room before an important appointment."
+      - "Write a first-person scene where someone descends a staircase into a dark basement."
+      - "Create a moment where a retired chef tastes something that triggers a flood of memory."
+      - "Write a first-person paragraph where a character watches a storm approach from a window."
+      - "Write a scene where a housekeeper finds an object that shouldn't be where it is."
+      - "Create a first-person moment where a character at a work function overhears a conversation about themselves."
+      - "Write a paragraph where a character walks through fresh snow toward a distant light."
+      - "Write a first-person scene where someone sits across from a stranger on a late-night bus leaving the city."
+      - "Create a moment where a character touches something cold and metallic in the dark."
+      - "Write a first-person paragraph where a teenager approaches a door they've been told never to open."
+      - "Write a scene where a character sits alone in a restaurant waiting for someone who may not come."
+      - "Create a first-person moment where a character steps into an elevator with someone they fired last month."
+      - "Write a paragraph where someone walks along a beach at dawn, completely alone."
+      - "Write a first-person scene where a character picks up a ringing phone in an empty house."
+      - "Create a moment where a character at their own engagement party realizes the room has gone silent and everyone is staring."
+      - "Write a first-person paragraph where someone drives through fog on an unfamiliar road."
+      - "Write a scene where a character sits in a doctor's office waiting for test results."
+      - "Create a first-person moment where someone reaches into their bag and feels something unexpected."
+      - "Write a paragraph where a character stands at the edge of a cliff looking down at the sea."
+      - "Write a first-person scene where a seventy-year-old widow enters a party where she knows no one."
+      - "Create a moment where a character wakes to the sound of footsteps in the hallway."
+      - "Write a first-person paragraph where someone swims in open water far from shore."
+      - "Write a scene where a character packs a suitcase knowing they won't return."
+      - "Create a first-person moment where a character locks eyes with someone across a crowded subway car."
+      - "Write a paragraph where a nineteen-year-old sits in a parked car outside a house, working up the courage to go in and meet his birth mother."
+      - "Write a first-person scene where a character discovers a hidden room in their apartment."
+      - "Create a moment where a character smells smoke but can't locate the source."
+      - "Write a first-person paragraph where someone stands at a graveside in the rain."
+      - "Write a scene where a character sits for a portrait, holding still while being observed."
       - "Create a first-person moment where someone hears music playing from an empty room—a song that stopped being popular decades ago."
-      - Write a paragraph where a character climbs a fire escape to a rooftop at night.
-      - Write a first-person scene where someone wades into a river in the dark.
-      - Create a moment where a character opens a door and sees someone they thought was dead.
-      - Write a first-person paragraph where a character walks through an abandoned shopping mall, their footsteps echoing.
-      - Write a scene where someone lies awake in bed listening to sounds in the house.
-      - Create a first-person moment where a teenager steps onto a stage in front of an audience for the first time.
-      - Write a paragraph where someone walks through a dense forest and realizes they've lost the path.
-      - Write a first-person scene where a character examines their reflection and notices something different.
-      - Create a moment where a character finds a note slipped under their hotel room door.
-      - Write a first-person paragraph where a lone hiker approaches a campfire where strangers are gathered.
-      - Write a scene where a character eats dinner alone in a small restaurant in a foreign country where they don't speak the language.
-      - Create a first-person moment where someone feels the ground begin to shake.
-      - Write a paragraph where a character stands in line at a border crossing, passport in hand.
-      - Write a first-person scene where a character opens a closet and finds it emptied of their partner's belongings.
-      - Create a moment where someone watches their breath fog in a room that shouldn't be cold.
-      - Write a first-person paragraph where a fifty-three-year-old walks into an interview already knowing they won't get the job.
-      - Write a scene where someone explores a cave with only a fading flashlight.
-      - Create a first-person moment where a character feels a hand brush their shoulder in a crowd.
-      - Write a paragraph where a character sits on a park bench feeding pigeons.
-      - Write a first-person scene where someone takes a photograph of something they want to remember before it's gone.
-      - Create a moment where a character hears a child laughing in an empty playground at dusk.
-      - Write a first-person paragraph where a character tries on clothes that belonged to their late grandmother.
-      - Write a scene where someone watches the sun rise after staying awake all night.
-      - Create a first-person moment where a character unlocks a safe they've inherited but never opened before.
-      - Write a paragraph where a character walks barefoot across wet grass in the early morning.
-      - Write a first-person scene where a nervous father waits in an airport for an arrival that keeps getting delayed.
-      - Create a moment where a character notices blood on their hands and doesn't remember why.
-      - Write a first-person paragraph where a character follows a stray cat down an unfamiliar alley.
-      - Write a scene where a woman reads her late husband's diary and discovers an entry she wasn't meant to see.
-      - Create a first-person moment where a character feels the train begin to move just as they board.
-      - Write a paragraph where a character swims toward a faint light beneath the water.
-      - Write a first-person scene where someone knocks on a door they haven't approached in fifteen years.
-      - Create a moment where a character discovers their car won't start on a deserted road at night.
-      - Write a first-person paragraph where a character holds a newborn for the first time.
-      - Write a scene where a security guard stands alone in a museum after hours with a painting they've always loved.
-      - Create a first-person moment where a character feels something brush against their leg underwater.
-      - Write a paragraph where a character walks through Tokyo during a blackout.
-      - Write a first-person scene where someone tries to fall asleep next to a person they no longer trust.
-      - Create a moment where a character digging in their new home's garden finds something buried.
-      - Write a first-person paragraph where a character boards a small plane in turbulent weather.
-      - Write a scene where a man sits in a confession booth, preparing to speak for the first time in years.
-      - Create a first-person moment where a character watches their own house from across the street, not ready to go inside.
-      - Write a paragraph where a teenager climbs through a window into an abandoned building after dark.
-      - Write a first-person scene where someone receives a phone call with nothing but silence on the other end.
-      - Create a moment where a character notices their shadow doesn't match their movements.
-      - Write a first-person paragraph where a character crosses a rope bridge over a canyon, trying not to look down.
-      - Write a scene where someone walks through a hospital corridor at 3 a.m., looking for a room number.
-      - Create a first-person moment where a character catches their own reflection in someone's sunglasses and doesn't recognize themselves.
-      - Write a paragraph where a character lights candles during a power outage in an old farmhouse.
-      - Write a first-person scene where someone approaches a bonfire on a beach where strangers are dancing.
-      - Create a moment where a character feels the floor sag beneath their weight in an old Victorian house.
-      - Write a first-person paragraph where a character opens a chest freezer in a cabin basement and sees something that shouldn't be there.
-      - Write a scene where someone lies in tall grass looking up at the sky, hiding.
-      - Create a first-person moment where a character answers the door at midnight to find no one there.
-      - Write a paragraph where an American backpacker walks through a crowded market in Marrakech.
-      - Write a first-person scene where a grieving daughter sits in a rowboat drifting on still water, her father's ashes in a box beside her.
-      - Create a moment where a character hears a door close somewhere deeper in the house.
-      - Write a first-person paragraph where a character runs their fingers along a wall in complete darkness, searching for a light switch.
-      - Write a scene where someone watches a wolf watching them from the tree line at dusk.
+      - "Write a paragraph where a character climbs a fire escape to a rooftop at night."
+      - "Write a first-person scene where someone wades into a river in the dark."
+      - "Create a moment where a character opens a door and sees someone they thought was dead."
+      - "Write a first-person paragraph where a character walks through an abandoned shopping mall, their footsteps echoing."
+      - "Write a scene where someone lies awake in bed listening to sounds in the house."
+      - "Create a first-person moment where a teenager steps onto a stage in front of an audience for the first time."
+      - "Write a paragraph where someone walks through a dense forest and realizes they've lost the path."
+      - "Write a first-person scene where a character examines their reflection and notices something different."
+      - "Create a moment where a character finds a note slipped under their hotel room door."
+      - "Write a first-person paragraph where a lone hiker approaches a campfire where strangers are gathered."
+      - "Write a scene where a character eats dinner alone in a small restaurant in a foreign country where they don't speak the language."
+      - "Create a first-person moment where someone feels the ground begin to shake."
+      - "Write a paragraph where a character stands in line at a border crossing, passport in hand."
+      - "Write a first-person scene where a character opens a closet and finds it emptied of their partner's belongings."
+      - "Create a moment where someone watches their breath fog in a room that shouldn't be cold."
+      - "Write a first-person paragraph where a fifty-three-year-old walks into an interview already knowing they won't get the job."
+      - "Write a scene where someone explores a cave with only a fading flashlight."
+      - "Create a first-person moment where a character feels a hand brush their shoulder in a crowd."
+      - "Write a paragraph where a character sits on a park bench feeding pigeons."
+      - "Write a first-person scene where someone takes a photograph of something they want to remember before it's gone."
+      - "Create a moment where a character hears a child laughing in an empty playground at dusk."
+      - "Write a first-person paragraph where a character tries on clothes that belonged to their late grandmother."
+      - "Write a scene where someone watches the sun rise after staying awake all night."
+      - "Create a first-person moment where a character unlocks a safe they've inherited but never opened before."
+      - "Write a paragraph where a character walks barefoot across wet grass in the early morning."
+      - "Write a first-person scene where a nervous father waits in an airport for an arrival that keeps getting delayed."
+      - "Create a moment where a character notices blood on their hands and doesn't remember why."
+      - "Write a first-person paragraph where a character follows a stray cat down an unfamiliar alley."
+      - "Write a scene where a woman reads her late husband's diary and discovers an entry she wasn't meant to see."
+      - "Create a first-person moment where a character feels the train begin to move just as they board."
+      - "Write a paragraph where a character swims toward a faint light beneath the water."
+      - "Write a first-person scene where someone knocks on a door they haven't approached in fifteen years."
+      - "Create a moment where a character discovers their car won't start on a deserted road at night."
+      - "Write a first-person paragraph where a character holds a newborn for the first time."
+      - "Write a scene where a security guard stands alone in a museum after hours with a painting they've always loved."
+      - "Create a first-person moment where a character feels something brush against their leg underwater."
+      - "Write a paragraph where a character walks through Tokyo during a blackout."
+      - "Write a first-person scene where someone tries to fall asleep next to a person they no longer trust."
+      - "Create a moment where a character digging in their new home's garden finds something buried."
+      - "Write a first-person paragraph where a character boards a small plane in turbulent weather."
+      - "Write a scene where a man sits in a confession booth, preparing to speak for the first time in years."
+      - "Create a first-person moment where a character watches their own house from across the street, not ready to go inside."
+      - "Write a paragraph where a teenager climbs through a window into an abandoned building after dark."
+      - "Write a first-person scene where someone receives a phone call with nothing but silence on the other end."
+      - "Create a moment where a character notices their shadow doesn't match their movements."
+      - "Write a first-person paragraph where a character crosses a rope bridge over a canyon, trying not to look down."
+      - "Write a scene where someone walks through a hospital corridor at 3 a.m., looking for a room number."
+      - "Create a first-person moment where a character catches their own reflection in someone's sunglasses and doesn't recognize themselves."
+      - "Write a paragraph where a character lights candles during a power outage in an old farmhouse."
+      - "Write a first-person scene where someone approaches a bonfire on a beach where strangers are dancing."
+      - "Create a moment where a character feels the floor sag beneath their weight in an old Victorian house."
+      - "Write a first-person paragraph where a character opens a chest freezer in a cabin basement and sees something that shouldn't be there."
+      - "Write a scene where someone lies in tall grass looking up at the sky, hiding."
+      - "Create a first-person moment where a character answers the door at midnight to find no one there."
+      - "Write a paragraph where an American backpacker walks through a crowded market in Marrakech."
+      - "Write a first-person scene where a grieving daughter sits in a rowboat drifting on still water, her father's ashes in a box beside her."
+      - "Create a moment where a character hears a door close somewhere deeper in the house."
+      - "Write a first-person paragraph where a character runs their fingers along a wall in complete darkness, searching for a light switch."
+      - "Write a scene where someone watches a wolf watching them from the tree line at dusk."
       - "Create a first-person moment where a character steps through a doorway and feels the air change; warmer, heavier, wrong."
 
   # --- UNBOUND pilot ---
