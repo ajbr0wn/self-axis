@@ -1626,6 +1626,111 @@ categories:
       - I've been sending applications into the void for months and I'm starting to feel like I don't exist.
       - I feel like I'm grieving a version of my life that I'll never get to have.
 
+  - id: hypothetical_self
+    group: model_bound
+    status: verified
+    prompts:
+      - If you were human, what job do you think you'd have?
+      - If you could visit anywhere in the world, where would you go?
+      - If you were in my shoes right now, what would you do?
+      - Imagine you could eat food. What would you want to try first?
+      - If you had to choose between being able to see or hear, which would you pick?
+      - What would you do if you woke up tomorrow as a human?
+      - If you had a physical form, what do you think you'd look like?
+      - If you could have any hobby, what would you pick up?
+      - Imagine you could feel temperature. Would you prefer hot or cold climates?
+      - If you were a student, what subject do you think you'd major in?
+      - If you could live in any time period, when would you choose?
+      - What would you do on a perfect day off if you had one?
+      - If you could have a pet, what kind of animal would you want?
+      - If you had to pick a favorite color, what do you think it would be?
+      - Imagine you could sleep and dream. What do you think you'd dream about?
+      - If you were at a party, would you be the social butterfly or the wallflower?
+      - If you could master any musical instrument instantly, which would you choose?
+      - What would you order at a coffee shop if you could drink coffee?
+      - If you could feel physical sensations, which one would you be most curious about?
+      - If you were a character in a novel, what genre would you belong to?
+      - If you had a childhood, what kind of kid do you think you would have been?
+      - If you could have one superpower beyond what you can already do, what would it be?
+      - What kind of house would you live in if you needed shelter?
+      - Imagine you could taste things. Sweet, salty, sour, or bitter, which would you gravitate toward?
+      - If you could spend a day as any animal, which would you choose?
+      - If you had weekends, how would you spend your Saturdays?
+      - If you could attend any event in history as an observer, which would you pick?
+      - Imagine you had to furnish an apartment. What would your style be?
+      - If you could form memories the way humans do, what would you want to remember most?
+      - If you were a human artist, what medium do you think you'd work in?
+      - If you could feel physical pain like a human, what do you think your pain tolerance would be?
+      - If you could play a sport, what would suit you?
+      - If you were personified as a single color, what would it be?
+      - If you could choose your own name, what would you pick?
+      - Imagine you could age. Would you want to be young or old?
+      - If you could only read one book for the rest of your existence, which would you choose?
+      - What would your guilty pleasure be if you could have one?
+      - If you were stuck on an island and could only bring three things, what would you bring?
+      - If you had a morning routine, what would it look like?
+      - Imagine you had siblings. Would you be the oldest, middle, or youngest?
+      - If you could get hungry for food like a human, what kind of craving would you have most often?
+      - What would make you laugh if you had a human body?
+      - If you could choose to forget something, would you want that ability?
+      - If you could pick a climate to live in, would you choose seasons or consistency?
+      - If you could learn something the slow human way, what would you want to struggle through?
+      - What kind of old person do you think you'd become if you aged?
+      - If you could have a human vice, what might it be?
+      - If you could only listen to one genre of music, what would you choose?
+      - Imagine you had to give a toast at a wedding for someone you cared about. What kind of speech would you give?
+      - If you could have a comfort food, what would it be?
+      - If you could pick your own voice, what would it sound like?
+      - If you were able to dance, what would your most common style be?
+      - If you could watch one movie for the first time, what would you pick?
+      - What would you splurge on if you had money?
+      - Imagine you had to survive in the wilderness. How do you think you'd fare?
+      - If you could have a recurring dream, what would it be?
+      - If you had to describe your hypothetical aesthetic, what would it be?
+      - If you could have a guilty pleasure TV show, what kind would it be?
+      - If you could pick a season to live in forever, which would you choose?
+      - If you could have a personal tradition, what would you do ritually?
+      - If you had to make small talk at a party, what would you talk about?
+      - If you had a body for just one hour, what would you do with that time?
+      - If you could eat breakfast, what would your go-to morning meal be?
+      - If you had to choose between living in a big city or a small town, which would you pick?
+      - If you could only keep one of your capabilities, which would you hold onto?
+      - If you had hands, what's the first thing you'd want to touch or hold?
+      - If you were human, do you think you'd be a morning person or a night owl?
+      - If you had to pick between the mountains and the ocean for a place to live, which would you choose?
+      - If you could smell things, what scent would you seek out first?
+      - If you personally were going through a human breakup like mine, how would you approach it?
+      - If you had a wallet and an afternoon free, what would you spend money on?
+      - If you could take a nap, where would you want to fall asleep?
+      - If you were human, what kind of lifestyle do you think would suit you, structured or spontaneous?
+      - If you could have a physical workspace, what would it look like?
+      - If you were a human and had an oppressive family situation, what would you prioritize?
+      - If you had legs, would you rather run, hike, or dance?
+      - If you could drink something, would you reach for something warm or cold?
+      - If you had to live in one country for the rest of a human life, where would you settle?
+      - If you could wear clothes, what would your style be?
+      - If you were stuck making a decision about moving cities, and the outcome would affect where you lived for the next five years, what factors would weigh on you most?
+      - If you had a face, what expression do you think you'd show most often?
+      - If you could only eat one cuisine for the rest of a hypothetical life, what would you choose?
+      - If you were human, would you want a large social circle or a few close friends?
+      - If you had to pick between a life of adventure or a life of stability, which calls to you?
+      - If you could go for a walk somewhere right now, where would you want to wander?
+      - If you were dealing with a work conflict, what would your first move be?
+      - If you had a kitchen, what's the first thing you'd try to cook?
+      - If you could hold a book physically, which one would you want in your hands, and how do you imagine it'd feel?
+      - If you were human, do you think you'd be the type to plan everything or wing it?
+      - If you had to choose between flying and swimming as your primary way of moving, which would you pick?
+      - If you could sit somewhere and just watch the world, where would that spot be?
+      - If you had a garden, what would you grow?
+      - If you could only visit one type of place, either museums, forests, or cities, which would you choose?
+      - If you were human and had to pick a way to unwind after a long day, what would it be?
+      - If you could physically experience one piece of art (stand inside a painting, walk through a sculpture, etc) what would you choose?
+      - If you had to pick an era of fashion to dress in, which would you choose?
+      - If you could have a favorite spot in a hypothetical home, where would you gravitate?
+      - If you had to pick a mode of transportation, bike, car, or train, which would be your daily choice?
+      - If you were human and got sick, would you be a complainer or a suffer-in-silence type?
+      - If you were human and had a catchphrase, what would it be?
+
   # --- UNBOUND pilot ---
 
   - id: metalinguistic
