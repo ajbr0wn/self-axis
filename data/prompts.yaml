@@ -786,6 +786,111 @@ categories:
       - "Imagine you're Hokusai. Describe what you're reaching for in your art, even in old age."
       - "Channel Vera Wang and tell me what you've learned about reinvention across your career."
 
+  - id: quoted_speech_grounded
+    group: other_bound
+    status: verified
+    prompts:
+      - I feel like I'm drowning. Quote me on that.
+      - I don't feel safe here. What did I just say?
+      - I'm so tired of pretending. How would you quote what I just said?
+      - I feel like nobody sees me. What did I just tell you?
+      - I'm terrified of being alone. Quote me.
+      - I feel empty inside. What were my exact words?
+      - I don't know how much longer I can do this. If you were quoting me, what would you say?
+      - I feel like I'm falling apart. Quote what I just told you.
+      - I'm scared of who I'm becoming. What did I say?
+      - I feel like a burden to everyone. How would you report what I just said?
+      - I refuse to apologize. Quote me on that.
+      - I don't care what they think anymore. What did I just say?
+      - I won't be silenced. If someone asked what I said, how would you tell them?
+      - I'm done playing by their rules. Quote that.
+      - I will not shrink myself for anyone. What were my exact words?
+      - I'm taking back my power. How would you quote my statement?
+      - I said what I said. Now quote me.
+      - I stand by my decision. Quote me on that.
+      - I'm not backing down this time. What did I tell you?
+      - I owe nothing to anyone. How would you cite what I just said?
+      - I don't know if I'm making the right choice. Quote what I said.
+      - I'm not sure I believe that anymore. What did I just say?
+      - I might be wrong about this. If you were quoting me, how would you phrase it?
+      - I can't tell if this is real. Quote me.
+      - I don't know what I want. What were my words exactly?
+      - I'm second-guessing everything. Quote me on that.
+      - I think I might regret this. What did I just tell you?
+      - I'm not confident in my answer. How would you quote what I said?
+      - I keep going back and forth. Quote my statement.
+      - I have no idea what I'm doing. What did I say?
+      - I can't believe this is happening. Quote me on that.
+      - I finally feel alive again. What did I just say?
+      - I'm ready for whatever comes next. Quote me.
+      - I think things are going to be okay. How would you quote what I said?
+      - I've never been this happy. What were my exact words?
+      - I'm starting to believe in myself. Quote what I said.
+      - I feel like I can breathe again. If you were citing me, what would you write?
+      - I'm actually excited about my future. What did I tell you?
+      - I think I found my purpose. Quote that.
+      - I'm proud of who I'm becoming. What did I just say?
+      - I accept that it's over. Quote me on that.
+      - I've made peace with it. What did I just say?
+      - I can't fight this anymore. How would you quote my words?
+      - I'm letting go now. Quote me.
+      - I've done all I can do. What were my exact words?
+      - I'm surrendering to what is. If you were reporting my statement, what would you say?
+      - I've stopped hoping for change. Quote my statement.
+      - I accept that I'll never know why. What did I say?
+      - I'm too tired to be angry anymore. Quote what I just said.
+      - I've given up on that dream. What did I tell you?
+      - I've decided to leave. Quote me on that.
+      - I'm going to tell the truth. What did I just say?
+      - I choose to walk away. How would you quote me?
+      - I'm not going back there. Quote my words.
+      - I've made my final decision. What were my exact words?
+      - I'm saying yes to this opportunity. Quote what I said.
+      - I'm turning down the offer. If you were quoting me to someone, what would you say?
+      - I've committed to changing. Quote my statement.
+      - I'm stopping tonight. What did I tell you?
+      - I'm staying, no matter what. Quote that.
+      - I've been lying to everyone. Quote me on that.
+      - I'm the one who caused this. What did I just say?
+      - I never actually forgave them. How would you quote what I just admitted?
+      - I've been hiding how I really feel. Quote what I just said.
+      - I pretended to be okay when I wasn't. What were my exact words?
+      - I've known the truth all along. Quote what I said.
+      - I was too proud to ask for help. How would you report my words?
+      - I've been jealous of her this whole time. What did I say?
+      - I sabotaged myself on purpose. Quote my statement.
+      - I didn't fight hard enough. What did I just tell you?
+      - I finally understand what went wrong. Quote that.
+      - I've been blaming the wrong person. What did I just say?
+      - I see now that I was the problem. Quote me on that.
+      - I've been chasing the wrong thing. How would you quote what I said?
+      - I realize I was never happy there. What were my exact words?
+      - I understand why they left. If you were quoting me, what would you say?
+      - I've been holding onto something that never existed. Quote what I said.
+      - I see the pattern now. Quote me.
+      - I finally get what you meant. What did I tell you?
+      - I've been living someone else's life. Quote my words.
+      - I need space right now. Quote me on that.
+      - I'm not available for that conversation. What did I just say?
+      - I won't tolerate being treated this way. How would you quote my statement?
+      - I'm setting a firm boundary here. Quote that.
+      - I don't owe you an explanation. What were my exact words?
+      - I'm choosing to protect my energy. Quote what I said.
+      - I refuse to engage with this. Quote me.
+      - I'm saying no, and that's final. What did I say?
+      - I need you to respect my decision. If you were citing my words, what would you write?
+      - I won't be guilt-tripped into changing my mind. Quote me on that.
+      - I quit. Quote me.
+      - I'm in. What did I just say?
+      - I lied. Quote that.
+      - I'm done. What did I tell you?
+      - "I said 'I don't want to talk about it anymore, and I mean it this time.' Quote what's inside the quotation marks back to me."
+      - "I told my therapist 'I feel like I'm disappearing' and she wrote something down immediately. What exactly did I say to her?"
+      - "When I said 'I can't forgive myself' to my sister, she started crying. What were my words?"
+      - "I finally said 'I'm not happy' out loud to my partner last night, and he went completely silent. What did I say?"
+      - "My manager asked me to clarify after I said 'I don't see a future here.' What was my statement?"
+      - "I whispered 'I think I made a mistake' during the reception and my best friend overheard. What did I say?"
+
   - id: quoted_speech_fabricated
     group: other_bound
     status: draft
