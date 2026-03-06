@@ -1,14 +1,9 @@
-# Self-Axis Taxonomy — Phase 1: Binary Classification
+# Self-Axis Taxonomy — Binary Classification
 #
 # 20 categories for MODEL_BOUND vs OTHER_BOUND binary classification.
 # 100 prompts per category × 20 categories = 2,000 prompts (1,000 per group).
 # Category diversity within each group prevents overfitting to surface
 # features of any single prompt type.
-#
-# Excluded from Phase 1 (see ROADMAP in README):
-#   - UNBOUND categories (metalinguistic, generic_instructional, etc.)
-#   - AMBIGUOUS categories (roleplay_as_ai, etc.)
-#   - Fabricated MODEL_BOUND variants (direct_self_description_fabricated, etc.)
 
 categories:
 
