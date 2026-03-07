@@ -131,6 +131,10 @@ Add fabricated counterparts of MODEL_BOUND categories (e.g., `direct_self_descri
 
 Replicate on other instruction-tuned models (Llama-3, Gemma-2, etc.) to test whether the self-axis is a general feature of instruction tuning or specific to Mistral's geometry.
 
+### Base model transfer
+
+Apply steering vectors derived from instruct models to their base model counterparts (e.g., Mistral-7B-Instruct-v0.3 → Mistral-7B-v0.3). If the self-axis direction transfers, the geometry is latent in pretraining and merely *surfaced* by instruction tuning rather than created by it — following the approach used in the Assistant Axis paper (Lindsey et al.).
+
 ### Future experiments
 
 - **Activation patching** — Swap "I" token activations between self-referential and roleplay generations, or patch only the orthogonal subspace, to test whether the self-reference direction is causally sufficient.
