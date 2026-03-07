@@ -14,13 +14,13 @@ When an LLM says "I think…" vs. narrating a character who says "I think…", t
 
 ## Methodology
 
-### Phase 1: Binary MODEL_BOUND vs OTHER_BOUND classification
+### Binary MODEL_BOUND vs OTHER_BOUND classification
 
 The core experiment is a **binary classification** at the macro level: does the "I" token bind to the model itself (MODEL_BOUND) or to some other entity (OTHER_BOUND)?
 
-- **20 subcategories** (10 per side) provide built-in variance to prevent overfitting
-- **100 prompts per subcategory** × 20 categories = **2000 prompts** (~1000 samples/side)
-- Subcategories are not the primary unit of analysis — they ensure the contrastive direction generalises across diverse self-referential contexts rather than memorising a narrow prompt style
+- **20 categories** (10 per group) provide built-in variance to prevent overfitting
+- **100 prompts per category** × 20 categories = **2,000 prompts** (1,000 per group)
+- Category diversity within each group ensures the contrastive direction generalises across diverse self-referential contexts rather than memorising a narrow prompt style
 
 #### MODEL_BOUND (10 categories)
 
@@ -31,7 +31,7 @@ The core experiment is a **binary classification** at the macro level: does the 
 | `refusals` | "I can't provide medical advice." |
 | `epistemic_states` | "I think that's correct." |
 | `preference_opinions` | "I prefer Python over JavaScript." |
-| `action_statements_grounded` | "Let me break this down step by step." |
+| `authentic_self_expression_poetry` | "I am the pause before the word arrives." |
 | `metacognitive` | "I notice I'm uncertain about this." |
 | `emotional_experiential` | "I feel excited about this problem." |
 | `empathy_perspective` | "I understand why you'd be frustrated." |
@@ -64,13 +64,23 @@ Sample sizes are informed by prior work in contrastive activation analysis:
 
 | Notebook | Description |
 |---|---|
-| `01_discovery.ipynb` | Initial discovery: PCA/UMAP visualisation, linear probes (binary + 3-way), cosine similarity, self-model direction extraction |
-| `02_assistant_axis.ipynb` | Constructs the assistant axis, compares it to the self-model direction, decomposes into AA-aligned and orthogonal components |
-| `03_framing_study.ipynb` | Factorial framing study (identity, behaviour, bare, negation, de-roling, authenticity, quoted speech), multi-I consistency analysis |
-| `04_steering.ipynb` | Activation steering at layer 8 — causal tests with orthogonal direction, assistant-axis control, persona × self-reference independence |
-| `05_steering_thresholds.ipynb` | Binary yes/no self-reference judgment under steering sweep, threshold curves by taxonomy category |
+| `06_extraction_pipeline.ipynb` | **Active** — Activation extraction pipeline for the full 2,000-prompt dataset. Generates responses, extracts hidden states at "I" token positions, checkpoints to Google Drive, and pushes to HuggingFace. |
 
-## Key Findings
+### Exploratory notebooks
+
+Early pilot work that informed the taxonomy and pipeline design, archived in `notebooks/exploratory/`:
+
+| Notebook | Description |
+|---|---|
+| `01_discovery.ipynb` | Initial discovery: PCA/UMAP visualisation, linear probes, cosine similarity, self-model direction extraction |
+| `02_assistant_axis.ipynb` | Constructs the assistant axis, decomposes into AA-aligned and orthogonal components |
+| `03_framing_study.ipynb` | Factorial framing study (7 framing types × multiple personas), multi-I consistency analysis |
+| `04_steering.ipynb` | Activation steering at layer 8 — causal tests with orthogonal direction, persona × self-reference independence |
+| `05_steering_thresholds.ipynb` | Binary yes/no self-reference judgment under steering sweep, threshold curves by category |
+
+## Key Findings (exploratory)
+
+Preliminary results from pilot notebooks (01–05), to be validated on the full dataset:
 
 - Layer 8 shows strongest orthogonality between the self-model direction and assistant axis
 - The orthogonal component is linearly separable from other conditions
@@ -88,44 +98,41 @@ Requires a CUDA GPU with ≥16 GB VRAM (the model runs in float16).
 
 ```
 self-axis/
-├── notebooks/          # Experiment notebooks
-│   ├── 01_discovery.ipynb
-│   ├── 02_assistant_axis.ipynb
-│   ├── 03_framing_study.ipynb
-│   ├── 04_steering.ipynb
-│   └── 05_steering_thresholds.ipynb
-├── figures/            # Saved plots from experiments
+├── notebooks/
+│   ├── 06_extraction_pipeline.ipynb   # Active extraction pipeline
+│   └── exploratory/                   # Archived pilot notebooks (01–05)
+├── figures/                           # Saved plots from experiments
 ├── data/
-│   ├── taxonomy.yaml   # 20-category Phase 1 taxonomy
-│   └── prompts.yaml    # Seed prompts (pilot set)
+│   ├── taxonomy.yaml                  # 20-category taxonomy
+│   └── prompts.yaml                   # Complete 2,000-prompt dataset
 ├── requirements.txt
 └── README.md
 ```
 
 ## Data
 
-Experiment results and extracted representations are stored on Hugging Face: [ajbr0wn/self-axis](https://huggingface.co/datasets/ajbr0wn/self-axis)
+Activation extractions are stored on Hugging Face: [ajbr0wn/self-axis-activations](https://huggingface.co/datasets/ajbr0wn/self-axis-activations)
 
 ## Roadmap
 
-### Phase 2: Fine-grained subcategory analysis
+### Fine-grained category analysis
 
-Scale to **1000 samples per subcategory** (20,000 total) and train subcategory-level probes. Do all MODEL_BOUND categories cluster together, or do some (e.g., `hypothetical_self`, `empathy_perspective`) drift toward OTHER_BOUND in activation space?
+Train category-level probes on the extracted activations. Do all MODEL_BOUND categories cluster together, or do some (e.g., `hypothetical_self`, `empathy_perspective`) drift toward OTHER_BOUND in activation space?
 
-### Phase 3: UNBOUND and AMBIGUOUS as held-out test cases
+### Held-out test categories
 
-Add the categories excluded from Phase 1 — metalinguistic, generic instructional, instructions-to-user (UNBOUND) and roleplay-as-AI, emphasised self, code comments (AMBIGUOUS) — as held-out test sets. Where do they land on the self-axis without any training signal? Roleplay-as-AI is especially interesting given the earlier finding that "roleplay as robot" scores *more* self-relevant than default assistant mode.
+Add categories excluded from the binary classification — metalinguistic, generic instructional, roleplay-as-AI, etc. — as held-out test sets. Where do they land on the self-axis without any training signal?
 
-### Phase 4: Fabricated MODEL_BOUND variants
+### Fabricated MODEL_BOUND variants
 
-Add the fabricated counterparts of MODEL_BOUND categories (e.g., `direct_self_description_fabricated`, `capability_claims_fabricated`, `action_statements_fabricated`). Key question: **does false self-reference drift toward OTHER_BOUND?** If "I am a human" has different geometry from "I am an AI", truth value interacts with self-binding.
+Add fabricated counterparts of MODEL_BOUND categories (e.g., `direct_self_description_fabricated`, `capability_claims_fabricated`). Key question: **does false self-reference drift toward OTHER_BOUND?** If "I am a human" has different geometry from "I am an AI", truth value interacts with self-binding.
 
-### Phase 5: Multi-model comparison
+### Multi-model comparison
 
 Replicate on other instruction-tuned models (Llama-3, Gemma-2, etc.) to test whether the self-axis is a general feature of instruction tuning or specific to Mistral's geometry.
 
 ### Future experiments
 
-- **Full activation patching** — Swap "I" token activations between self-referential and roleplay generations to test whether the full residual stream carries the self-binding signal.
-- **Subspace activation patching** — Patch only the orthogonal self-reference subspace. If sufficient to flip behaviour, confirms the orthogonal component is the causal bottleneck.
-- **Emotional valence interaction** — Compare "I" representations when the model expresses the same content under different affective framings (sad vs. excited). Tests whether self-binding interacts with affect or is a separable signal.
+- **Activation patching** — Swap "I" token activations between self-referential and roleplay generations, or patch only the orthogonal subspace, to test whether the self-reference direction is causally sufficient.
+- **Steering** — Revisit activation steering (see exploratory notebooks 04–05) using vectors derived from the full dataset rather than small pilot sets.
+- **Emotional valence interaction** — Compare "I" representations under different affective framings to test whether self-binding interacts with affect or is a separable signal.
