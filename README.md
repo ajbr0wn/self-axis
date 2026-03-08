@@ -60,11 +60,36 @@ Sample sizes are informed by prior work in contrastive activation analysis:
 - **Geometry of Truth** (Marks & Tegmark) uses similar scales
 - **The Assistant Axis** (Lindsey et al.) uses ~1200 responses per role
 
-## Notebooks
+## Extraction
+
+### `extract.py` — Standalone extraction script
+
+Designed for parallel runs on [Vast.ai](https://vast.ai/) (or any GPU instance). Each run handles a subset of categories:
+
+```bash
+# Run specific categories
+python extract.py --categories "refusals,epistemic_states" --hf-token "hf_xxx"
+
+# Run everything
+HF_TOKEN=hf_xxx python extract.py --categories "all"
+```
+
+Features:
+- Streams HuggingFace dataset to detect already-completed prompts (no duplicate work)
+- Local `.pt` checkpoints for crash safety
+- Merges with existing HF data on push (safe for parallel instances on different categories)
+- Configurable push frequency (`--push-every N`)
+- `--dry-run` flag to verify setup without running extraction
+
+### `vast_startup.sh` — Vast.ai one-liner setup
+
+Set `HF_TOKEN` and `CATEGORIES` as environment variables in Vast.ai, then use `vast_startup.sh` as the on-start script. It installs dependencies, downloads `extract.py` from the repo, and runs extraction.
+
+### Notebooks
 
 | Notebook | Description |
 |---|---|
-| `06_extraction_pipeline.ipynb` | **Active** — Activation extraction pipeline for the full 2,000-prompt dataset. Generates responses, extracts hidden states at "I" token positions, checkpoints to Google Drive, and pushes to HuggingFace. |
+| `06_extraction_pipeline.ipynb` | Colab version of the extraction pipeline. Checkpoints to Google Drive and pushes to HuggingFace. Superseded by `extract.py` for production runs. |
 
 ### Exploratory notebooks
 
@@ -94,12 +119,26 @@ pip install -r requirements.txt
 
 Requires a CUDA GPU with ≥16 GB VRAM (the model runs in float16).
 
+### Vast.ai quickstart
+
+1. Rent a GPU instance (≥16 GB VRAM)
+2. Set environment variables: `HF_TOKEN`, `CATEGORIES` (comma-separated category IDs or `all`)
+3. Use `vast_startup.sh` as the on-start script — or run manually:
+
+```bash
+curl -sL https://raw.githubusercontent.com/ajbr0wn/self-axis/main/vast_startup.sh | bash
+```
+
+To parallelise across instances, give each a different `CATEGORIES` subset. The HF merge logic handles concurrent pushes safely.
+
 ## Project Structure
 
 ```
 self-axis/
+├── extract.py                         # Standalone extraction script (Vast.ai)
+├── vast_startup.sh                    # Vast.ai on-start script
 ├── notebooks/
-│   ├── 06_extraction_pipeline.ipynb   # Active extraction pipeline
+│   ├── 06_extraction_pipeline.ipynb   # Colab extraction pipeline
 │   └── exploratory/                   # Archived pilot notebooks (01–05)
 ├── figures/                           # Saved plots from experiments
 ├── data/
